@@ -1,12 +1,12 @@
 #PyCAR14
-##The Python mini boot camp at #NICAR14 in Baltimore
+##Python mini boot camp at #NICAR14 in Baltimore
 
 Let's use [Wakari.io](http://www.wakari.io/) bundles for teaching this class. At the end, we'll give you everything working in Github.
 As a backup plan in case the internet is bad, we can have the bundles on the machines, and we can use the [Anaconda distro of Python](http://docs.continuum.io/anaconda/pkgs.html)'s interactive interpreter through Windows PowerShell.
 
 
 ###Schedule for the day
-9 a.m. - 9:30 a.m. Intros and overviews
+9 a.m. - 9:30 a.m. Intros and overviews **[TOM]**
 
 Quick intros:
 Who are you, what do you do, what do you want to learn?
@@ -33,7 +33,7 @@ Start with parsing and processing exercise, introducing key Python types and con
 After the white board, we'll start with a file of pseudocode, and we'll walk through together writing in Python code, running the file at the command line.
 We'll hold your hand through it, step by step. (Only at the end of the day will we give you the full working version, so there's no cheating!)
 
-10:45 - 12:15 p.m.
+10:45 - 12:15 p.m. 
 Project #2
 Let's do some processing to a whole folder full of CSVs, bringing in more loops, I/O and dictionaries.
 
@@ -41,7 +41,7 @@ LUNCH - 12:15 - 1
 
 1 - 1:30 - How to debug your code, aka "Google and StackOverflow are your new best friends"
 
-1:30 - 3 p.m.
+1:30 - 3 p.m. **[TOM]**
 Project #3
 Let's scrape a website and put the contents into a CSV.
 In the afternoon, try to scrape a website.
@@ -53,7 +53,7 @@ _or_
 python for converting all your data: json, xml, excel into one big csv!
 
 
-At the end of the day, we'll send you home with:
+At the end of the day, we'll send you home with: 
 
 * the working code and ipython notebooks for each project from our git repo
 * cookbook of heavily commented recipes for common data tasks
