@@ -47,7 +47,7 @@ Let's scrape a website and put the contents into a CSV.
 In the afternoon, try to scrape a website.
 
 3:15 - 4:50 p.m.
-Project #4 **[CHRIS K]**
+Project #4 **[CHRIS K and KEVIN]**
 Scrape many websites and merge them together
 _or_
 python for converting all your data: json, xml, excel into one big csv!
