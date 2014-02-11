@@ -34,14 +34,14 @@ After the white board, we'll start with a file of pseudocode, and we'll walk thr
 We'll hold your hand through it, step by step. (Only at the end of the day will we give you the full working version, so there's no cheating!)
 
 10:45 - 12:15 p.m.
-Project #2 **[HEATHER]**
+Project #2 **[HEATHER and RYAN]**
 Let's do some processing to a whole folder full of CSVs, bringing in more loops, I/O and dictionaries.
 
 LUNCH - 12:15 - 1
 
 1 - 1:30 - How to debug your code, aka "Google and StackOverflow are your new best friends" **[HEATHER]**
 
-1:30 - 3 p.m. **[TOM]**
+1:30 - 3 p.m. **[TOM and ERIC]**
 Project #3
 Let's scrape a website and put the contents into a CSV.
 In the afternoon, try to scrape a website.
