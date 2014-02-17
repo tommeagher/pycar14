@@ -16,4 +16,5 @@ def open_csv_file(file_name):
     # close the csv file when we're done
     csv_file.close()
 
+# run the function when you run the script in the terminal
 open_csv_file('fdic_failed_bank_list.csv')
