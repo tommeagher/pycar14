@@ -2,7 +2,7 @@
 import csv
 
 # write your function passing in the file name
-def output_first_csv_row(file_name):
+def working_with_integers(file_name):
 
     # open the csv
     csv_file = open(file_name, 'rb')
@@ -57,4 +57,4 @@ def output_first_csv_row(file_name):
     # close the csv file when we're done
     csv_file.close()
 
-output_first_csv_row('fdic_failed_bank_list.csv')
+working_with_integers('fdic_failed_bank_list.csv')
