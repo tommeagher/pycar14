@@ -17,27 +17,30 @@ def output_first_csv_row(file_name):
     # let's isolate the string that is 'Acquiring Institution'
     print header_row
 
+    # create a variable to hold our string
+    my_string = header_row[4]
+
     # let's evaluate the uppercase version is equal to the lowercase version
-    print header_row[4].upper() == header_row[4].lower()
+    print my_string.upper() == my_string.lower()
 
     # let's remove the space that is present in the string
-    print header_row[4].replace(' ', '')
+    print my_string.replace(' ', '')
 
     # let's change the space to an underscore
-    print header_row[4].replace(' ', '_')
+    print my_string.replace(' ', '_')
 
     # let's look at the strip method by giving it a value
-    print header_row[4].strip('Acquiring')
+    print my_string.strip('Acquiring')
 
     # let's look at what the strip method does to the ouput of above
-    print header_row[4].strip('Acquiring').strip()
+    print my_string.strip('Acquiring').strip()
 
     # let's try to split the string on the space
-    print header_row[4].split(' ')
+    print my_string.split(' ')
 
     # let's get the datatype for the thing we just created
     # first lets create a variable to hold this string
-    my_split_string = header_row[4].split(' ')
+    my_split_string = my_string.split(' ')
 
     # then let's get the type
     print type(my_split_string)

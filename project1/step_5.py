@@ -26,14 +26,27 @@ def output_first_csv_row(file_name):
     # let's get the length of the string
     print len(header_row[4])
 
+    # create a variable to hold our string
+    my_string = header_row[4]
+
+    # let's see how string subscripting works
+    # let's print the third characters
+    print my_string[2]
+
+    # let's print the first five characters
+    print my_string[:5]
+
+    # let's print everything after the first five characters
+    print my_string[5:]
+
     # let's capitalize the first letter in the string
-    print header_row[4].capitalize()
+    print my_string.capitalize()
 
     # let's lowercase the string
-    print header_row[4].lower()
+    print my_string.lower()
 
     # let's uppercase the string
-    print header_row[4].upper()
+    print my_string.upper()
 
     # close the csv file when we're done
     csv_file.close()
