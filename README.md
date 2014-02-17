@@ -1,28 +1,30 @@
+ 888888ba            a88888b.  .d888888   888888ba     d88  dP   dP 
+ 88    `8b          d8'   `88 d8'    88   88    `8b     88  88   88 
+a88aaaa8P' dP    dP 88        88aaaaa88a a88aaaa8P'     88  88aaa88 
+ 88        88    88 88        88     88   88   `8b.     88       88 
+ 88        88.  .88 Y8.   .88 88     88   88     88     88       88 
+ dP        `8888P88  Y88888P' 88     88   dP     dP    d88P      dP 
+oooooooooooo~~~~.88~oooooooooooooooooooooooooooooooooooooooooooooooo
+            d8888P                                                  
+
+
 #PyCAR14
 ##Python mini boot camp at #NICAR14 in Baltimore
 
 Let's use [Wakari.io](http://www.wakari.io/) bundles for teaching this class. At the end, we'll give you everything working in Github.
+
 As a backup plan in case the internet is bad, we can have the bundles on the machines, and we can use the [Anaconda distro of Python](http://docs.continuum.io/anaconda/pkgs.html)'s interactive interpreter through Windows PowerShell.
 
-
 ###Schedule for the day
-9 a.m. - 9:30 a.m. Intros and overviews **[TOM]**
-
+9 a.m. - 9:30 a.m. [Introduction](http://bit.ly/intropycar14) **[TOM]**
 Quick intros:
 Who are you, what do you do, what do you want to learn?
 What will we learn:
 what can i do with it?
 
-What won't we learn:
-how to configure a web server
-how to talk to a database server
-version control with git
-virtualenv and virtualenvwrapper
-csvkit
-SQL
-pandas or statistical computing packages in python
+The goal of the day is to start to learn how to think about solving problems.
 
-The goal of the day is to....
+
 
 9:30 - 10:30 a.m.
 Project #1 **[CHRIS K]**
