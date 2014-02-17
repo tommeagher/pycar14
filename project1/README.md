@@ -21,4 +21,23 @@
     * Let's use a FOR loop to log each row, noting the data type & the contents.
 
 * **step_4.py**:
-    * Let's get the header row and learn about list index and strings.
+    * Let's get the header row, learn about list indexes and strings and getting lengths.
+
+* **step_5.py**:
+    * Let's use the header row to isolate a string and learn more about things we can do with strings
+        * get its type
+        * get its length
+        * capitalize it
+        * lowercase it
+        * uppercase it
+
+* **step_6.py**:
+    * Let's keep using the header row to learn more things that we can do with strings
+        * get a specfic item from a list by it's index
+        * evaluate values
+        * remove a character between two words
+        * change a character to an underscore
+        * strip whitespace
+        * split two words on a character
+        * get its type
+        * use the length of the list and lowercase the two strings we created to create a sentence
