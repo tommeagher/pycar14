@@ -1,7 +1,8 @@
 # import modules
 import csv
 
-# write your function passing in the file name
+# write a function to print each row from a csv file
+# and get its length and if it's a string or an integer
 def output_rows_from(file_name):
 
     # open the csv

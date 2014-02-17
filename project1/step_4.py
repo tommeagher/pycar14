@@ -1,7 +1,8 @@
 # import modules
 import csv
 
-# write your function passing in the file name
+# write a function to output the first row of a csv file
+# and get the column names
 def output_first_csv_row(file_name):
 
     # open the csv

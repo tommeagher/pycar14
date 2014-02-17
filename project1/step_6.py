@@ -1,8 +1,8 @@
 # import modules
 import csv
 
-# write your function passing in the file name
-def more_string_methods(file_name):
+# write a function to do some more exploring with strings
+def doing_more_with_strings(file_name):
 
     # open the csv
     csv_file = open(file_name, 'rb')

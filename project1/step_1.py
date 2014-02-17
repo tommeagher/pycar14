@@ -1,7 +1,7 @@
 # import modules
 import csv
 
-# write your first function passing in the file name
+# write a function to open a csv file
 def open_csv_file(file_name):
 
     # open the csv

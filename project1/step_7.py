@@ -1,7 +1,7 @@
 # import modules
 import csv
 
-# write your function passing in the file name
+# write a function to do some exploring with integers
 def working_with_integers(file_name):
 
     # open the csv

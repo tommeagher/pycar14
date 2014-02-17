@@ -1,7 +1,7 @@
 # import modules
 import csv
 
-# write your function passing in the file name
+# write a function to count the number of rows in a csv file
 def count_csv_rows(file_name):
 
     # create a variable to iterate each row and count the number of lines
