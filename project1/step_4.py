@@ -12,7 +12,7 @@ def open_csv_file(file_name):
 
     # create a variable to represent the header row
     header_row = csv_data.next()
-    print header_row
+    print 'Header row is: %a' % header_row
 
     # create a variable to represent the length of the header row
     header_length = len(header_row)
