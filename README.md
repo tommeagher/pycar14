@@ -8,8 +8,6 @@ a88aaaa8P' dP    dP 88        88aaaaa88a a88aaaa8P'     88  88aaa88
 oooooooooooo~~~~.88~oooooooooooooooooooooooooooooooooooooooooooooooo
             d8888P                                                  
 ```
-
-#PyCAR14
 ##Python mini boot camp at #NICAR14 in Baltimore
 
 Let's use [Wakari.io](http://www.wakari.io/) bundles for teaching this class. At the end, we'll give you everything working in Github.
