@@ -16,13 +16,13 @@ As a backup plan in case the internet is bad, we can have the bundles on the mac
 
 ###Schedule for the day
 9 a.m. - 9:30 a.m. [Introduction](http://bit.ly/intropycar14) **[TOM]**
-Quick intros:
-Who are you, what do you do, what do you want to learn?
-What will we learn:
-what can i do with it?
 
-The goal of the day is to start to learn how to think about solving problems.
+* Who are you, what do you do, what do you want to learn?
+* What will we learn:
+* what can i do with it?
+* The goal of the day is to start to learn how to think about solving problems.
 
+A [lightning dash](https://www.wakari.io/sharing/bundle/tommeagher/pycar14) through basic variables, types and functions.
 
 
 9:30 - 10:30 a.m.
