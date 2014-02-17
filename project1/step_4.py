@@ -2,7 +2,7 @@
 import csv
 
 # write your function passing in the file name
-def open_csv_file(file_name):
+def output_first_csv_row(file_name):
 
     # open the csv
     csv_file = open(file_name, 'rb')
@@ -12,7 +12,7 @@ def open_csv_file(file_name):
 
     # create a variable to represent the header row
     header_row = csv_data.next()
-    print 'Header row is: %a' % header_row
+    print header_row
 
     # create a variable to represent the length of the header row
     header_length = len(header_row)
@@ -39,4 +39,4 @@ def open_csv_file(file_name):
     # close the csv file when we're done
     csv_file.close()
 
-open_csv_file('fdic_failed_bank_list.csv')
+output_first_csv_row('fdic_failed_bank_list.csv')
