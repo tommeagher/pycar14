@@ -1,3 +1,4 @@
+```
  888888ba            a88888b.  .d888888   888888ba     d88  dP   dP 
  88    `8b          d8'   `88 d8'    88   88    `8b     88  88   88 
 a88aaaa8P' dP    dP 88        88aaaaa88a a88aaaa8P'     88  88aaa88 
@@ -6,7 +7,7 @@ a88aaaa8P' dP    dP 88        88aaaaa88a a88aaaa8P'     88  88aaa88
  dP        `8888P88  Y88888P' 88     88   dP     dP    d88P      dP 
 oooooooooooo~~~~.88~oooooooooooooooooooooooooooooooooooooooooooooooo
             d8888P                                                  
-
+```
 
 #PyCAR14
 ##Python mini boot camp at #NICAR14 in Baltimore
