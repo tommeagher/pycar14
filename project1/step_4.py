@@ -13,29 +13,27 @@ def output_first_csv_row(file_name):
 
     # create a variable to represent the header row
     header_row = csv_data.next()
+
+    # output the value
     print header_row
 
-    # create a variable to represent the length of the header row
-    header_length = len(header_row)
-    print header_length
+    # output the length of the header row
+    print len(header_row)
 
-    # create a variable to represent the datatype for the header row
-    header_type = type(header_row)
-    print header_type
+    # output the type of the header row
+    print type(header_row)
 
     # loop through each item in the header_row
     for column_name in header_row:
 
-        # log its contents
+        # output its contents
         print column_name
 
-        # log its length
-        column_name_length = len(column_name)
-        print column_name_length
+        # output its length
+        print len(column_name)
 
-        # log its type
-        column_name_type = type(column_name)
-        print column_name_type
+        # output its type
+        print type(column_name)
 
     # close the csv file when we're done
     csv_file.close()
