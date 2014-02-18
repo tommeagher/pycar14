@@ -22,9 +22,6 @@ As a backup plan in case the internet is bad, we can have the bundles on the mac
 * what can i do with it?
 * The goal of the day is to start to learn how to think about solving problems.
 
-A [lightning dash](https://www.wakari.io/sharing/bundle/tommeagher/pycar14) through basic variables, types and functions.
-
-
 9:30 - 10:30 a.m.
 Project #1 **[CHRIS K]**
 Start with a CSV. What do we want to do with it?
@@ -56,6 +53,7 @@ python for converting all your data: json, xml, excel into one big csv!
 
 At the end of the day, we'll send you home with:
 
+* A [lightning dash](https://www.wakari.io/sharing/bundle/tommeagher/pycar14) through basic variables, types and functions.
 * the working code and ipython notebooks for each project from our git repo
 * cookbook of heavily commented recipes for common data tasks
 * a list of common projects you might want to tackle with python
