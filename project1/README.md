@@ -12,41 +12,48 @@
 
 **The files**
 
-```step_1.py/my_step_1.py```:
-    * Open the csv file & log the csv object that is returned.
+```step_1.py/my_step_1.py```
 
-```step_2.py/my_step_2.py```:
-    * Let's log the number of rows in the file.
+* Open the csv file & log the csv object that is returned.
 
-```step_3.py/my_step_3.py```:
-    * Let's use a FOR loop to log each row, noting the data type & the contents.
+```step_2.py/my_step_2.py```
 
-```step_4.py/my_step_4.py```:
-    * Let's get the header row, learn about list indexes and strings and getting lengths.
+* Let's log the number of rows in the file.
 
-```step_5.py/my_step_5.py```:
-    * Let's use the header row to isolate a string and learn more about things we can do with strings
-        * get its type
-        * get its length
-        * capitalize it
-        * lowercase it
-        * uppercase it
+```step_3.py/my_step_3.py```
 
-```step_6.py/my_step_6.py```:
-    * Let's keep using the header row to learn more things that we can do with strings
-        * get a specfic item from a list by it's index
-        * evaluate values
-        * remove a character between two words
-        * change a character to an underscore
-        * strip whitespace
-        * split two words on a character
-        * get its type
-        * use the length of the list and lowercase the two strings we created to create a sentence
+* Let's use a FOR loop to log each row, noting the data type & the contents.
 
-```step_7.py/my_step_7.py```:
-    * Let's use the header row to isolate the zip code and convert it to an integer so we can do some math
-        * multiplication
-        * division
-        * addition
-        * subtraction
-        * order of operations
+```step_4.py/my_step_4.py```
+
+* Let's get the header row, learn about list indexes and strings and getting lengths.
+
+```step_5.py/my_step_5.py```
+
+* Let's use the header row to isolate a string and learn more about things we can do with strings
+    * get its type
+    * get its length
+    * capitalize it
+    * lowercase it
+    * uppercase it
+
+```step_6.py/my_step_6.py```
+
+* Let's keep using the header row to learn more things that we can do with strings
+    * get a specfic item from a list by it's index
+    * evaluate values
+    * remove a character between two words
+    * change a character to an underscore
+    * strip whitespace
+    * split two words on a character
+    * get its type
+    * use the length of the list and lowercase the two strings we created to create a sentence
+
+```step_7.py/my_step_7.py```
+
+* Let's use the header row to isolate the zip code and convert it to an integer so we can do some math
+    * multiplication
+    * division
+    * addition
+    * subtraction
+    * order of operations
