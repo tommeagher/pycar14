@@ -44,12 +44,18 @@ def calculate_top10 (filename):
     #int(math.floor(len(sorted_salaries * .10)))
 
     #Now let's create our final list, of just the highest-paid players
-    cream_of_the_crop = sorted_salaries[:int_salaries]
+    cream_of_the_crop = []
+
+    #We only need the player IDs right now.
+    for index, row in enumerate(sorted_salaries):
+        if index < 0 and index <= int_salaries:
+            cream_of_the_crop.append(row[3])
 
     return cream_of_the_crop
 
+
 #We are going to be working with dictionaries to make things easier
-def create_player_dict(filename, cream_of_the_crop):
+def create_salary_dict(filename, cream_of_the_crop):
     #Open the csv
     salaries_object = open(filename, 'rb')
 
@@ -65,10 +71,23 @@ def create_player_dict(filename, cream_of_the_crop):
         #Using DictReader allows us to access rows by their column name!
        year = row["yearID"]
        if year == '2013':
-           print row["playerID"]
            #Create a record for each player's ID and assign it the salary
            salaries_2013[row["playerID"]] = row["salary"]
 
+    #Now we can reference the salary of any player whose ID we know.
+    #But we only want those who were in the top 10% of all time.
+    #Create a new dict to hold just the top players from 2013
+    top_salaries_2013 = {}
+
+    #Let's compare our player dict with the list of all-time 
+    #high salaries we made in the first function.
+    #(You could combine this step with the DictReader step above.)
+    for player in cream_of_the_crop:
+        #Check for the presence of a key that matches the playerID in salaries_2013
+        if player in salaries_2013:
+            top_salaries_2013[player] = salaries_2013[player]
+
+    return salaries_2013
 
 
 #TODO:
@@ -80,5 +99,5 @@ def create_player_dict(filename, cream_of_the_crop):
 salary_file = 'data/2013/Salaries.csv'
 
 top10 = calculate_top10(salary_file)
-create_player_dict(top10)
+create_salary_dict(top10)
 
