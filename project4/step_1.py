@@ -20,6 +20,11 @@ def main():
     # it to a Python dict.
     data = r.json()
 
+    # If the network is down, we can use a local version of this
+    # file.
+    #with open('bills.json', 'r') as f:
+    #    data = json.load(f)
+
     # `json.dumps()` is a way to print a Python dict in a more
     # human-readable way.
     print json.dumps(data, indent=4)
