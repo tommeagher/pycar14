@@ -1,6 +1,7 @@
 import csv
 import operator
 import math
+from pprint import pprint
 
 
 #First, let's see what kind of data we have to work with
@@ -85,19 +86,82 @@ def create_salary_dict(filename, cream_of_the_crop):
     for player in cream_of_the_crop:
         #Check for the presence of a key that matches the playerID in salaries_2013
         if player in salaries_2013:
-            top_salaries_2013[player] = salaries_2013[player]
+            top_salaries_2013[player] = { "salary": salaries_2013[player] }
 
-    return salaries_2013
+    return top_salaries_2013
 
 
-#TODO:
-#Open the master csv
-#Loop over the master csv to find the player IDs in the player dict
-#Add names, birth state and birth country to the dict
+def add_player_stats(top_salaries_dict, master_file):
+    #Open the master csv
+    master_object = open(master_file, 'rb')
 
-#TODO: Make this so we can walk a folder structure
+    #Read the file
+    master_data = csv.DictReader(master_object)
+
+    #Let's look at one record of the master data to get the headers
+    print master_data.next()
+
+    #That's a little hard to read, isn't it? Try prettyprint instead.
+    pprint(master_data.next())
+
+    #Reset the generator and skip the header row
+    master_object.seek(0)
+    master_data.next()
+
+    #Create a dict of the master file with DictReader
+    master_dict = {}
+
+    #Assemble the troops
+    for row in master_data:
+        master_dict[row["playerID"]] = {
+            "first_name": row["nameFirst"],
+            "given_name": row["nameGiven"],
+            "last_name": row["nameLast"],
+            "height": row["height"],
+            "weight": row["weight"],
+            "birth_city": row["birthCity"],
+            "birth_state": row["birthState"],
+            "birth_country": row["birthCountry"],
+            "birthdate": '%s-%s-%s' %(row["birthDay"], row["birthMonth"], row["birthYear"]),
+            "death_city": row["deathCity"],
+            "death_state": row["deathState"],
+            "death_country": row["deathCountry"],
+            "deathdate": '%s-%s-%s' %(row["deathDay"], row["deathMonth"], row["deathYear"]),
+            "bats": row["bats"],
+            "throws": row["throws"],
+            "debut": row["debut"],
+            "final_game": row["finalGame"]
+        }
+
+    #Loop over the top salaries dict to find the player IDs in the master dict
+    #We could also loop over the master dict to find which of those exist
+    #in the top salaries dict, but that would be less efficient.
+    #When you loop over a dict, you only have access to the keys.
+    #To access the values, we need .iteritems()
+    #Remember the key is the player ID and the value is the salary.
+    #Typically, when iterating over a dict, the syntax is:
+    #for key, value in my_dict.iteritems():
+    #For clarity, we will use the header row values instead.
+
+
+    #Add names, birth state and birth country to the dict
+    for playerID, salary in top_salaries_dict.iteritems():
+        top_salaries_dict.update({ playerID: {
+            'first_name':  master_dict[playerID]["first_name"],
+            'last_name': master_dict[playerID]["last_name"],
+            'birth_state': master_dict[playerID]["birth_state"],
+            'birth_country': master_dict[playerID]["birth_country"]}
+        })
+
+    return top_salaries_dict
+
 salary_file = 'data/2013/Salaries.csv'
 
-top10 = calculate_top10(salary_file)
-create_salary_dict(top10)
+#TODO: Make this so we can walk a folder structure
+master_file = 'data/2013/Master.csv'
 
+top10 = calculate_top10(salary_file)
+top_salaries_dict = create_salary_dict(top10)
+final_file = add_player_stats(top_salaries_dict, master_file)
+
+#write to a file
