@@ -1,8 +1,6 @@
 # Webscraping with Python
 
-This section covers webscraping with Python using both [get and post](http://www.w3schools.com/tags/ref_httpmethods.asp) requests. To do this we will be writing two different scrapers. The first scraper will use a get request to retrieve our data, the second a post request.
-
-## scrapeone.py
+This section covers webscraping with Python using a [get](http://www.w3schools.com/tags/ref_httpmethods.asp) request. 
 
 To begin with we will import the [modules](http://docs.python.org/2/tutorial/modules.html) or packages we need to scrape websites. This is done with a series of import statements at the top of the file. 
 
