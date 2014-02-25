@@ -15,7 +15,7 @@ Our data comes in a new format: JSON. Show on the whiteboard how it's
 basically a combination of data structures we already know about: Lists
 and dicts (arrays and objects).
 
-[Download the data here](https://www.govtrack.us/api/v2/bill?congress=112&order_by=-current_status_date)
+[View the data here](https://www.govtrack.us/api/v2/bill?congress=112&order_by=-current_status_date)
 
 `step_1.py` - Use `requests` to get the data
 
