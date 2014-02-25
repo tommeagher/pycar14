@@ -1,21 +1,16 @@
-#!/usr/bin/env python
-
-import json
-
-import requests
+# import modules
 
 def main():
-    # We'll use a local version of this file from now on to save on
-    # bandwith.
-    with open('bills.json', 'r') as f:
-        data = json.load(f)
+    pass # Placeholder -- remove this
 
-        # Each bill is stored in an array in `data` with the key `objects`
-        objects = data['objects']
+    # Open the file 'bills.json'
 
-        # Iterate through each dict in the array `objects`
-        for bill in objects:
-            print json.dumps(bill, indent=4)
+    # Convert it to a dict
+
+    # End goal: Print the information in each bill.
+    # How are the bills stored?
+
+    # For each bill, print its contents
 
 if __name__ == '__main__':
     main()
