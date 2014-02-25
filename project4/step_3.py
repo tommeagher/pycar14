@@ -1,39 +1,28 @@
-#!/usr/bin/env python
-
-import csv
-import json
-
-import requests
+# import modules
 
 def main():
-    # We'll use a local version of this file from now on to save on
-    # bandwith.
-    with open('bills.json', 'r') as f:
-        data = json.load(f)
-        objects = data['objects']
+    pass # Placeholder -- remove this
 
-        # Create a csv file to output
-        with open('bills.csv', 'w') as o:
-            # Create a csv writer. This will help us format the file
-            # correctly.
-            writer = csv.writer(o)
+    # Open the file 'bills.json'
 
-            # Write out the header row
-            writer.writerow([
-                u'title',
-                u'label',
-                u'number',
-                u'current_status'
-            ])
+    # Convert it to a dict
 
-            # Iterate through each dict in the array `objects`
-            for bill in objects:
-                writer.writerow([
-                    bill['title_without_number'].encode('utf-8'),
-                    bill['bill_type_label'].encode('utf-8'),
-                    bill['number'],
-                    bill['current_status'].encode('utf-8')
-                ])
+    # Create a variable for easy access to the data we care about
+
+    # Create a csv file to output
+
+    # Create a csv writer using our output file. This will help us format
+    # the file correctly.
+
+    # Write out the header row
+
+    # Iterate through each dict in the array `objects`
+
+    # For each bill, write a row in our csv file with the bill's
+    # information
+
+    # You'll run into an annoying issue regarding encoding. Use your
+    # debugging skills.
 
 if __name__ == '__main__':
     main()
