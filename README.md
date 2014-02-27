@@ -52,4 +52,4 @@ At the end of the day, we'll send you home with:
 * a walkthrough for setting up your machine at home.
 * Good libraries to explore with strong tutorials
 * version control and virtual envs
-* lifetime support guarantee from us & PythonJournos
+* lifetime support guarantee from us & [PythonJournos](https://groups.google.com/forum/#!forum/PythonJournos)
