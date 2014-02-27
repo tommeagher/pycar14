@@ -49,7 +49,7 @@ def calculate_top10 (filename):
 
     #We only need the player IDs right now.
     for index, row in enumerate(sorted_salaries):
-        if index < 0 and index <= int_salaries:
+        if index > 0 and index <= int_salaries:
             cream_of_the_crop.append(row[3])
 
     return cream_of_the_crop
