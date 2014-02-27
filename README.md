@@ -23,6 +23,7 @@ As a backup plan in case the internet is bad, we'll have the bundles on the mach
 * The goal of the day is to start to learn how to think about solving problems.
 
 9:20 - 10:30 a.m. [The Wakari bundle](https://www.wakari.io/sharing/bundle/tommeagher/pycar14)
+
 Project #1
 Start with a CSV. Let's write some basic scripts to see what we're working with. Then we'll introduce some key Python types like strings, integers, lists, slicing and loops.
 After a white board exercise, we'll start with a file of pseudocode, and we'll walk through writing the program in Python code, running the file at the command line.
