@@ -43,7 +43,7 @@ This section covers webscraping with Python using a get request, writing the dat
 Let's use an API to get information programatically to create a spreadsheet. Our data comes in a new format: JSON. Show on the whiteboard how it's basically a combination of data structures we already know about: Lists and dicts (arrays and objects).
 
 
-At the end of the day, we'll send you home with:
+At the end of the day, we'll __[send you home with](takehome/README.md)__ with:
 
 * A [lightning dash](https://www.wakari.io/sharing/bundle/tommeagher/pycar14) through basic variables, types and functions.
 * the working, commented code for each project from our git repo
