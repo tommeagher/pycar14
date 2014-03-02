@@ -2,9 +2,9 @@
 
 ##Get your machine ready
 * How to install Python on Mac ([find your terminal](http://learncodethehardway.org/cli/book/cli-crash-course.html#mac-osx) and type 'python') and [Windows](http://www.anthonydebarros.com/2014/02/16/setting-up-python-in-windows-8-1/) machines.
-* virtualenv (https://pypi.python.org/pypi/virtualenv) and virtualenvwrapper (http://virtualenvwrapper.readthedocs.org/en/latest/), for keeping your projects sandboxed in an easy to manage way. Here's one good [tutorial](http://blog.fruiapps.com/2012/06/An-introductory-tutorial-to-python-virtualenv-and-virtualenvwrapper) and [another](http://docs.python-guide.org/en/latest/dev/virtualenvs/).
+* __virtualenv__ (https://pypi.python.org/pypi/virtualenv) and __virtualenvwrapper__ (http://virtualenvwrapper.readthedocs.org/en/latest/), for keeping your projects sandboxed in an easy to manage way. Here's one good [tutorial](http://blog.fruiapps.com/2012/06/An-introductory-tutorial-to-python-virtualenv-and-virtualenvwrapper) and [another](http://docs.python-guide.org/en/latest/dev/virtualenvs/).
 * Install [iPython](http://ipython.org/ipython-doc/stable/install/install.html) by typing 'pip install ipython' for the souped-up interactive interpreter.
-* [version control](http://www.tommeagher.com/blog/2013/03/learning-to-commit-to-version-control.html) with [git](http://rogerdudler.github.io/git-guide/) and [Github](https://help.github.com/articles/be-social)
+* [version control](http://www.tommeagher.com/blog/2013/03/learning-to-commit-to-version-control.html) with __[git](http://rogerdudler.github.io/git-guide/)__ and __[Github](https://help.github.com/articles/be-social)__
 
 ##Keep Practicing
 If you have [iPython notebooks](http://ipython.org/notebook), you can try our "[PyCAR basics](PyCAR%20basics.ipynb)" notebook to continue exploring data types and simple methods, or just look at the [code in Python](PyCAR_basics.py).
@@ -29,6 +29,6 @@ It's worth your time to take a look at Tony DeBarros' [Python snippets](https://
 http://pymotw.com/2/contents.html
 
 ##Support
-Want some advice on debugging? This blog post on two young girls learning to code is a very cool introduction to [how to debug a program](http://vocamus.net/dave/?p=1632).
+Want advice on debugging? This blog post on two young girls learning to code is a very cool introduction to [how to debug a program](http://vocamus.net/dave/?p=1632).
 
 As we said in the class, with this mini boot camp, you get a lifetime support guarantee from us & [PythonJournos](https://groups.google.com/forum/#!forum/PythonJournos)
