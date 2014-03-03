@@ -31,4 +31,4 @@ http://pymotw.com/2/contents.html
 ##Support
 Want advice on debugging? This blog post on two young girls learning to code is a very cool introduction to [how to debug a program](http://vocamus.net/dave/?p=1632).
 
-As we said in the class, with this mini boot camp, you get a lifetime support guarantee from us & [PythonJournos](https://groups.google.com/forum/#!forum/PythonJournos)
+As we said in the class, with this mini boot camp, you get a lifetime support guarantee [from us](../CONTRIBUTORS.md) & [PythonJournos](https://groups.google.com/forum/#!forum/PythonJournos)

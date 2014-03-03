@@ -45,12 +45,11 @@ Let's use an API to get information programatically to create a spreadsheet. Our
 
 At the end of the day, we'll __[send you home with](takehome/README.md)__ with:
 
-* A [lightning dash](https://www.wakari.io/sharing/bundle/tommeagher/pycar14) through basic variables, types and functions.
+* A [lightning dash](https://www.wakari.io/sharing/bundle/tommeagher/PyCAR_basics) through basic variables, types and functions.
 * the working, commented code for each project from our git repo
-* a walkthrough for setting up your machine at home.
+* a walkthrough for setting up your machine at home with Python, version control and virtualenvs.
 * Good libraries to explore with strong tutorials
-* version control and virtual envs
-* lifetime support guarantee from us & [PythonJournos](https://groups.google.com/forum/#!forum/PythonJournos)
+* lifetime support guarantee [from us](CONTRIBUTORS.md) & [PythonJournos](https://groups.google.com/forum/#!forum/PythonJournos)
 
 
 ###Help!
