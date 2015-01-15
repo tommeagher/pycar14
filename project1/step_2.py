@@ -1,11 +1,17 @@
-# import modules
+# import built-in python modules
+# we'll want to access csv files and download files
 
-FILE_NAME = 'fdic_failed_bank_list.csv'
+# we're going to download a csv file
+# what should we name it
+file_name = ""
 
-# write a function to count the number of rows in a csv file
+# use urllib.urlretrieve() to download the csv file from a url and save it to a directory
+# csv link found at https://www.fdic.gov/bank/individual/failed/banklist.html
 
-    # create a variable to iterate each row and count the number of lines
+# open the csv file
 
-    # output the number of lines
+    # use python's csv reader to access the contents
+    # and create an object that represents the data
 
-# run the function when you run the script in the terminal
+    # loop through each row of the csv
+        # and print the row to the terminal

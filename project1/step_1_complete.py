@@ -1,20 +1,47 @@
-# import modules
-import csv
+# strings
+my_string = "We're going to learn Python at #NICAR15"
+print my_string
+print len(my_string)
+print type(my_string)
+print my_string.lower()
+print my_string.upper()
+print my_string.title()
+print my_string + my_string
 
-# write a function to open a csv file
-def open_csv_file(file_name):
+# integers
+my_integer = 10
+print my_integer
+print type(my_integer)
+print my_integer + 10
+print my_integer - 10
+print my_integer * 10
+print my_integer / 10
 
-    # open the csv
-    csv_file = open(file_name, 'rb')
+# operators and comparisons
+# https://docs.python.org/2/library/stdtypes.html
+x = 5
+y = 15
+print x > y
+print x >= y
+print x < y
+print x <= y
 
-    # create the object that represents the data in the csv file
-    csv_data = csv.reader(csv_file)
+foo = 10
+bar = "10"
 
-    # output that object to the terminal
-    print csv_data
+print foo == bar
+print foo != bar
+print foo == int(bar)
 
-    # close the csv file when we're done
-    csv_file.close()
+print bar == foo
+print bar != foo
+print bar == str(foo)
 
-# run the function when you run the script in the terminal
-open_csv_file('fdic_failed_bank_list.csv')
+foo = "2"
+print len(foo) == len(bar)
+
+# lists
+my_list = ["We're going to learn Python at #NICAR15", 10]
+print my_list
+print len(my_list)
+print type(my_list)

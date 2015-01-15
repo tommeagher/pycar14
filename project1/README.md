@@ -1,24 +1,31 @@
-### 9:30 - 10:30 a.m.
+### 9:30 - 10:45 a.m.
 
 **Project #1**
 
-* Start with a CSV.
-    * [FDIC Failed Bank list](http://www.fdic.gov/bank/individual/failed/banklist.html) is always good?
-* What do we want to do with it?
-    * Let's write some basic scripts to see what we're working with.
-    * Then we'll introduce some key Python types like strings, integers, lists, slicing and loops.
-    * After the white board, we'll start with a file of pseudocode, and we'll walk through together writing in Python code, running the file at the command line.
-    * We'll hold your hand through it, step by step. (Only at the end of the day will we give you the full working version, so there's no cheating!)
+* Let's start by looking at some key components of any programming language - variables, strings, integers and comparisons. We'll consider Python lists and we'll work toward using a couple core libraries - ```urllib``` and ```csv```  - to download a csv file and read the contents.
 
 **The files**
 
-```step_1.py``` and ```my_step_1.py```
+```step_1.py``` and ```step_1_complete.py```
 
-* Open the csv file & log the csv object that is returned.
+* What's a string? What's an integer? What's a list? Nevermind that, what's a Python?
+    * What can we do to find out what something is?
+        * We can try to get its type
+        * We can try to get its length
+    * Let's learn more about things we can do with strings
+        * capitalize it
+        * lowercase it
+        * uppercase it
+    * Let's do some math
+        * multiplication
+        * division
+        * addition
+        * subtraction
+        * order of operations
 
 ```step_2.py``` and ```my_step_2.py```
 
-* Let's log the number of rows in the file.
+* Download a csv file, open it and print out the data to our terminal/command line
 
 ```step_3.py``` and ```my_step_3.py```
 
@@ -29,13 +36,6 @@
 * Let's get the header row, learn about list indexes and strings and getting lengths.
 
 ```step_5.py``` and ```my_step_5.py```
-
-* Let's use the header row to isolate a string and learn more about things we can do with strings
-    * get its type
-    * get its length
-    * capitalize it
-    * lowercase it
-    * uppercase it
 
 ```step_6.py``` and ```my_step_6.py```
 
@@ -51,9 +51,4 @@
 
 ```step_7.py``` and ```my_step_7.py```
 
-* Let's use the header row to isolate the zip code and convert it to an integer so we can do some math
-    * multiplication
-    * division
-    * addition
-    * subtraction
-    * order of operations
+
