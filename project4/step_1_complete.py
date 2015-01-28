@@ -5,7 +5,7 @@ import json
 import requests
 
 def main():
-    url = 'https://www.govtrack.us/api/v2/bill?congress=112&order_by=-current_status_date'
+    url = 'https://www.govtrack.us/api/v2/bill?congress=114&order_by=-current_status_date'
 
     # Read the `requests` documentation for information. I promise it
     # isn't that scary.

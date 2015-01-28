@@ -4,7 +4,7 @@ import requests
 
 def main():
     # We'll use a local version of this file from now on to save on
-    # bandwith.
+    # bandwidth.
     with open('bills.json', 'r') as f:
         data = json.load(f)
 
