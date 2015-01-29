@@ -1,7 +1,8 @@
 #!/usr/bin/env python
 
-import csv
 import json
+
+import unicodecsv
 
 def main():
     # We'll use a local version of this file from now on to save on
@@ -14,7 +15,7 @@ def main():
         with open('bills.csv', 'w') as o:
             # Create a csv writer. This will help us format the file
             # correctly.
-            writer = csv.writer(o)
+            writer = unicodecsv.writer(o, encoding='utf-8')
 
             # Write out the header row
             writer.writerow([
@@ -27,10 +28,10 @@ def main():
             # Iterate through each dict in the array `objects`
             for bill in objects:
                 writer.writerow([
-                    bill['title_without_number'].encode('utf-8'),
-                    bill['bill_type_label'].encode('utf-8'),
+                    bill['title_without_number'],
+                    bill['bill_type_label'],
                     bill['number'],
-                    bill['current_status'].encode('utf-8')
+                    bill['current_status']
                 ])
 
 if __name__ == '__main__':
