@@ -1,7 +1,5 @@
 import json
 
-import requests
-
 def main():
     # We'll use a local version of this file from now on to save on
     # bandwidth.
