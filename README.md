@@ -10,7 +10,7 @@
 ```
 ##Python mini boot camp at #NICAR15 in Atlanta
 
-We'll use the [Anaconda distro of Python](http://docs.continuum.io/anaconda/pkgs.html)'s interactive interpreter in Windows PowerShell today as we explore Python. At the end, we'll give you everything working in Github.
+We'll use the [Anaconda distro](http://docs.continuum.io/anaconda/pkgs.html) of the iPython interactive interpreter in Windows PowerShell as we explore Python. At the end of the day, we'll give you everything working in Github.
 
 ###Schedule for the day
 ####[Introduction](http://bit.ly/intropycar14)
