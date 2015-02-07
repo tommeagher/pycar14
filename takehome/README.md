@@ -4,7 +4,7 @@
 * How to install Python on Mac ([find your terminal](http://learncodethehardway.org/cli/book/cli-crash-course.html#mac-osx) and type 'python') and [Windows](http://www.anthonydebarros.com/2014/02/16/setting-up-python-in-windows-8-1/) machines.
 * __virtualenv__ (https://pypi.python.org/pypi/virtualenv) and __virtualenvwrapper__ (http://virtualenvwrapper.readthedocs.org/en/latest/), for keeping your projects sandboxed in an easy to manage way. Here's one good [tutorial](http://blog.fruiapps.com/2012/06/An-introductory-tutorial-to-python-virtualenv-and-virtualenvwrapper) and [another](http://docs.python-guide.org/en/latest/dev/virtualenvs/).
 * Install [iPython](http://ipython.org/ipython-doc/stable/install/install.html) by typing 'pip install ipython' for the souped-up interactive interpreter.
-* [version control](http://www.tommeagher.com/blog/2013/03/learning-to-commit-to-version-control.html) with __[git](http://rogerdudler.github.io/git-guide/)__ and __[Github](https://help.github.com/articles/be-social)__
+* [version control](http://www.tommeagher.com/blog/2013/02/learning-to-commit-to-version-control.html) with __[git](http://rogerdudler.github.io/git-guide/)__ and __[Github](https://help.github.com/articles/be-social)__
 
 ##Keep Practicing
 Try our "[PyCAR basics](https://www.wakari.io/sharing/bundle/tommeagher/PyCAR_basics)" iPython notebook to continue exploring data types and simple methods, or look at the commented [code in Python](PyCAR_basics.py).
@@ -24,7 +24,7 @@ It's worth your time to take a look at Tony DeBarros' [Python snippets](https://
 * __[peewee](http://peewee.readthedocs.org/en/latest/peewee/quickstart.html)__, an orm that lets you do your SQL in Python.
 * __[python-twitter](https://github.com/bear/python-twitter)__ is good for interacting with the Twitter API.
 * __[Xlrd](http://www.python-excel.org/)__. Do your Excel in Python.
-* __[pandas](http://www.bearrelroll.com/2013/05/python-pandas-tutorial/)__, for data analysis. pandas' dataframe object is like a table.
+* __[pandas](https://manishamde.github.io/blog/2013/03/07/pandas-and-python-top-10/)__, for data analysis. pandas' dataframe object is like a table.
 * And a cool collection of quick overviews on standard library modules.
 http://pymotw.com/2/contents.html
 
