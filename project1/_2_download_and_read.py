@@ -15,3 +15,5 @@ file_name = ""
 
     # loop through each row of the csv
         # and print the row to the terminal
+
+        # print the data type to the terminal
