@@ -7,15 +7,26 @@ What is a [number](https://docs.python.org/2/tutorial/introduction.html#numbers)
 
 Nevermind that, what's a [Python](https://docs.python.org/2.7/)?
 
+This project aims to get you answers to those questions and provide a bit of a starting point for you to being to use Python in your daily work.
+
 Python is a programming language. It was created around 1991 by an individual named [Guido van Rossum](https://en.wikipedia.org/wiki/Guido_van_Rossum).
 
 You may hear others call Python a [scripting language](https://en.wikipedia.org/wiki/Scripting_language). You may also hear it called an interpretative language. In essence these are interchangeable terms. In Python you write programs that are interpreted line by line. These programs - or scripts - automate tasks that would otherwise be completed one by one.
 
-One feature of Python that takes some getting used to is its use of whitespace and indentation. One to remember this is to think of creating an outline. You have main bullet points and you might have an item indented beneath that relates to something above it.
-
 The Python interpreter can be accessed through the command line (terminal, shell, etc). On a Unix-based (Mac OS) or Linux machine - which come with Python installed by default - you enter the Python interpreter by typing ```python``` followed by the return key. On a Windows machine, things are a bit more cumbersome.
 
-Let's start by looking at some key components of any programming language - variables, strings, numbers and comparisons. All of this is contained within the [official Python tutorial](https://docs.python.org/2/tutorial/introduction.html#) to the standard library. We'll consider Python lists as a containter that we can fill and we'll work toward using a couple core libraries - ```urllib``` and ```csv```  - to download a csv file and read the contents.
+One feature of Python that takes some getting used to is its use of indentation to organize blocks of code. One to remember this is to think of creating an outline. You have main bullet points and you might have an item indented beneath that relates to something above it. In essence, this is python.
+
+       the python interpreter reads this line first and takes action
+           and then reads this line and takes action
+               and so on and so forth
+       and then you can jump back out if you'd like
+
+Before we get started, this is meant to be an overview of Python and show you some of the things you can do with it in a newsroom context. If you find it useful we hope you continue to practice and become better. It's like Zed Shaw wrote in the intro to [Learn Python the Hard Way](http://learnpythonthehardway.org/book/index.html):
+
+> While you are studying programming, I'm studying how to play guitar. I practice it every day for at least two hours a day. I play scales, chords, and arpeggios for an hour and then learn music theory, ear training, songs, and anything else I can. Some days I study guitar and music for eight hours because I feel like it and it's fun. To me repetitive practice is natural and just how to learn something. I know that to get good at anything you have to practice every day, even if I suck that day (which is often) or it's difficult. Keep trying and eventually it'll be easier and fun.
+
+Anyways, let's get started by looking at some key components of any programming language - variables, strings, numbers and comparisons. All of this is contained within the [official Python tutorial](https://docs.python.org/2/tutorial/introduction.html#) to the standard library. We'll consider Python lists as a containter that we can fill and we'll work toward using a couple core libraries - ```urllib``` and ```csv```  - to download a csv file and read the contents.
 
 **The files**
 
@@ -23,93 +34,207 @@ Let's start by looking at some key components of any programming language - vari
 
     * Indentation
 
+        * As mentioned in the introduction, Python uses indentation to structure its code blocks instead of braces, brackets, or keywords. This comes into play later on in the session when we begin to write ```if``` statements, ```for``` loops and ```define``` functions. For example:
+
+
+                 def my_first_function(input):
+                     if input == None:
+                         output = "I have nothing"
+                     else:
+                         output = "I have something"
+
+        * Most folks use four spaces when a line needs to be indented. It can be six spaces if you want to buck convention - and as I learned Python programmers the world over - as long as it's consistent.
+
     * Comments
 
+        * Throughout the day you will see - and hear us refer to - something called comments. We're not referring to that wasteland of negativity that you find at the bottom of articles on news websites. But just the same, ideally these comments are meant to be constructive.
+
+        * Comments are annotations; a method for programmers to offer notes, advice or justification for why the did something in a script.
+
+        * Python has a couple ways to comment code
+
+            * One is to use the pound symbol, aka hashtag or [octothorp](https://en.wikipedia.org/wiki/Number_sign). Here's an example
+
+                    # this part of the code is where I make the magic happen
+
+            * Another method for multiline comments is to use a series of three quote marks or three apostrophes.
+
+                    """
+                    this is a multiline comment
+                    so i can pack more information
+                    about what i'm doing
+                    """
+
     * Variables
+
         * A backbone of any programming language
+
         * Variables have a scope
+
         * Variables have a value
-            * Can be None, could be True or False
+
+            * Can be None
+
+            * Can be True or False
+
             * Or it could be something else... a number or a string
-        * format is always 'variable equals value'
+
+        * When declaring the value of for a variable in Python the format is 'variable equals value'
+
+            * ```my_variable = "my value of the variable"```
+
+        * **TO-DO**: Global vs. local variables?
 
     * [Numbers](https://docs.python.org/2/tutorial/introduction.html#numbers)
+
         * Whole numbers have a type and that type is integer
+
         * Fractions have a type and that type is float
+
         * Learning about numbers
+
             * get the [type](https://docs.python.org/2/library/functions.html#type)
+
             * addition
+
             * subtraction
+
             * multiplication
+
             * division
+
                 * import future
+
             * order of operations
 
     * [Strings](https://docs.python.org/2/tutorial/introduction.html#strings)
+
         * Generally, synonymous with words.
+
         * You can use double quotes or single quotes to create strings
+
         * If using single quotes, apostrophes and single quotes within string must be escaped
+
         * [Unicode strings](http://www.unicode.org/) - Mention & explain?
+
         * Learning about numbers
+
             * double quotes vs. single quotes
+
             * get its type
+
             * get its length
+
             * [lowercase](https://docs.python.org/2/library/stdtypes.html?highlight=strip#str.lower)
+
             * [uppercase](https://docs.python.org/2/library/stdtypes.html?highlight=strip#str.upper)
+
             * [titlecase](https://docs.python.org/2/library/stdtypes.html?highlight=strip#str.title)
+
             * [split](https://docs.python.org/2/library/stdtypes.html?highlight=strip#str.split)
+
             * join
+
             * [replace a character](https://docs.python.org/2/library/stdtypes.html?highlight=strip#str.replace)
+
             * strip whitespace
+
                 * [all](https://docs.python.org/2/library/stdtypes.html?highlight=strip#str.strip)
+
                 * [leading whitespace](https://docs.python.org/2/library/stdtypes.html?highlight=strip#str.lstrip)
+
                 * [trailing whitespace](https://docs.python.org/2/library/stdtypes.html?highlight=strip#str.rstrip)
 
     * [Lists](https://docs.python.org/2/tutorial/introduction.html#lists)
+
         * We learned that integers and strings are data types
+
             * Python has something it calls a compound data type
+
             * These are container that can be used to group values together
+
         * The list is kind of like a five-gallon bucket with a couple important features
+
             * A list is sortable and a list has an index
+
                 * Index starts at 0
+
                 * Allows
+
             * A list is [mutable](https://docs.python.org/2/glossary.html#term-mutable), which means you can add and remove content
+
                 * Can add and remove items from specfic indexes
+
             * Lists might contain items of different types, but usually the items all have the same type.
 
     * Comparisons and Conditionals
 
         * [Comparisons](https://docs.python.org/2/library/stdtypes.html#comparisons)
+
             * equals
+
+                * are two values the same?
+
             * not equals
+
+                * are two values different?
+
             * greater than
+
+                * is value larger than the other?
+
             * greater than equal to
+
+                * is value larger or equal to the other?
+
             * less than
+
+                * is value smaller than the other?
+
             * less than equal to
 
-            foo = 10
-            bar = "10"
+                * is value smaller or equal to the other?
 
-            print foo == bar
-            print foo != bar
-            print foo == int(bar)
+            * is
 
-            print bar == foo
-            print bar != foo
-            print bar == str(foo)
+                * is this the same as this?
 
-            foo = "2"
-            print len(foo) == len(bar)
+            * is not
 
-        * Conditionals
-            [if/elif/else](https://docs.python.org/2/tutorial/controlflow.html#if-statements)
-            [for](https://docs.python.org/2/tutorial/controlflow.html#for-statements) 
+                * is this the same as that?
+
+        * Conditional statements
+
+            * "[A conditional statement](https://en.wikipedia.org/wiki/Conditional_(computer_programming)), conditional expressions and conditional constructs are features of a programming language which perform different computations or actions depending on whether a programmer-specified boolean condition evaluates to true or false."
+
+                * [if/elif/else](https://docs.python.org/2/tutorial/controlflow.html#if-statements)
+
+                    * The ```for``` statement iterates through a list or a string in the order they appear.
+
+                            value = 4
+                            if 4 == value:
+                                print "it's the same"
+                            else:
+                                print "it's not the same"
+
+                * [for](https://docs.python.org/2/tutorial/controlflow.html#for-statements)
+
+                    * The ```for``` statement iterates through a list or a string in the order they appear.
+
+                            my_list = [1, 2, 3, 4, 5, 6]
+                            for x in my_list:
+                                print x
 
 * ```_2_download_and_read.py``` and ```_2_download_and_read_complete.py```
+
     * Now that we have some concepts, let's write a program already
+
         * Downloading a csv file
+
         * Open it
+
         * Loop through each row and print the data
 
 * ```_3_extra_credit.py``` and ```_3_extra_credit_complete.py```
+
     * We know how to download a csv file and read its contents. Let's see if we can search the output for a specific value
