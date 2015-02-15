@@ -1,188 +1,100 @@
 """
-
-* Indentation
-
-* Comments
-
-* Variables
-    * A backbone of any programming language
-    * Variables have a scope
-    * Variables have a value
-        * Can be None, could be True or False
-        * Or it could be something else... a number or a string
-    * format is always 'variable equals value'
-
-* [Numbers](https://docs.python.org/2/tutorial/introduction.html#numbers)
-    * Whole numbers have a type and that type is integer
-    * Fractions have a type and that type is float
-    * Learning about numbers
-        * get the [type](https://docs.python.org/2/library/functions.html#type)
-        * addition
-        * subtraction
-        * multiplication
-        * division
-            * import future
-        * order of operations
-
-* [Strings](https://docs.python.org/2/tutorial/introduction.html#strings)
-    * Generally, synonymous with words.
-    * You can use double quotes or single quotes to create strings
-    * If using single quotes, apostrophes and single quotes within string must be escaped
-    * [Unicode strings](http://www.unicode.org/) - Mention & explain?
-    * Learning about numbers
-        * double quotes vs. single quotes
-        * get its type
-        * get its length
-        * [lowercase](https://docs.python.org/2/library/stdtypes.html?highlight=strip#str.lower)
-        * [uppercase](https://docs.python.org/2/library/stdtypes.html?highlight=strip#str.upper)
-        * [titlecase](https://docs.python.org/2/library/stdtypes.html?highlight=strip#str.title)
-        * [split](https://docs.python.org/2/library/stdtypes.html?highlight=strip#str.split)
-        * join
-        * [replace a character](https://docs.python.org/2/library/stdtypes.html?highlight=strip#str.replace)
-        * strip whitespace
-            * [all](https://docs.python.org/2/library/stdtypes.html?highlight=strip#str.strip)
-            * [leading whitespace](https://docs.python.org/2/library/stdtypes.html?highlight=strip#str.lstrip)
-            * [trailing whitespace](https://docs.python.org/2/library/stdtypes.html?highlight=strip#str.rstrip)
-
-* [Lists](https://docs.python.org/2/tutorial/introduction.html#lists)
-    * We learned that integers and strings are data types
-        * Python has something it calls a compound data type
-        * These are container that can be used to group values together
-    * The list is kind of like a five-gallon bucket with a couple important features
-        * A list is sortable and a list has an index
-            * Index starts at 0
-            * Allows
-        * A list is [mutable](https://docs.python.org/2/glossary.html#term-mutable), which means you can add and remove content
-            * Can add and remove items from specfic indexes
-        * Lists might contain items of different types, but usually the items all have the same type.
-
-* Comparisons and Conditionals
-
-    * [Comparisons](https://docs.python.org/2/library/stdtypes.html#comparisons)
-        * equals
-        * not equals
-        * greater than
-        * greater than equal to
-        * less than
-        * less than equal to
-
-        foo = 10
-        bar = "10"
-
-        print foo == bar
-        print foo != bar
-        print foo == int(bar)
-
-        print bar == foo
-        print bar != foo
-        print bar == str(foo)
-
-        foo = "2"
-        print len(foo) == len(bar)
-
-    * Conditionals
-        [if/elif/else](https://docs.python.org/2/tutorial/controlflow.html#if-statements)
-        [for](https://docs.python.org/2/tutorial/controlflow.html#for-statements) 
+variables
 """
-
-
-
-
+# create an integer
 my_integer = 25
-my_string = "This variable is a string"
-my_list = [1,2,3]
+
+# create a string
+my_string = "We're going to learn Python at #NICAR15"
+
+# create a list
+my_list = [1, 2, 3]
 
 
-
-
-# integers
-my_integer = 25
+"""
+integers
+"""
+# print your integer
 print my_integer
 
-# get type
-my_type = type(my_integer)
-print my_type
+# get the type of your integer
+print type(my_integer)
 
-# addition
+# do some addition
 my_sum = my_integer + 10
 print my_sum
 
-# subtraction
+# do some subtraction
 my_difference = my_integer - 10
 print my_difference
 
-# multiply
+# do some multiplication
 my_product = my_integer * 10
 print my_product
 
-# division
+# do some division
 my_dividend = my_integer / 10
 print my_dividend
 
-# floats
-# 23.46/2 >> 11.73
-# 5/2 >> 2
 
-# import future
-
+"""
+floats
+"""
+# create float, assign it a value and print it
 my_float = 25.345
 print my_float
 
-my_total = my_integer + my_float
-print my_total
+# divide a float in half
+print 23.46/2
 
-# order of operations
-# used when we want to determine percent change right?
-# (new - old) / old
-
-percent_change = 25.345 - 21.924 / 21.924
-percent_change = (25.345 - 21.924) / 21.924
-percent_change = ((25.345 - 21.924) / 21.924) * 100
-
-
-
-
+# divide a number in half
+print 5/2
 
 
 """
-* Strings
+order of operations
 """
+#create variable for a new value
+new_value = 25.345
 
-# strings
-my_string = "We're going to learn Python at #NICAR15"
+#create for an old value
+old_value = 21.924
+
+#calculcate percent change
+percent_change = new value - old value / old value
+percent_change = (new value - old value) / old value
+percent_change = ((new value - old value) / old value) * 100
+
+
+"""
+Strings
+"""
+# print your string
 print my_string
 
-# double quotes
-double_quotes_string = "We're going to learn Python at #NICAR15"
-print double_quotes_string
-
-# single quotes
-single_quotes_string = "We're going to learn Python at #NICAR15"
-print single_quotes_string
-
-# get type
+# get the type
 print type(my_string)
 
-# get length
+# get the length
 print len(my_string)
 
-# lowercase
+# convert it to lowercase
 print my_string.lower()
 
-# uppercase
+# convert it to uppercase
 print my_string.upper()
 
-# titlecase
+# convert it to titlecase
 print my_string.title()
 
-# concatenate
+# concatenate strings
 print my_string + my_string
 
-# split
+# split strings
 print my_string.split("learn")
 
-# join
-print "+".join([my_string, my_string])
+# join strings
+print "+++".join([my_string, my_string])
 
 # remove a character
 print my_string.replace(" ", "##")
@@ -196,55 +108,70 @@ print "  this string has whitespace  ".lstrip()
 # removes only trailing whitespace chars
 print "  this string has whitespace  ".rstrip()
 
-"""
 
 """
+Lists
+"""
+# create a list, you can use strings, intergers, etc
+my_list = ["We're going to learn Python at #NICAR15", 10, 15, 20]
 
-my_list = ["We're going to learn Python at #NICAR15", 10]
+# print the list
 print my_list
-print len(my_list)
+
+# print its type
 print type(my_list)
 
+# print its length
+print len(my_list)
 
+# create a list of numbers
+my_list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
-
-my_list = [1,2,3,4,5,6,7,8,9,10]
-
+# print the first item in the list
 print my_list[0]
+
+# print the last item in the list
 print my_list[-1]
-print my_list.append(11)
 
-# pop() returns the element you want to remove. del just deletes is
-# pop is also useful to remove and keep an item from a list. Where del actually trashes the item.
-# By default, pop without any arguments removes the last item:
-a.pop()
-del a[-1]
+# add an item to the list and see if it was added
+my_list.append(11)
+print my_list
+
+# delete the last item in the list
+del my_list[-1]
+print my_list
+
+# set the last value in the list to a variable
+last = my_list.pop(-1)
 
 
 """
-* Comparisons and Conditionals
+Conditionals & Comparisons
 """
+# take your list or make a new one, loop through it printing out each value
+my_list = [1, 2, 3, 4, 5, 6]
+for x in my_list:
+    print x
 
-
-# operators and comparisons
-# https://docs.python.org/2/library/stdtypes.html
+# create two variables, assign values and compare them
 x = 5
 y = 15
+print x == y
+print x != y
 print x > y
 print x >= y
 print x < y
 print x <= y
 
-foo = 10
-bar = "10"
+# create two variables, assign one as a number and one as a string and compare them
+x = 10
+y = "10"
+print x == y
+print x != y
+print x > y
+print x >= y
+print x < y
+print x <= y
 
-print foo == bar
-print foo != bar
-print foo == int(bar)
-
-print bar == foo
-print bar != foo
-print bar == str(foo)
-
-foo = "2"
-print len(foo) == len(bar)
+# for extra credit, try to compare lengths
+print len(x) == len(y)
