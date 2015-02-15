@@ -83,8 +83,6 @@ Anyways, let's get started by looking at some key components of any programming 
 
             * ```my_variable = "my value of the variable"```
 
-        * **TO-DO**: Global vs. local variables?
-
     * [Numbers](https://docs.python.org/2/tutorial/introduction.html#numbers)
 
         * Whole numbers have a type and that type is integer
@@ -103,9 +101,11 @@ Anyways, let's get started by looking at some key components of any programming 
 
             * division
 
-                * import future
-
             * order of operations
+
+                * used when we want to determine percent change right?
+
+                        ```(new - old) / old```
 
     * [Strings](https://docs.python.org/2/tutorial/introduction.html#strings)
 
@@ -117,9 +117,17 @@ Anyways, let's get started by looking at some key components of any programming 
 
         * [Unicode strings](http://www.unicode.org/) - Mention & explain?
 
-        * Learning about numbers
+        * Learning about strings
 
             * double quotes vs. single quotes
+
+                    # double quotes
+                    double_quotes_string = "We're going to learn Python at #NICAR15"
+                    print double_quotes_string
+
+                    # single quotes
+                    single_quotes_string = "We're going to learn Python at #NICAR15"
+                    print single_quotes_string
 
             * get its type
 
@@ -167,7 +175,35 @@ Anyways, let's get started by looking at some key components of any programming 
 
             * Lists might contain items of different types, but usually the items all have the same type.
 
-    * Comparisons and Conditionals
+            * pop() returns the element you want to remove. Useful to remove and keep an item from a list
+
+                * By default, pop without any arguments removes the last item
+
+            * del deletes the item at the specified index
+
+    * Conditionals & Comparisons
+
+        * Conditional statements
+
+            * "[A conditional statement](https://en.wikipedia.org/wiki/Conditional_(computer_programming)), conditional expressions and conditional constructs are features of a programming language which perform different computations or actions depending on whether a programmer-specified boolean condition evaluates to true or false."
+
+                * [for](https://docs.python.org/2/tutorial/controlflow.html#for-statements)
+
+                    * The ```for``` statement iterates through a list or a string in the order they appear.
+
+                            my_list = [1, 2, 3, 4, 5, 6]
+                            for x in my_list:
+                                print x
+
+                * [if/elif/else](https://docs.python.org/2/tutorial/controlflow.html#if-statements)
+
+                    * The ```for``` statement iterates through a list or a string in the order they appear.
+
+                            value = 4
+                            if 4 == value:
+                                print "it's the same"
+                            else:
+                                print "it's not the same"
 
         * [Comparisons](https://docs.python.org/2/library/stdtypes.html#comparisons)
 
@@ -202,28 +238,6 @@ Anyways, let's get started by looking at some key components of any programming 
             * is not
 
                 * is this the same as that?
-
-        * Conditional statements
-
-            * "[A conditional statement](https://en.wikipedia.org/wiki/Conditional_(computer_programming)), conditional expressions and conditional constructs are features of a programming language which perform different computations or actions depending on whether a programmer-specified boolean condition evaluates to true or false."
-
-                * [if/elif/else](https://docs.python.org/2/tutorial/controlflow.html#if-statements)
-
-                    * The ```for``` statement iterates through a list or a string in the order they appear.
-
-                            value = 4
-                            if 4 == value:
-                                print "it's the same"
-                            else:
-                                print "it's not the same"
-
-                * [for](https://docs.python.org/2/tutorial/controlflow.html#for-statements)
-
-                    * The ```for``` statement iterates through a list or a string in the order they appear.
-
-                            my_list = [1, 2, 3, 4, 5, 6]
-                            for x in my_list:
-                                print x
 
 * ```_2_download_and_read.py``` and ```_2_download_and_read_complete.py```
 
