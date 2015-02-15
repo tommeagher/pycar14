@@ -1,199 +1,110 @@
 """
-* Indentation
+variables
 """
+# create an integer
 
+# create a string
 
-"""
-* Comments
-"""
-
-
-"""
-* Variables
-    * A backbone of any programming language
-    * Variables have a scope
-    * Variables have a value
-        * Can be None, could be True or False
-        * Or it could be something else... a number or a string
-"""
-
-#format is always 'variable equals value'
-my_integer = 25
-my_string = "This variable is a string"
-my_list = [1,2,3]
+# create a list
 
 
 """
-* Numbers
-    * Whole numbers have a type and that type is integer
-    * Fractions have a type and that type is float
+integers
 """
+# print your integer
 
-# integers
-my_integer = 25
-print my_integer
+# get the type of your integer
 
-# get type
-my_type = type(my_integer)
-print my_type
+# do some addition
 
-# addition
-my_sum = my_integer + 10
-print my_sum
+# do some subtraction
 
-# subtraction
-my_difference = my_integer - 10
-print my_difference
+# do some multiplication
 
-# multiply
-my_product = my_integer * 10
-print my_product
-
-# division
-my_dividend = my_integer / 10
-print my_dividend
-
-
-
-# floats
-# 23.46/2 >> 11.73
-# 5/2 >> 2
-
-# import future
-
-my_float = 25.345
-print my_float
-
-my_total = my_integer + my_float
-print my_total
-
-# order of operations
-# used when we want to determine percent change right?
-# (new - old) / old
-
-percent_change = 25.345 - 21.924 / 21.924
-percent_change = (25.345 - 21.924) / 21.924
-percent_change = ((25.345 - 21.924) / 21.924) * 100
-
-
-
-
+# do some division
 
 
 """
-* Strings
-    * You can use double quotes or single quotes to create strings
-    * If using single quotes, apostrophes and single quotes within string must be escaped
-    * [Unicode strings](http://www.unicode.org/) - Mention & explain?
+floats
 """
+# create float, assign it a value and print it
 
-# strings
-my_string = "We're going to learn Python at #NICAR15"
-print my_string
+# divide a float in half
 
-# double quotes
-double_quotes_string = "We're going to learn Python at #NICAR15"
-print double_quotes_string
+# divide a number in half
 
-# single quotes
-single_quotes_string = "We're going to learn Python at #NICAR15"
-print single_quotes_string
 
-# get type
-print type(my_string)
+"""
+order of operations
+"""
+#create variable for a new value
 
-# get length
-print len(my_string)
+#create for an old value
 
-# lowercase
-print my_string.lower()
+#calculcate percent change
 
-# uppercase
-print my_string.upper()
 
-# titlecase
-print my_string.title()
+"""
+Strings
+"""
+# print your string
 
-# concatenate
-print my_string + my_string
+# get the type
 
-# split
-print my_string.split("learn")
+# get the length
 
-# join
-print "+".join([my_string, my_string])
+# convert it to lowercase
+
+# convert it to uppercase
+
+# convert it to titlecase
+
+# concatenate strings
+
+# split strings
+
+# join strings
 
 # remove a character
-print my_string.replace(" ", "##")
 
 # strip whitespace
-print "  this string has whitespace  ".strip()
 
 # removes only leading whitespace chars
-print "  this string has whitespace  ".lstrip()
 
 # removes only trailing whitespace chars
-print "  this string has whitespace  ".rstrip()
-
-"""
-* Lists
-    * We learned that integers and strings are data types
-        * Python has something it calls a compound data type
-        * These are container that can be used to group values together
-    * The list is kind of like a five-gallon bucket with a couple important features
-        * A list is sortable and a list has an index
-            * Index starts at 0
-            * Allows
-        * A list is [mutable](https://docs.python.org/2/glossary.html#term-mutable), which means you can add and remove content
-            * Can add and remove items from specfic indexes
-        * Lists might contain items of different types, but usually the items all have the same type.
-"""
-
-my_list = ["We're going to learn Python at #NICAR15", 10]
-print my_list
-print len(my_list)
-print type(my_list)
-
-
-
-
-my_list = [1,2,3,4,5,6,7,8,9,10]
-
-print my_list[0]
-print my_list[-1]
-print my_list.append(11)
-
-# pop() returns the element you want to remove. del just deletes is
-# pop is also useful to remove and keep an item from a list. Where del actually trashes the item.
-# By default, pop without any arguments removes the last item:
-a.pop()
-del a[-1]
 
 
 """
-* Comparisons and Conditionals
+Lists
 """
+# create a list, you can use strings, intergers, etc
+
+# print the list
+
+# print its type
+
+# print its length
+
+# create a list of numbers
+
+# print the first item in the list
+
+# print the last item in the list
+
+# add an item to the list and see if it was added
+
+# delete the last item in the list
+
+# set the last value in the list to a variable
 
 
-# operators and comparisons
-# https://docs.python.org/2/library/stdtypes.html
-x = 5
-y = 15
-print x > y
-print x >= y
-print x < y
-print x <= y
+"""
+Conditionals & Comparisons
+"""
+# take your list or make a new one, loop through it printing out each value
 
-foo = 10
-bar = "10"
+# create two variables, assign values and compare them
 
-print foo == bar
-print foo != bar
-print foo == int(bar)
+# create two variables, assign one as a number and one as a string and compare them
 
-print bar == foo
-print bar != foo
-print bar == str(foo)
-
-foo = "2"
-print len(foo) == len(bar)
+# for extra credit, try to compare lengths
