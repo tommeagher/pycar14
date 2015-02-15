@@ -3,5 +3,6 @@
 * Chris Keller, [@chrislkeller](http://www.twitter.com/chrislkeller)
 * Tom Meagher, [@ultracasual](http://www.twitter.com/ultracasual)
 * Ryan Murphy, [@rdmurphy](http://www.twitter.com/rdmurphy)
+* Katie Park, [@katiepark](https://twitter.com/katiepark)
 * Eric Sagara, [@esagara](http://www.twitter.com/esagara)
 * Kevin Schaul, [@kevinschaul](http://www.twitter.com/kevinschaul)
