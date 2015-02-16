@@ -38,6 +38,3 @@ with open(file_name, "rb") as file:
         # otherwise continue on
         else:
             continue
-
-# close our new file
-output_file.close()
