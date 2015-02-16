@@ -37,13 +37,13 @@ Anyways, let's get started by looking at some key components of any programming 
         * As mentioned in the introduction, Python uses indentation to structure its code blocks instead of braces, brackets, or keywords. This comes into play later on in the session when we begin to write ```if``` statements, ```for``` loops and ```define``` functions. For example:
 
 
-                 def my_first_function(input):
-                     if input == None:
-                         output = "I have nothing"
-                     else:
-                         output = "I have something"
+            def my_first_function(input):
+                if input == None:
+            output = "I have nothing"
+                else:
+            output = "I have something"
 
-        * Most folks use four spaces when a line needs to be indented. It can be six spaces if you want to buck convention - and as I learned Python programmers the world over - as long as it's consistent.
+        * Lines are indented by four spaces.
 
     * Comments
 
@@ -109,13 +109,11 @@ Anyways, let's get started by looking at some key components of any programming 
 
     * [Strings](https://docs.python.org/2/tutorial/introduction.html#strings)
 
-        * Generally, synonymous with words.
+        * Generally, synonymous with characters.
 
         * You can use double quotes or single quotes to create strings
 
         * If using single quotes, apostrophes and single quotes within string must be escaped
-
-        * [Unicode strings](http://www.unicode.org/) - Mention & explain?
 
         * Learning about strings
 
@@ -157,23 +155,19 @@ Anyways, let's get started by looking at some key components of any programming 
 
         * We learned that integers and strings are data types
 
-            * Python has something it calls a compound data type
+            * Python has specific types that allow you to group items. The list is one of these collections.
 
-            * These are container that can be used to group values together
+                *  A list is sortable and a list has an index
 
-        * The list is kind of like a five-gallon bucket with a couple important features
+                    *  Index starts at 0
 
-            * A list is sortable and a list has an index
+                * You can add and remove content
 
-                * Index starts at 0
+                    * You can add and remove items from specfic indexes
 
-                * Allows
+                * Lists might contain items of different types, but usually the items all have the same type.
 
-            * A list is [mutable](https://docs.python.org/2/glossary.html#term-mutable), which means you can add and remove content
-
-                * Can add and remove items from specfic indexes
-
-            * Lists might contain items of different types, but usually the items all have the same type.
+            * append() allows you to add items to a list
 
             * pop() returns the element you want to remove. Useful to remove and keep an item from a list
 
@@ -207,37 +201,37 @@ Anyways, let's get started by looking at some key components of any programming 
 
         * [Comparisons](https://docs.python.org/2/library/stdtypes.html#comparisons)
 
-            * equals
+            * equals (==)
 
                 * are two values the same?
 
-            * not equals
+            * not equals (!=)
 
                 * are two values different?
 
-            * greater than
+            * greater than (>)
 
                 * is value larger than the other?
 
-            * greater than equal to
+            * greater than equal to (>=)
 
                 * is value larger or equal to the other?
 
-            * less than
+            * less than (<)
 
                 * is value smaller than the other?
 
-            * less than equal to
+            * less than equal to (<=)
 
                 * is value smaller or equal to the other?
 
             * is
 
-                * is this the same as this?
+                * Are two items the exact same thing?
 
             * is not
 
-                * is this the same as that?
+                * Are two items not the exact same thing?
 
 * ```_2_download_and_read.py``` and ```_2_download_and_read_complete.py```
 
