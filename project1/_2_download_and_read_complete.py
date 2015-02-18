@@ -22,3 +22,6 @@ with open(file_name, "rb") as file:
     for row in csv_data:
         # and print the row to the terminal
         print row
+
+        # print the data type to the terminal
+        print type(row)
