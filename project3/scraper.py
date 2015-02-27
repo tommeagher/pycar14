@@ -10,7 +10,6 @@
 
 #find the rows
 
-#oops have some bad rows, let's get rid of them
 
 #open our output file
 
