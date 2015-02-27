@@ -17,7 +17,9 @@ soup = BeautifulSoup(html)
 table = soup.find('table',{'class':'entChartTable'})
 
 #find the rows, at the same time we are going to use slicing to skip the first two header rows.
-rows = table.findAll('tr')[2:]
+rows = table.findAll('tr')
+
+rows = rows[2:]
 
 #open our output file
 csvfile = open("movies.csv","wb")
