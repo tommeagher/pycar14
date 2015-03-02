@@ -1,93 +1,78 @@
-#imports
+# Imports go here
 
-#First, let's see what kind of data we have to work with
+# Dict syntax example
+# Alternate dict creation syntax
+# Dict contents can be copied
+# Creating a new dict that includes the values of an existing dict
+# Add two dicts together
+# Adding two dicts that are both variables
 
-    #Open the salary csv
-   
-    #Make the file object usable
-   
-    #Create your header row and look at what is in here
-   
-    #Find the index of the year and player id
+# File with baseball players' salaries
+salary_file = 'data/2014/Salaries.csv'
 
-    #Check the type of the year column to see if it is a string or int
-
-    #Because we're on the first row of data, we need to 
-    #return to the top before we do anything with this.
-    #We do this by resetting the pointer in the original file.
-
-    #Arrange in descending order of salary
-    #Remember that lists always keep their order!
-
-    #Create a list of the top 10%
-
-    #Round it!
-
-    #We don't want decimal points (you can't have part of a player)
-    #so cast to an int
-
-    #You could do the above steps in one line like this:
-    #int(math.floor(len(sorted_salaries * .10)))
-
-    #Now let's create our final list, of just the highest-paid players
-
-    #We only need the player IDs right now.
+# File with player details
+master_file = 'data/2014/Master.csv'
 
 
-#We are going to be working with dictionaries to make things easier
-
-    #Open the csv
-
-    #This time, let's use DictReader,
-    #which maps the header row's values to each item in each row
-
-    #Create new list of only 2013 information
-    #NOTE: You can't start a variable with a number, so 2013_salaries won't work
-
-        #Using DictReader allows us to access rows by their column name!
-
-           #Create a record for each player's ID and assign it the salary
-
-    #Now we can reference the salary of any player whose ID we know.
-    #But we only want those who were in the top 10% of all time.
-    #Create a new dict to hold just the top players from 2013
+# First, let's see what kind of data we have to work with
+    # Open the file
+        # Print out the header row
+        # Print out a row of sample data
+        # Split sample data on comma so we can loop over it
+        # Check to see what type each item is
 
 
-    #Let's compare our player dict with the list of all-time 
-    #high salaries we made in the first function.
-    #(You could combine this step with the DictReader step above.)
-
-        #Check for the presence of a key that matches the playerID in salaries_2013
+# Step 1.3: Convert numbers to ints
+    # Try to convert the passed value to an integer
+    # If not, return original value.
 
 
-#new function
-
-    #Open the master csv
-
-    #Read the file
-
-    #Let's look at one record of the master data to get the headers
-
-    #That's a little hard to read, isn't it? Try prettyprint instead.
-
-    #Reset the generator and skip the header row
-
-    #Create a dict of the master file with DictReader
-
-    #Assemble the troops
-
-    #Loop over the top salaries dict to find the player IDs in the master dict
-    #We could also loop over the master dict to find which of those exist
-    #in the top salaries dict, but that would be less efficient.
-    #When you loop over a dict, you only have access to the keys.
-    #To access the values, we need .iteritems()
-    #Remember the key is the player ID and the value is the salary.
-    #Typically, when iterating over a dict, the syntax is:
-    #for key, value in my_dict.iteritems():
-    #For clarity, we will use the header row values instead.
+# Step 1.2 Return the passed row as key/value pairs
+    # Each row contains a key/value pair, so get it with iteritems
+    # Check each key to see if it can be converted to an int
 
 
-    #Add names, birth state and birth country to the dict
+# Step 1.1: Create a basic file reader
+        # Open with DictReader so that we can use the header row as keys
+        # Because the salaries come through as strings, cast to ints before we sort
 
 
-#write to a file
+# Step 1: Create dicts from data
+    # Read file into a variable
+    # Create a new dict object
+    # Add each row of data to the dict
+    # Return the data
+
+
+# Step 2: Join two dicts on a shared key
+    # Get the unique keys present in both dicts
+    # Create a new dict that will contain all data
+    # Loop over keys
+        # Create a new key/value pair from the values present in both dicts.
+            # Make value of key in merged_data equal the corresponding
+            # keyed value from each dict.
+            # NOTE: If the value is present in both, the second value will override the first.
+            # If the value is present in one but not the other, an exception will be thrown
+
+
+# Step 3: Turn the player data into a list of the highest paid players
+# NOTE: This is simplified as an example and not reliable for cleaning real data.
+    # NOTE: Dicts are unordered and do not retain order if sorted.
+    # Sort data by salary and assign the reverse-sorted list to a variable
+    # Figure out what 10% of the number of players is, rounded
+    # Return just the slice of the list that includes the top 10%
+
+
+# Step 4: Writes the cleaned data back to a file
+    # Open your new file as writeable
+        # Make sure that the data variable has content so you don't write a blank file
+        # Create a DictWriter
+        # Write the header of the file
+        # Write each key/value pair as a row in the new CSV
+
+
+salaries = create_keyed_data(salary_file, "playerID")
+master = create_keyed_data(master_file, "playerID")
+player_data = join_dicts(salaries, master)
+
+write_file('data/2014/highest_paid_players.csv', get_top_players(player_data))
