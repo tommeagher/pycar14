@@ -12,6 +12,7 @@ Tony DeBarros also taught a fantastic class at NICAR on [getting started with Py
 
 Here's a great [cheatsheet](http://sleet.aos.wisc.edu/~gpetty/wp/wp-content/uploads/2011/10/Python_qr.pdf) for basic python types and functions. And you should probably bookmark this fun and handy graphic of [common Python errors](http://i.imgur.com/WRuJV6r.png).
 It's worth your time to take a look at Tony DeBarros' [Python snippets](https://github.com/anthonydb/python-snippets), scripts for common tasks he's found useful.
+Have Unicode problems? Check out this [great video from Pycon 2014](https://www.youtube.com/watch?v=Mx70n1dL534).
 
 ##Good libraries to explore
 * __[csv](http://www.pythonforbeginners.com/systems-programming/using-the-csv-module-in-python/)__, for working with the [best tabular data format](http://pymotw.com/2/csv/).
