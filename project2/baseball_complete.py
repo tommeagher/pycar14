@@ -52,15 +52,27 @@ def str_to_int(value):
 
 # Returns the passed row as key/value pairs
 def check_for_ints(row):
-    return {key: str_to_int(value) for key, value in row.iteritems()}
+    checked_row = {}
+    for key, value in row.iteritems():
+        checked_row[key] = str_to_int(value)
+
+    return checked_row
+    # ALTERNATIVE SYNTAX using dict comprehension
+    #return {key: str_to_int(value) for key, value in row.iteritems()}
 
 
 # Create a basic file reader
 def read_file(filename):
-    with open(filename, 'rb') as file:
+    with open(filename, 'r') as file:
         reader = csv.DictReader(file)
         # Because the salaries come through as strings, cast to ints before we sort
-        return [check_for_ints(row) for row in reader]
+        file_rows = []
+        for row in reader:
+            file_rows.append(check_for_ints(row))
+
+        return file_rows
+        # ALTERNATIVE SYNTAX using list comprehension
+        #return [check_for_ints(row) for row in reader]
 
 
 # Create dicts
@@ -97,7 +109,7 @@ def get_top_players(player_data):
 
 # Writes the cleaned data back to a file
 def write_file(filename, data):
-    with open(filename, 'wb') as file:
+    with open(filename, 'w') as file:
         assert(data)
         writer = csv.DictWriter(file, fieldnames=data[0].keys())
         writer.writeheader()
