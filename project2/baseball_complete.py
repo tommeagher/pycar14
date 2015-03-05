@@ -75,12 +75,12 @@ def create_keyed_data(filename, key):
 # Join dicts
 def join_dicts(dict1, dict2):
     keys = set(dict1.keys() + dict2.keys())
-    merged_data = {}
+    merged_data = []
     for key in keys:
         try:
             # Equivalent to copying the values of two dicts
             # The double asterisk just expands the values
-            merged_data[key] = dict(dict1[key], **dict2[key])
+            merged_data.append(dict(dict1[key], **dict2[key]))
         except:
             pass
     return merged_data
@@ -103,8 +103,6 @@ def write_file(filename, data):
         writer.writeheader()
         for line in data:
             writer.writerow(line)
-
-
 
 salaries = create_keyed_data(salary_file, "playerID")
 master = create_keyed_data(master_file, "playerID")
