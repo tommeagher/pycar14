@@ -133,6 +133,15 @@ print my_list[0]
 # print the last item in the list
 print my_list[-1]
 
+#print all items from 4 through the end. We call this slicing.
+print my_list[3:]
+
+#print the items from the start to the penultimate
+print my_list[:-1]
+
+#print the middle 4 items
+print my_list[3:-3]
+
 # add an item to the list and see if it was added
 my_list.append(11)
 print my_list

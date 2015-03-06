@@ -91,6 +91,12 @@ Lists
 
 # print the last item in the list
 
+#print all items from 4 through the end. We call this slicing.
+
+#print the items from the start to the penultimate
+
+#print the middle 4 items
+
 # add an item to the list and see if it was added
 
 # delete the last item in the list
