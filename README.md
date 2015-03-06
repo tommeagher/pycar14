@@ -50,5 +50,5 @@ At the end of the day, we'll __[send you home with](takehome/README.md)__ with:
 
 ###Help!
 If you're working through this code at home and have trouble, please let us know.
-The best option is to [file an issue report](https://github.com/tommeagher/pycar14/issues?state=open) of the bug so we can help you.
+The best option is to [file an issue report](issues?state=open) of the bug so we can help you.
 You can also reach out to any of us [on Twitter](https://github.com/tommeagher/pycar14/blob/master/CONTRIBUTORS.md) or ping [PythonJournos](https://groups.google.com/forum/#!forum/PythonJournos).
