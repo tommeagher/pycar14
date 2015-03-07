@@ -1,5 +1,7 @@
 # import built-in python modules
 # we'll want to access csv files and download files
+#csv, which stands for comma-separated values, is a module that helps Python work with data extracted from spreadsheets and databases
+#urllib is a module which helps Python work with URLs
 import csv
 import urllib
 
