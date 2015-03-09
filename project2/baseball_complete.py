@@ -63,7 +63,7 @@ def check_for_ints(row):
 
 # Create a basic file reader
 def read_file(filename):
-    with open(filename, 'r') as file:
+    with open(filename, 'rb') as file:
         reader = csv.DictReader(file)
         # Because the salaries come through as strings, cast to ints before we sort
         file_rows = []
@@ -109,7 +109,7 @@ def get_top_players(player_data):
 
 # Writes the cleaned data back to a file
 def write_file(filename, data):
-    with open(filename, 'w') as file:
+    with open(filename, 'wb') as file:
         assert(data)
         writer = csv.DictWriter(file, fieldnames=data[0].keys())
         writer.writeheader()
