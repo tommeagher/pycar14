@@ -67,6 +67,8 @@ Anyways, let's get started by looking at some key components of any programming 
 
     * Variables
 
+        * A variable is a named container for a value
+
         * A backbone of any programming language
 
         * Variables have a scope
