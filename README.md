@@ -8,6 +8,10 @@ a88aaaa8P' dP    dP 88        88aaaaa88a a88aaaa8P'     88  88aaa88
 oooooooooooo~~~~.88~oooooooooooooooooooooooooooooooooooooooooooooooo
             d8888P
 ```
+
+#For the current version of the PyCAR class, visit [the maintained repo here](https://github.com/ireapps/pycar).
+ 
+ 
 ##Python mini boot camp at #NICAR14 in Baltimore
 
 Let's use [Wakari.io](http://www.wakari.io/) bundles for this class. At the end, we'll give you everything working in Github.
