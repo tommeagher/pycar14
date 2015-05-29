@@ -61,9 +61,9 @@ new_value = 25.345
 old_value = 21.924
 
 #calculcate percent change
-percent_change = new value - old value / old value
-percent_change = (new value - old value) / old value
-percent_change = ((new value - old value) / old value) * 100
+percent_change = new_value - old_value / old_value
+percent_change = (new_value - old_value) / old_value
+percent_change = ((new_value - old_value) / old_value) * 100
 
 
 """
