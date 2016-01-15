@@ -1,14 +1,17 @@
 ```
-  _____        _____          _____  __ _____ 
- |  __ \      / ____|   /\   |  __ \/_ | ____|
- | |__) |   _| |       /  \  | |__) || | |__  
- |  ___/ | | | |      / /\ \ |  _  / | |___ \ 
- | |   | |_| | |____ / ____ \| | \ \ | |___) |
- |_|    \__, |\_____/_/    \_\_|  \_\|_|____/ 
-         __/ |                                
-        |___/                                                         
+8888888b.            .d8888b.        d8888 8888888b.   d888   .d8888b.  
+888   Y88b          d88P  Y88b      d88888 888   Y88b d8888  d88P  Y88b 
+888    888          888    888     d88P888 888    888   888  888        
+888   d88P 888  888 888           d88P 888 888   d88P   888  888d888b.  
+8888888P"  888  888 888          d88P  888 8888888P"    888  888P "Y88b 
+888        888  888 888    888  d88P   888 888 T88b     888  888    888 
+888        Y88b 888 Y88b  d88P d8888888888 888  T88b    888  Y88b  d88P 
+888         "Y88888  "Y8888P" d88P     888 888   T88b 8888888 "Y8888P"  
+                888                                                     
+           Y8b d88P                                                     
+            "Y88P"                                                      
 ```
-##Python mini boot camp at #NICAR15 in Atlanta
+##Python mini boot camp at #NICAR16 in Denver
 
 We'll use the [Anaconda distro](http://docs.continuum.io/anaconda/pkgs.html) of the iPython interactive interpreter in Windows PowerShell as we explore Python. At the end of the day, we'll give you everything working in Github.
 
