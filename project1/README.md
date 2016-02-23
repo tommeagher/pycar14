@@ -122,11 +122,11 @@ Anyways, let's get started by looking at some key components of any programming 
             * double quotes vs. single quotes
 
                     # double quotes
-                    double_quotes_string = "We're going to learn Python at #NICAR15"
+                    double_quotes_string = "We're going to learn Python at #NICAR16"
                     print double_quotes_string
 
                     # single quotes
-                    single_quotes_string = "We're going to learn Python at #NICAR15"
+                    single_quotes_string = 'We\\'re going to learn Python at #NICAR16'
                     print single_quotes_string
 
             * get its type
