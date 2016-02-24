@@ -8,10 +8,10 @@
 # Adding two dicts that are both variables
 
 # File with baseball players' salaries
-salary_file = 'data/2014/Salaries.csv'
+salary_file = 'data/2016/Salaries.csv'
 
 # File with player details
-master_file = 'data/2014/Master.csv'
+master_file = 'data/2016/Master.csv'
 
 
 # First, let's see what kind of data we have to work with

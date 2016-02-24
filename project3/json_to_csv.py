@@ -2,10 +2,13 @@
 
 pass # Placeholder -- remove this
 
-# Open the file 'bills.json'
+# We'll use a local version of this file from now on to save on
+# bandwidth.
+# Open the file 'data/bills.json'
 
 # Convert it to a dict
 
+# Each bill is stored in an array in `data` with the key `objects`
 # Create a variable for easy access to the data we care about
 
 # Create a csv file to output

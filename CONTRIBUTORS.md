@@ -1,8 +1,11 @@
 #CONTRIBUTORS
 * Heather Billings, [@hbillings](http://www.twitter.com/hbillings)
+* Scott Bradley, [@scott2b](http://www.twitter.com/scott2b)
 * Chris Keller, [@chrislkeller](http://www.twitter.com/chrislkeller)
 * Tom Meagher, [@ultracasual](http://www.twitter.com/ultracasual)
 * Ryan Murphy, [@rdmurphy](http://www.twitter.com/rdmurphy)
+* Ryan Nagle, [@ryannagle](http://www.twitter.com/ryannagle)
 * Katie Park, [@katiepark](https://twitter.com/katiepark)
 * Eric Sagara, [@esagara](http://www.twitter.com/esagara)
 * Kevin Schaul, [@kevinschaul](http://www.twitter.com/kevinschaul)
+* Aaron Williams, [@aboutaaron](http://www.twitter.com/aboutaaron)

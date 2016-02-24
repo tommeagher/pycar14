@@ -42,3 +42,9 @@ with open(file_name, "rb") as file:
         # otherwise continue on
         else:
             continue
+
+    #close the output file
+    output_file.close()
+
+#if you want to try similar code to create csvs for all 50 states, check out this extra credit:
+# https://github.com/rnagle/pycar/blob/master/project1/extra_credit_state_banks_complete.py

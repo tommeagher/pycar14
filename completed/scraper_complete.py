@@ -22,7 +22,7 @@ rows = table.findAll('tr')
 rows = rows[2:]
 
 #open our output file
-csvfile = open("movies.csv","wb")
+csvfile = open("data/movies.csv","wb")
 
 #point our csv.writer at the output file and specify the necessary parameters
 output = csv.writer(csvfile, delimiter=',',quotechar='"',quoting=csv.QUOTE_MINIMAL)

@@ -1,18 +1,22 @@
+# import modules
 import json
 
 import unicodecsv
 
-# Open the file 'bills.json'
-with open('bills.json', 'r') as f:
+# We'll use a local version of this file from now on to save on
+# bandwidth.
+# Open the file 'data/bills.json'
+with open('data/bills.json', 'r') as f:
 
     # Convert it to a dict
     data = json.load(f)
 
+    # Each bill is stored in an array in `data` with the key `objects`
     # Create a variable for easy access to the data we care about
     objects = data['objects']
 
     # Create a csv file to output
-    with open('bills.csv', 'w') as o:
+    with open('data/bills.csv', 'w') as o:
         # Create a csv writer. This will help us format the file
         # correctly.
         writer = unicodecsv.writer(o, encoding='utf-8')

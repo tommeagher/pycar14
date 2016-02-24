@@ -26,3 +26,5 @@ file_name = ""
             # write the row to the new csv file
 
         # otherwise continue on
+
+    #close the output file

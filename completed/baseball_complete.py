@@ -19,10 +19,10 @@ deets_plus_job = dict(my_deets, **job_deets)
 
 
 # File with baseball players' salaries
-salary_file = 'data/2014/Salaries.csv'
+salary_file = 'data/2016/Salaries.csv'
 
 # File with player details
-master_file = 'data/2014/Master.csv'
+master_file = 'data/2016/Master.csv'
 
 
 # First, let's see what kind of data we have to work with
@@ -120,4 +120,4 @@ salaries = create_keyed_data(salary_file, "playerID")
 master = create_keyed_data(master_file, "playerID")
 player_data = join_dicts(salaries, master)
 
-write_file('data/2014/highest_paid_players.csv', get_top_players(player_data))
+write_file('data/2016/highest_paid_players.csv', get_top_players(player_data))
