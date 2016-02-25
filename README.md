@@ -16,10 +16,10 @@
 Today, we'll use the iPython interactive interpreter in Windows PowerShell as we explore Python. At the end of the day, we'll give you all of the code from the exercises, along with several cheatsheets and tutorials, to take home with you, all from the class' code repositoryon Github.
 
 ###Schedule for the day
-####[Introduction](http://bit.ly/intropycar14)
+####[Introduction](https://ireapps.github.io/pycar/pycar_intro.html)
 
 * Who are you, what do you do, what do you want to learn?
-* What will we learn
+* What will we learn?
 * What can I do with it?
 * The goal of the day is to start to learn how to think about solving problems.
 
