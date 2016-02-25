@@ -13,7 +13,7 @@
 ```
 ##Python mini boot camp at #NICAR16 in Denver
 
-Today, we'll use the iPython interactive interpreter in Windows PowerShell as we explore Python. At the end of the day, we'll give you all of the code from the exercises, along with several cheatsheets and tutorials, to take home with you, all from the class' code repositoryon Github.
+Today, we'll use the iPython interactive interpreter to explore Python. At the end of the day, we'll give you all of the code from the exercises, along with several cheatsheets and tutorials, to take home with you, all from the class' code repository on Github.
 
 ###Schedule for the day
 ####[Introduction](https://ireapps.github.io/pycar/pycar_intro.html)
@@ -38,13 +38,13 @@ We have a CSV of baseball player salaries. Let's figure out who makes the most m
 
 ####[Project #3](https://github.com/ireapps/pycar/tree/master/project3)
 This section covers gathering data from the web in two common formats. 
-In the first part, we'll scrape structured data from an html page using a get request and writing the data to a CSV. In the second part, we'll request data from an API to get information programatically to create a spreadsheet. Our data comes in a new format: JSON. Show on the whiteboard how it's basically a combination of data structures we already know about: Lists and dicts (arrays and objects).
+In the first part, we'll scrape structured data from an html page using a GET request and writing the data to a CSV. In the second part, we'll request data from an API to get information programatically to create a spreadsheet. Our data comes in a new format: JSON. We'll do some more with the white board to show how it's basically a combination of data structures we already know about: Lists and dictionaries (arrays and objects).
 
-At the end of the day, we'll __[send you home with](takehome/README.md)__ with:
+At the end of the day, we'll __[send you home with](takehome/README.md)__:
 
-* A [lightning dash](https://www.wakari.io/sharing/bundle/tommeagher/PyCAR_basics) through basic variables, types and functions.
+* A [lightning dash](https://www.wakari.io/sharing/bundle/tommeagher/PyCAR_basics) through basic variables, types and functions
 * The [working, commented code](https://github.com/ireapps/pycar/tree/master/completed) for each project from our git repo
-* A walkthrough for setting up your machine at home with Python, version control and virtualenvs.
+* A walkthrough for setting up your machine at home with Python, version control and virtualenvs
 * Good libraries to explore with strong tutorials
 * A lifetime support guarantee [from us](CONTRIBUTORS.md) & [PythonJournos](https://groups.google.com/forum/#!forum/PythonJournos)
 

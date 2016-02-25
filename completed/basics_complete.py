@@ -4,7 +4,7 @@ Strings
 # create a string and assign it to a variable
 my_string = "We're going to learn Python at #NICAR16"
 
-# print your string. If you're using the interactive interpretor
+# print your string. If you're using the interactive interpreter
 # (rather than running this script from a saved file), you don't need to type "print"
 print my_string
 
@@ -104,7 +104,7 @@ Lists
 # create a list
 a_list = [1, 2, 3]
 
-# create a list, you can use strings, intergers, variables, etc
+# create a list, you can use strings, integers, variables, etc
 my_list = ["We're going to learn Python at #NICAR16", 10, 15, 20]
 
 # print the list

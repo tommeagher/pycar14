@@ -4,7 +4,7 @@ Strings
 # create a string and assign it to a variable
 
 
-# print your string. If you're using the interactive interpretor
+# print your string. If you're using the interactive interpreter
 # (rather than running this script from a saved file), you don't need to type "print"
 
 
@@ -104,7 +104,7 @@ Lists
 # create a list
 
 
-# create a list, you can use strings, integers, variables, etc
+# create a list: you can use strings, integers, variables, etc
 
 
 # print the list
