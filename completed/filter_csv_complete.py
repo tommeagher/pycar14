@@ -16,7 +16,7 @@ file_name = "banklist.csv"
 target_file = urllib.urlretrieve("http://www.fdic.gov/bank/individual/failed/banklist.csv", file_name)
 
 # open the file to write
-output_file = open('georgia_banks.csv', 'wb')
+output_file = open('colorado_banks.csv', 'wb')
 
 # create the writer object
 writer = csv.writer(output_file, delimiter=',')
@@ -35,7 +35,7 @@ with open(file_name, "rb") as file:
     # loop through each row of the csv
     for row in csv_data:
         # if the state field equals georgia
-        if row[2] == "GA":
+        if row[2] == "CO":
             # write the row to the new csv file
             writer.writerow(row)
             print row
