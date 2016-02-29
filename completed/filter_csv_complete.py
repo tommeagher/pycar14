@@ -1,6 +1,6 @@
 # import built-in python modules
 # we'll want to access csv files and download files
-# csv, which stands for comma-separated values, a file format that resembles a spreadsheet or database table in a text file. 
+# csv, which stands for comma-separated values, a file format that resembles a spreadsheet or database table in a text file.
 # csv is a module that helps Python work with tabular data extracted from spreadsheets and databases
 # urllib is a module that allows Python to make http requests to URLs on the web to fetch HTML
 
@@ -43,8 +43,8 @@ with open(file_name, "rb") as file:
         else:
             continue
 
-    #close the output file
+    # close the output file
     output_file.close()
 
-#if you want to try similar code to create csvs for all 50 states, check out this extra credit:
+# if you want to try similar code to create csvs for all 50 states, check out this extra credit:
 # https://github.com/rnagle/pycar/blob/master/project1/extra_credit_state_banks_complete.py

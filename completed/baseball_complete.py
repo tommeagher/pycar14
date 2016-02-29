@@ -1,22 +1,25 @@
 # Imports go here
 import csv
 import math
-from pprint import pprint
 
 # Dict syntax example
-my_deets = {'name': 'Heather', 'gender': 'f' }
+my_deets = {'name': 'Heather', 'gender': 'f'}
+
 # Alternate dict creation syntax
 my_deets_alt = dict(name="Heather", gender="f")
+
 # Dict contents can be copied
-copy_of_my_deets = dict(my_deets)
+deets_copy = dict(my_deets)
+
 # Creating a new dict that includes the values of an existing dict
 deets_plus_pet = dict(my_deets, pet="Rascal the horse")
-# Add two dicts together
+
+# Add two dicts together with the '**' operator
 deets_plus_job = dict(my_deets, **{'employer': 'Northwestern University', 'boss': 'Joe Germuska'})
+
 # Adding two dicts that are both variables
 job_deets = {'employer': 'Northwestern University', 'boss': 'Joe Germuska'}
 deets_plus_job = dict(my_deets, **job_deets)
-
 
 # File with baseball players' salaries
 salary_file = 'data/2016/Salaries.csv'
@@ -26,65 +29,71 @@ master_file = 'data/2016/Master.csv'
 
 
 # First, let's see what kind of data we have to work with
-def explore_data(filename):
-    # Open the file
-    with open(filename, 'rb') as file:
-        # Print out the header row
-        header_row = file.next()
+
+# Open the salary file using 'with' syntax
+with open(master_file, 'rb') as csv_file:
+    # Print out the header row
+    reader = csv.reader(csv_file)
+    header_row = reader.next()
+    print header_row
+    # Print out a row of sample data
+    sample_data = reader.next()
+    print sample_data
+    # Check to see what type each item is with str.format()
+    for item in sample_data:
+        print '{0} is type {1}'.format(item, type(item))
+
+# We can change 'salary_file' to 'master_file' above to do the same for the other file
+# How could this be modified so that it's a function we could use on any CSV?
+def explore_data(file):
+    with open(file, 'rb') as csv_file:
+        reader = csv.reader(csv_file)
+        header_row = reader.next()
         print header_row
-        # Print out a row of sample data
-        sample_data = file.next()
+        sample_data = reader.next()
         print sample_data
-        # Split sample data on comma so we can loop over it
-        items = sample_data.split(',')
-        # Check to see what type each item is
-        for item in items:
-            print '%s is type %s' % (item, type(item))
+        for item in sample_data:
+            print '{0} is type {1}'.format(item, type(item))
+
+# Try modifying the code above to make it a function called 'explore_data' and
+# run it on the salary file CSV
+explore_data(salary_file)
 
 
-# Checks to see if the passed value can be converted to an integer. If not, return original value.
-def str_to_int(value):
-    try:
-        return int(value)
-    except:
-        return value
-
-
-# Returns the passed row as key/value pairs
-def check_for_ints(row):
-    checked_row = {}
-    for key, value in row.iteritems():
-        checked_row[key] = str_to_int(value)
-
-    return checked_row
-    # ALTERNATIVE SYNTAX using dict comprehension
-    #return {key: str_to_int(value) for key, value in row.iteritems()}
-
-
-# Create a basic file reader
+# Create a file reader function that converts strings to integers
 def read_file(filename):
-    with open(filename, 'rb') as file:
-        reader = csv.DictReader(file)
-        # Because the salaries come through as strings, cast to ints before we sort
+    # Open like above, but make a DictReader object instead, so each row of data
+    # is a dictionary we'll store as items in a list called 'file_rows'
+    with open(filename, 'rb') as csv_file:
+        reader = csv.DictReader(csv_file)
         file_rows = []
+        # Step through each row in the data
         for row in reader:
-            file_rows.append(check_for_ints(row))
-
+            fixed_row = {}
+            # Step through each data point in the row
+            for element in row:
+                # Try to make it an integer; if there's an error, it will remain
+                # a string.
+                try:
+                    fixed_row[element] = int(row[element])
+                except:
+                    fixed_row[element] = row[element]
+            file_rows.append(fixed_row)
         return file_rows
-        # ALTERNATIVE SYNTAX using list comprehension
-        #return [check_for_ints(row) for row in reader]
 
 
-# Create dicts
+# Create a function that converts our list of dicts into something that can be
+# joined: a dict of dicts
 def create_keyed_data(filename, key):
     simple_data = read_file(filename)
     keyed_data = {}
+    # We need the key in this new dict to point to the row of data
     for row in simple_data:
-        keyed_data[row["playerID"]] = row
+        keyed_data[row[key]] = row
     return keyed_data
 
 
-# Join dicts
+# Join the dicts together where they share a common key
 def join_dicts(dict1, dict2):
     keys = set(dict1.keys() + dict2.keys())
     merged_data = []
@@ -116,8 +125,14 @@ def write_file(filename, data):
         for line in data:
             writer.writerow(line)
 
+# Finally, let's invoke these functions to make the top players CSV
+
+# Make variables to hold keyed data from the master file and the salary file
 salaries = create_keyed_data(salary_file, "playerID")
 master = create_keyed_data(master_file, "playerID")
+
+# Join the data with the join_dict() function and send it to a new variable
 player_data = join_dicts(salaries, master)
 
+# Write the results of get_top_players() to a new CSV
 write_file('data/2016/highest_paid_players.csv', get_top_players(player_data))
