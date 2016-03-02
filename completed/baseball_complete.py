@@ -35,13 +35,13 @@ with open(master_file, 'rb') as csv_file:
     # Print out the header row
     reader = csv.reader(csv_file)
     header_row = reader.next()
-    print header_row
+    print(header_row)
     # Print out a row of sample data
     sample_data = reader.next()
-    print sample_data
+    print(sample_data)
     # Check to see what type each item is with str.format()
     for item in sample_data:
-        print '{0} is type {1}'.format(item, type(item))
+        print('{0} is type {1}'.format(item, type(item)))
 
 # We can change 'salary_file' to 'master_file' above to do the same for the other file
 # How could this be modified so that it's a function we could use on any CSV?
@@ -49,11 +49,11 @@ def explore_data(file):
     with open(file, 'rb') as csv_file:
         reader = csv.reader(csv_file)
         header_row = reader.next()
-        print header_row
+        print(header_row)
         sample_data = reader.next()
-        print sample_data
+        print(sample_data)
         for item in sample_data:
-            print '{0} is type {1}'.format(item, type(item))
+            print('{0} is type {1}'.format(item, type(item)))
 
 # Try modifying the code above to make it a function called 'explore_data' and
 # run it on the salary file CSV

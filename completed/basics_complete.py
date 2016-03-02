@@ -6,7 +6,7 @@ my_string = "We're going to learn Python at #NICAR16"
 
 # print your string. If you're using the interactive interpreter
 # (rather than running this script from a saved file), you don't need to type "print"
-print my_string
+print(my_string)
 
 # get the type
 type(my_string)
@@ -63,33 +63,33 @@ integers
 my_integer = 25
 
 # print your integer
-print my_integer
+print(my_integer)
 
 # get the type of your integer
 type(my_integer)
 
 # do some addition
 my_sum = my_integer + 10
-print my_sum
+print(my_sum)
 
 # do some subtraction
 my_difference = my_integer - 10
-my_difference
+print(my_difference)
 
 # do some multiplication
 my_product = my_integer * 10
-my_product
+print(my_product)
 
 # do some division
-my_dividend = my_integer / 10
-my_dividend
+my_quotient = my_integer / 10
+print(my_quotient)
 
 """
 floats
 """
 # create float, assign it a value and print it
 my_float = 25.345
-print my_float
+print(my_float)
 
 # divide a float in half
 23.46/2
@@ -108,7 +108,7 @@ a_list = [1, 2, 3]
 my_list = ["We're going to learn Python at #NICAR16", 10, 15, 20]
 
 # print the list
-print my_list
+print(my_list)
 
 # print its type
 type(my_list)
@@ -139,7 +139,7 @@ my_list.append(11)
 my_list
 
 # delete the last item in the list
-del my_list[-1]
+del(my_list[-1])
 my_list
 
 # set the last value in the list to a variable
@@ -170,7 +170,7 @@ Conditionals & Comparisons
 # take your list or make a new one, loop through it printing out each value
 my_list = [1, 2, 3, 4, 5, 6]
 for x in my_list:
-    print x
+    print(x)
 
 # create two variables, assign values and compare them
 x = 5
@@ -190,11 +190,11 @@ z == v
 # if x is greater than y, print my_list
 # otherwise, print my_dict
 if x > y:
-	for z in my_list:
-		print z
+    for z in my_list:
+        print(z)
 else:
-	for whatever in my_list[-3:]:
-		print whatever
+    for whatever in my_list[-3:]:
+        print(whatever)
 
 # This barely skims the surface of what you can do in Python, 
 # but hopefully this overview will make you comfortable enough to get started.

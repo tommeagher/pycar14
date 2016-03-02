@@ -23,5 +23,5 @@ data = r.json()
 
 # `json.dumps()` is a way to print a Python dict in a more
 # human-readable way.
-print json.dumps(data, indent=4)
+print(json.dumps(data, indent=4))
 
