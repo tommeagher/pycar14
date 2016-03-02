@@ -12,16 +12,13 @@ file_name = "banklist.csv"
 target_file = urllib.urlretrieve("http://www.fdic.gov/bank/individual/failed/banklist.csv", file_name)
 
 # open the csv file
-with open(file_name, "rb") as file:
-
+with open(file_name, "rbU") as file:
     # use python's csv reader to access the contents
     # and create an object that represents the data
     csv_data = csv.reader(file)
-
     # loop through each row of the csv
     for row in csv_data:
         # and print the row to the terminal
-        print row
-
+        print(row)
         # print the data type to the terminal
-        print type(row)
+        print(type(row))

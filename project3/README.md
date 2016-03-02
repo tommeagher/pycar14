@@ -1,8 +1,8 @@
 # Webscraping with Python
 
-This section covers webscraping with Python using a [get](http://www.w3schools.com/tags/ref_httpmethods.asp) request. 
+This section covers scraping pages on the Web with Python using a [get](http://www.w3schools.com/tags/ref_httpmethods.asp) request. 
 
-To begin with we will import the [modules](http://docs.python.org/2/tutorial/modules.html) or packages we need to scrape websites. This is done with a series of import statements at the top of the file. 
+To begin with, we will import the [modules](http://docs.python.org/2/tutorial/modules.html) or packages we need to scrape websites. This is done with a series of import statements at the top of the file. 
 
 ```Python
 import requests
@@ -10,7 +10,7 @@ from bs4 import BeautifulSoup
 import csv
 ```
 
-[Requests](http://requests.readthedocs.org/en/latest/) is a module used to actually retrieve the pages we want to scrape from the Internet. It, like BeautifulSoup, is not part of Python's standard library and needs to be installed using [easy_install](http://pythonhosted.org/setuptools/easy_install.html) or [pip](http://www.pip-installer.org/en/latest/). [BeautifulSoup4](http://www.crummy.com/software/BeautifulSoup/) is a HTML and XML parser, it is what we will be using to step through the html on a webpage and grab the data. We need to access a specific object within the BeautifulSoup module which is why we use the ```from bs4 import BeautifulSoup``` code. Finally, [csv](http://docs.python.org/2/library/csv.html) is a module designed for working with csvs - both reading and writing. We will be using it to write out the data once we parse it out of the html.
+[Requests](http://requests.readthedocs.org/en/latest/) is a module used to retrieve the pages we want to scrape from the Internet. It, like BeautifulSoup, is not part of Python's standard library and needs to be installed using [easy_install](http://pythonhosted.org/setuptools/easy_install.html) or [pip](http://www.pip-installer.org/en/latest/). [BeautifulSoup4](http://www.crummy.com/software/BeautifulSoup/) is a HTML and XML parser, it is what we will be using to step through the html on a webpage and grab the data. We need to access a specific object within the BeautifulSoup module which is why we use the ```from bs4 import BeautifulSoup``` code. Finally, [csv](http://docs.python.org/2/library/csv.html) is a module designed for working with csvs - both reading and writing. We will be using it to write out the data once we parse it out of the html.
 
 Now that we have our tools loaded into the script, we can go ahead and grab the webpage we want to scrape using requests.
 
@@ -112,3 +112,24 @@ By now you should recognize the notation - we refer to a specific cell by its nu
  ```
 
  This is an important step, you can lose your work by leaving this file open or by opening it again in write mode accidentally. Also notice that this line is not indented at all, it is only carried out after the for loop finishes iterating through all the rows of the html table you are scraping.
+
+
+#Dealing with JSON from the web
+##Scrape many websites and merge them together
+_or_
+python for converting all your data: json, xml, excel into one big csv!
+
+Let's use an API to get information programmatically.
+
+[Govtrack.us](https://www.govtrack.us/developers/api) has an API. Let's
+create a spreadsheet of the 100 latest bills.
+
+Our data comes in a new format: JSON. Show on the whiteboard how it's
+basically a combination of data structures we already know about: Lists
+and dicts (arrays and objects).
+
+[View the data here](https://www.govtrack.us/api/v2/bill?congress=114&order_by=-current_status_date)
+
+`get_json.py` - Use `requests` to get the json data the web
+
+`json_to_csv.py` - Loop through the parts we care about and create a csv file from the data

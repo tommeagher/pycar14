@@ -3,12 +3,15 @@ import requests
 from bs4 import BeautifulSoup
 import csv
 
-
 #Make a request to the webpage url that we are scraping
 r = requests.get('https://s3-us-west-2.amazonaws.com/nicar-2015/Weekly+Rankings+-+Weekend+Box+Office+Results+++Rentrak.html')
 
 #Assign the html code from that site to a variable
 html = r.text
+
+#alternatively, to access this from local file in html/ dir, uncomment the next line
+#r= open('html/movies.html', 'rb')
+#html = r.read()
 
 #parse the html
 soup = BeautifulSoup(html)
@@ -22,7 +25,7 @@ rows = table.findAll('tr')
 rows = rows[2:]
 
 #open our output file
-csvfile = open("movies.csv","wb")
+csvfile = open("data/movies.csv","w")
 
 #point our csv.writer at the output file and specify the necessary parameters
 output = csv.writer(csvfile, delimiter=',',quotechar='"',quoting=csv.QUOTE_MINIMAL)
@@ -43,7 +46,6 @@ for row in rows:
     international_distributor = cells[7].text.strip()
     number_territories = cells[8].text.strip()
     domestic_distributor = cells[9].text.strip()
-
     #write the variables out to a csv file
     output.writerow([title, world_box_office, international_box_office, domestic_box_office, world_cume, international_cume, domestic_cume, international_distributor, number_territories, domestic_distributor])
 
