@@ -27,19 +27,19 @@ html = r.text
 Now that we have the html stored in a handy variable, we can load it into BeautifulSoup's parser so we can start accessing the data. The parsed data is assigned to a variable that we will call ```soup```.
 
 ```Python
-soup = BeautifulSoup(html)
+soup = BeautifulSoup(html, 'html')
 ```
 
 We can start accessing text on the webpage by specifying the tags it is wrapped in. In this case we want to get at the tables in the page. So we can use BeautifulSoup's find function to isolate the tables. Since there are multiple tables and we want only one, we will add a parameter where it will only find the table with the class of 'entChartTable.'
 
 ```Python
-table = soup.find('table',{'class':'entChartTable'})
+table = soup.find('table')
 ```
 
-That's great, but what we really want is the data within each cell - the ```<td>``` tags - of the table. Those cells are stored in rows - ```<tr>``` tags - so lets start by isolating rows using the findAll method. This method will load the results of our search into a [list](http://docs.python.org/2/tutorial/introduction.html#lists) or array that we will later loop through to further process the data. 
+That's great, but what we really want is the data within each cell - the ```<td>``` tags - of the table. Those cells are stored in rows - ```<tr>``` tags - so lets start by isolating rows using the find_all method. This method will load the results of our search into a [list](http://docs.python.org/2/tutorial/introduction.html#lists) or array that we will later loop through to further process the data. 
 
 ```Python
-rows = table.findAll('tr')
+rows = table.find_all('tr')
 ```
 
 There are headers in this table with no actual data. We can get rid of those using [slicing](http://forums.udacity.com/questions/2017002/python-101-unit-1-understanding-indices-and-slicing), keeping only the rows that we care about for the most part.
@@ -74,7 +74,7 @@ The variable ```row``` refers to the specific element we are working on in the a
 
 ```Python
 for row in rows:
-    cells = row.findAll('td')
+    cells = row.find_all('td')
     title = cells[0].text.strip()
     world_box_office = cells[1].text.strip()
     international_box_office = cells[2].text.strip()
@@ -83,7 +83,7 @@ for row in rows:
 
 There is a lot going on here and we will take it step-by-step, but first a matter of formatting. Once you start a for loop - or any other loop for that matter - Python requires code to be indented in order for it to be included in the loop. Good coding convention says that indent is four spaces (not a tab). Any indented code will be executed as part of that loop, unindented code is outside the loop and will signify its end.
 
-Now the first line of the indented code, ```cells = row.findAll('td')``` is splitting the current row up into another list, this one of the individual cells of that table. This is where we are starting to actually get at our data finally.
+Now the first line of the indented code, ```cells = row.find_all('td')``` is splitting the current row up into another list, this one of the individual cells of that table. This is where we are starting to actually get at our data finally.
 
 A few things going on here. We are assigning each cell to the corresponding variable based on its location or index within the list. The variable ```cells[0]``` refers to the first element in the ```cells``` list by using the [0] notation - remember that Python is zero-based. By placing the numerical index in brackets, we are telling Python to only access the value at that position. 
 
