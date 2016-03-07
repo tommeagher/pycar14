@@ -31,7 +31,7 @@ As with many data analyses, it all starts with a CSV. After a white board exerci
 
 LUNCH ON YOUR OWN
 
-####A [discussion on debugging](https://docs.google.com/presentation/d/1cfDW3X8ipYPGipoQjsTVyga39AdEBZE2Yrp8VmsbaJk/edit?usp=sharing)
+####A [discussion on debugging](https://docs.google.com/presentation/d/1cfDW3X8ipYPGipoQjsTVyga39AdEBZE2Yrp8VmsbaJk/edit?usp=sharing) and [cheatsheet](https://github.com/ireapps/pycar/tree/master/debug/DebugginginPython.pdf)
 
 ####[Project #2](https://github.com/ireapps/pycar/tree/master/project2)
 We have a CSV of baseball player salaries. Let's figure out who makes the most money and examine some other biographical information about them, using dictionaries.

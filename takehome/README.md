@@ -30,6 +30,6 @@ Have Unicode problems? Check out this [great video from Pycon 2014](https://www.
 http://pymotw.com/2/contents.html
 
 ##Support
-Want advice on debugging? This blog post on two young girls learning to code is a very cool introduction to [how to debug a program](http://vocamus.net/dave/?p=1632).
+Want advice on debugging? This blog post on two young girls learning to code is a very cool introduction to [how to debug a program](http://vocamus.net/dave/?p=1632). There's also a good post [on thinking about debugging programs](http://p5js.org/tutorials/debugging/) in general from the community behind p5.js. And we have this [cheatsheet for how to read your Python error messages](https://github.com/ireapps/pycar/tree/master/debug/DebugginginPython.pdf).
 
 As we said in the class, with this mini boot camp, you get a lifetime support guarantee [from us](../CONTRIBUTORS.md) & [PythonJournos](https://groups.google.com/forum/#!forum/PythonJournos)
