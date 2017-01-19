@@ -1,6 +1,7 @@
 #CONTRIBUTORS
 * Heather Billings, [@hbillings](https://www.twitter.com/hbillings)
 * Scott Bradley, [@scott2b](https://www.twitter.com/scott2b)
+* Adriana Homolova [@naberacka](https://twitter.com/naberacka)
 * Chris Keller, [@chrislkeller](https://www.twitter.com/chrislkeller)
 * Tom Meagher, [@ultracasual](https://www.twitter.com/ultracasual)
 * Ryan Murphy, [@rdmurphy](https://www.twitter.com/rdmurphy)

@@ -1,21 +1,17 @@
 ```
-8888888b.            .d8888b.        d8888 8888888b.   d888   .d8888b.  
-888   Y88b          d88P  Y88b      d88888 888   Y88b d8888  d88P  Y88b 
-888    888          888    888     d88P888 888    888   888  888        
-888   d88P 888  888 888           d88P 888 888   d88P   888  888d888b.  
-8888888P"  888  888 888          d88P  888 8888888P"    888  888P "Y88b 
-888        888  888 888    888  d88P   888 888 T88b     888  888    888 
-888        Y88b 888 Y88b  d88P d8888888888 888  T88b    888  Y88b  d88P 
-888         "Y88888  "Y8888P" d88P     888 888   T88b 8888888 "Y8888P"  
-                888                                                     
-           Y8b d88P                                                     
-            "Y88P"                                                      
+ _______            ______       _       _______      __  _______  
+|_   __ \         .' ___  |     / \     |_   __ \    /  ||  ___  | 
+  | |__) |_   __ / .'   \_|    / _ \      | |__) |   `| ||_/  / /  
+  |  ___/[ \ [  ]| |          / ___ \     |  __ /     | |    / /   
+ _| |_    \ '/ / \ `.___.'\ _/ /   \ \_  _| |  \ \_  _| |_  / /    
+|_____| [\_:  /   `.____ .'|____| |____||____| |___||_____|/_/     
+         \__.'                                                     
 ```
-##Python mini boot camp at #NICAR16 in Denver
+##Python mini boot camp at [#NICAR17](https://ire.org/events-and-training/event/2702/) in Jacksonville, Fla.
 
-Today, we'll use the iPython interactive interpreter to explore Python. At the end of the day, we'll give you all of the code from the exercises, along with several cheatsheets and tutorials, to take home with you, all from the class' code repository on Github.
+In this two-day workshop, we'll use the Jupyter notebook to explore the Python programming language. At the end of the class, we'll give you all of the code from the exercises, along with several cheatsheets and tutorials, to take home with you, all from this code repository on Github.
 
-###Schedule for the day
+###Day 1
 ####[Introduction](https://ireapps.github.io/pycar/pycar_intro.html)
 
 * Who are you, what do you do, what do you want to learn?
@@ -24,19 +20,15 @@ Today, we'll use the iPython interactive interpreter to explore Python. At the e
 * The goal of the day is to start to learn how to think about solving problems.
 
 ####[The Basics](https://github.com/ireapps/pycar/tree/master/basics)
-We'll introduce some key Python types like the interactive interpreter, strings, integers, lists, slicing and loops.
+We'll introduce some key Python types like strings, integers, lists, slicing and loops.
 
 ####[Project #1](https://github.com/ireapps/pycar/tree/master/project1)
-As with many data analyses, it all starts with a CSV. After a white board exercise, we'll start with a file of pseudocode, and we'll walk through writing the program in Python code, running the file at the command line. We'll hold your hand through each step of the process.
+As with many data analyses, it all starts with a CSV. After a white board exercise, we'll start with a file of pseudocode, and we'll walk through writing the program in Python code, running each line in the Jupyter interpreter. We'll hold your hand through each step of the process.
 
-LUNCH ON YOUR OWN
-
+###Day 2
 ####A [discussion on debugging](https://docs.google.com/presentation/d/1cfDW3X8ipYPGipoQjsTVyga39AdEBZE2Yrp8VmsbaJk/edit?usp=sharing) and [cheatsheet](https://github.com/ireapps/pycar/tree/master/debug/DebugginginPython.pdf)
 
-####[Project #2](https://github.com/ireapps/pycar/tree/master/project2)
-We have a CSV of baseball player salaries. Let's figure out who makes the most money and examine some other biographical information about them, using dictionaries.
-
-####[Project #3](https://github.com/ireapps/pycar/tree/master/project3)
+####[Project #2](https://github.com/ireapps/pycar/tree/master/project3)
 This section covers gathering data from the web in two common formats. 
 In the first part, we'll scrape structured data from an html page using a GET request and writing the data to a CSV. In the second part, we'll request data from an API to get information programatically to create a spreadsheet. Our data comes in a new format: JSON. We'll do some more with the white board to show how it's basically a combination of data structures we already know about: Lists and dictionaries (arrays and objects).
 
