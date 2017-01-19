@@ -1,25 +1,24 @@
-# Imports go here
-import csv
-import math
-
 # Dict syntax example
-my_deets = {'name': 'Heather', 'gender': 'f'}
+hero = {'name':'Lancelot', 'fav_color':'blue'}
 
 # Alternate dict creation syntax
-my_deets_alt = dict(name="Heather", gender="f")
+hero_alt = dict(name='Lancelot',fav_color='blue')
 
 # Dict contents can be copied
-deets_copy = dict(my_deets)
+hero_copy = dict(hero)
 
 # Creating a new dict that includes the values of an existing dict
-deets_plus_pet = dict(my_deets, pet="Rascal the horse")
+hero_plus_mission = dict(hero, mission="find the Holy Grail")
+hero_plus_mission = dict(hero, **{'mission':'find the Holy Grail', } )
 
 # Add two dicts together with the '**' operator
-deets_plus_job = dict(my_deets, **{'employer': 'Northwestern University', 'boss': 'Joe Germuska'})
+hero_plus_companion = dict(hero, **{'companion':'Brave ser Robin'} )
 
 # Adding two dicts that are both variables
-job_deets = {'employer': 'Northwestern University', 'boss': 'Joe Germuska'}
-deets_plus_job = dict(my_deets, **job_deets)
+hero_extra = dict(hero, **hero_plus_mission )
+
+# Imports go here
+import csv
 
 # File with baseball players' salaries
 salary_file = 'data/2016/Salaries.csv'
@@ -27,112 +26,111 @@ salary_file = 'data/2016/Salaries.csv'
 # File with player details
 master_file = 'data/2016/Master.csv'
 
-
 # First, let's see what kind of data we have to work with
 
 # Open the salary file using 'with' syntax
-with open(master_file, 'rb') as csv_file:
-    # Print out the header row
+with open(salary_file, 'rb') as csv_file:
+    # Read the csv file
     reader = csv.reader(csv_file)
+    # put first row into variable 'header_row'
     header_row = reader.next()
+    # Print out the header row
     print(header_row)
-    # Print out a row of sample data
+    # put second row into variable 'sample_data'
     sample_data = reader.next()
-    print(sample_data)
-    # Check to see what type each item is with str.format()
+    # Print out a row of sample data
+    print sample_data
+    # print out the contents and type of the cells in variable 'sample data'
     for item in sample_data:
-        print('{0} is type {1}'.format(item, type(item)))
+        print item, type(item)
+    # Check to see what type each item is with str.format()
+
 
 # We can change 'salary_file' to 'master_file' above to do the same for the other file
 # How could this be modified so that it's a function we could use on any CSV?
-def explore_data(file):
-    with open(file, 'rb') as csv_file:
+
+# define a function 'explore_data' that will take one argument 'filename')
+def explore_data(filename):
+    # the same as above. We don't need to use 'return' because we are just printing variables for us to see
+    # we do need to use 'return' if we want Python to do something with the output of the function
+    with open(filename, 'rb') as csv_file:
         reader = csv.reader(csv_file)
         header_row = reader.next()
         print(header_row)
         sample_data = reader.next()
-        print(sample_data)
+        print sample_data
         for item in sample_data:
-            print('{0} is type {1}'.format(item, type(item)))
+            print item, type(item)
 
-# Try modifying the code above to make it a function called 'explore_data' and
-# run it on the salary file CSV
-explore_data(salary_file)
+# call the function on 'master file'
+explore_data(master_file)
+
+# Mission: join the two csv's. They both contain the "playerID" column
 
 
-# Create a file reader function that converts strings to integers
+# Step 1: Create a file reader function that converts strings to integers
 def read_file(filename):
+
     # Open like above, but make a DictReader object instead, so each row of data
-    # is a dictionary we'll store as items in a list called 'file_rows'
+    # is a dictionary we'll store as items in a list called 'file_row'
     with open(filename, 'rb') as csv_file:
         reader = csv.DictReader(csv_file)
-        file_rows = []
-        # Step through each row in the data
+        # create an empty dictionary that will hold the fixed data
+        file_rows = {}
+
         for row in reader:
+            # create an empty dictionary that will hold the fixed row and be rewritten every time
             fixed_row = {}
-            # Step through each data point in the row
-            for element in row:
-                # Try to make it an integer; if there's an error, it will remain
-                # a string.
+            for cell in row:
+                # try to convert the cell into an integer
                 try:
-                    fixed_row[element] = int(row[element])
-                except:
-                    fixed_row[element] = row[element]
-            file_rows.append(fixed_row)
-        return file_rows
+                    fixed_row[cell] = int(row[cell])
+                # if the cell can not be converted, just leave it be
+                except ValueError:
+                    fixed_row[cell] = row[cell]
 
+            # after the row is fixed, put it into the 'file_rows' dictionary.
+            # use the 'playerID' as the key (as this is in both of the files we want to join)
+            file_rows[fixed_row["playerID"]] = fixed_row
 
-# Create a function that converts our list of dicts into something that can be
-# joined: a dict of dicts
-def create_keyed_data(filename, key):
-    simple_data = read_file(filename)
-    keyed_data = {}
-    # We need the key in this new dict to point to the row of data
-    for row in simple_data:
-        keyed_data[row[key]] = row
-    return keyed_data
+    # return the dictionary of dictionaries
+    return file_rows
 
+fixed_master = read_file(master_file)
+fixed_salaries = read_file(salary_file)
 
-# Join the dicts together where they share a common key
-def join_dicts(dict1, dict2):
+# Step 2: Join two dicts on a shared key
+def join_dicts(dict1,dict2):
+    # Get the unique keys present in both dicts
     keys = set(dict1.keys() + dict2.keys())
+    # Create a new list that will contain all data
     merged_data = []
+
+    # Loop over keys
     for key in keys:
         try:
-            # Equivalent to copying the values of two dicts
-            # The double asterisk just expands the values
+            # Create a new key/value pair from the values present in both dicts.
+            # NOTE: If the value is present in both, the second value will override the first.
             merged_data.append(dict(dict1[key], **dict2[key]))
-        except:
-            pass
+        # If the value is present in one but not the other, an exception will be thrown
+        except KeyError:
+            continue
+    
     return merged_data
 
-# Turn the player data into a list of the highest paid players
-# NOTE: This is simplified as an example and not reliable for cleaning real data.
-def get_top_players(player_data):
-    sorted_salaries = sorted(player_data, key=lambda player: player["salary"], reverse=True)
-    # NOTE In "real life", you'd need to account for the 10% figure potentially ending in the middle
-    # of a block of players who all made the same salary.
-    player_count = int(math.floor(len(sorted_salaries) * .10))
-    return sorted_salaries[0:player_count + 1]
-
-
-# Writes the cleaned data back to a file
-def write_file(filename, data):
-    with open(filename, 'wb') as file:
-        assert(data)
-        writer = csv.DictWriter(file, fieldnames=data[0].keys())
-        writer.writeheader()
-        for line in data:
-            writer.writerow(line)
-
-# Finally, let's invoke these functions to make the top players CSV
-
-# Make variables to hold keyed data from the master file and the salary file
-salaries = create_keyed_data(salary_file, "playerID")
-master = create_keyed_data(master_file, "playerID")
-
 # Join the data with the join_dict() function and send it to a new variable
-player_data = join_dicts(salaries, master)
+merged = join_dicts(fixed_master,fixed_salaries)
 
-# Write the results of get_top_players() to a new CSV
-write_file('data/2016/highest_paid_players.csv', get_top_players(player_data))
+# Step 3: Writes the cleaned data back to a CSV
+# Open your new file as writeable
+with open("merged.csv", 'wb') as outputfile:
+
+    # Create the header of the file
+    header = merged[0].keys()
+    # Create a DictWriter
+    writer = csv.DictWriter(outputfile, fieldnames = header)
+    # Write the header of the file
+    writer.writeheader()
+    # Write each key/value pair as a row in the new CSV
+    for row in merged:
+        writer.writerow(row)
