@@ -28,13 +28,16 @@ As with many data analyses, it all starts with a CSV. After a white board exerci
 ###Day 2
 ####A [discussion on debugging](https://docs.google.com/presentation/d/1cfDW3X8ipYPGipoQjsTVyga39AdEBZE2Yrp8VmsbaJk/edit?usp=sharing) and [cheatsheet](https://github.com/ireapps/pycar/tree/master/debug/DebugginginPython.pdf)
 
-####[Project #2](https://github.com/ireapps/pycar/tree/master/project3)
+####[Project #2](https://github.com/ireapps/pycar/tree/master/project2)
 This section covers gathering data from the web in two common formats. 
 In the first part, we'll scrape structured data from an html page using a GET request and writing the data to a CSV. In the second part, we'll request data from an API to get information programatically to create a spreadsheet. Our data comes in a new format: JSON. We'll do some more with the white board to show how it's basically a combination of data structures we already know about: Lists and dictionaries (arrays and objects).
 
+####[Project #3](https://github.com/ireapps/pycar/tree/master/project3)
+Now we get to the heart of data analysis with an introduction to the powerful ```pandas``` library. Building on the basic objects we've already learned, and on a little knowledge of SQL, we'll clean two related tables of data, join and filter them.
+
 At the end of the day, we'll __[send you home with](takehome/README.md)__:
 
-* A [lightning dash](https://www.wakari.io/sharing/bundle/tommeagher/PyCAR_basics) through basic variables, types and functions
+* A [lightning dash](https://github.com/ireapps/pycar/tree/master/takehome/PyCAR_basics_takehome_notebook_complete.ipynb) through basic variables, types and functions
 * The [working, commented code](https://github.com/ireapps/pycar/tree/master/completed) for each project from our git repo
 * A walkthrough for setting up your machine at home with Python, version control and virtualenvs
 * Good libraries to explore with strong tutorials

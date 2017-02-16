@@ -7,7 +7,7 @@
 * [version control](http://www.tommeagher.com/blog/2013/02/learning-to-commit-to-version-control.html) with __[git](http://rogerdudler.github.io/git-guide/)__ and __[Github](https://help.github.com/articles/be-social)__
 
 ##Keep Practicing
-Try our "[PyCAR basics](https://www.wakari.io/sharing/bundle/tommeagher/PyCAR_basics)" iPython notebook to continue exploring data types and simple methods, or look at the commented [code in Python](PyCAR_basics.py).
+Try our "[PyCAR basics](PyCAR_basics_notebook_complete.ipynb)" iPython notebook to continue exploring data types and simple methods.
 Tony DeBarros also taught a fantastic class at NICAR on [getting started with Python](https://github.com/anthonydb/python-get-started).
 
 Here's a great [cheatsheet](http://sleet.aos.wisc.edu/~gpetty/wp/wp-content/uploads/2011/10/Python_qr.pdf) for basic python types and functions. And you should probably bookmark this fun and handy graphic of [common Python errors](http://i.imgur.com/WRuJV6r.png).
