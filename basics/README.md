@@ -3,9 +3,9 @@ THE BASICS
 
 **9:30 - 10:45 a.m.**
 
-What is a [number](https://docs.python.org/2/tutorial/introduction.html#numbers)? What is a [string](https://docs.python.org/2/tutorial/introduction.html#strings)? What is a [list](https://docs.python.org/2/tutorial/introduction.html#lists)?
+What is a [number](https://docs.python.org/3/tutorial/introduction.html#numbers)? What is a [string](https://docs.python.org/3/tutorial/introduction.html#strings)? What is a [list](https://docs.python.org/3/tutorial/introduction.html#lists)?
 
-Nevermind that, what's a [Python](https://docs.python.org/2.7/)?
+Nevermind that, what's a [Python](https://docs.python.org/3.6/)?
 
 This project aims to get you answers to those questions and provide a bit of a starting point for you to being to use Python in your daily work.
 
