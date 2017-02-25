@@ -1,13 +1,13 @@
 #Resources
 
 ##Get your machine ready
-* How to install Python on Mac ([find your terminal](http://learncodethehardway.org/cli/book/cli-crash-course.html#mac-osx) and type 'python') and [Windows](http://www.anthonydebarros.com/2014/02/16/setting-up-python-in-windows-8-1/) machines.
-* __virtualenv__ (https://pypi.python.org/pypi/virtualenv) and __virtualenvwrapper__ (http://virtualenvwrapper.readthedocs.org/en/latest/), for keeping your projects sandboxed in an easy to manage way. Here's one good [tutorial](http://blog.fruiapps.com/2012/06/An-introductory-tutorial-to-python-virtualenv-and-virtualenvwrapper) and [another](http://docs.python-guide.org/en/latest/dev/virtualenvs/).
-* Install [iPython](http://ipython.org/ipython-doc/stable/install/install.html) by typing 'pip install ipython' for the souped-up interactive interpreter.
+* How to install Python 3 <a href="http://www.marinamele.com/2014/07/install-python3-on-mac-os-x-and-use-virtualenv-and-virtualenvwrapper.html">on Mac</a> and [Windows](http://www.anthonydebarros.com/2015/08/16/setting-up-python-in-windows-10/) machines. (If you want to dabble in Python 2.7 on a Mac, just [find your terminal](http://learncodethehardway.org/cli/book/cli-crash-course.html#mac-osx) and type 'python').
+* [__virtualenv__](https://pypi.python.org/pypi/virtualenv) and [__virtualenvwrapper__](http://virtualenvwrapper.readthedocs.org/en/latest/), for keeping your projects sandboxed in an easy to manage way. Here's one good [tutorial](http://blog.fruiapps.com/2012/06/An-introductory-tutorial-to-python-virtualenv-and-virtualenvwrapper) and [another](http://docs.python-guide.org/en/latest/dev/virtualenvs/).
+* Install [iPython](http://ipython.org/ipython-doc/stable/install/install.html) by typing ```pip3 install ipython``` for the souped-up interactive interpreter.
 * [version control](http://www.tommeagher.com/blog/2013/02/learning-to-commit-to-version-control.html) with __[git](http://rogerdudler.github.io/git-guide/)__ and __[Github](https://help.github.com/articles/be-social)__
 
 ##Keep Practicing
-Try our "[PyCAR basics](PyCAR_basics_notebook_complete.ipynb)" iPython notebook to continue exploring data types and simple methods.
+Try our "[PyCAR basics](https://github.com/ireapps/pycar/blob/master/takehome/PyCAR_basics_takehome_notebook_complete.ipynb)" iPython notebook to continue exploring data types and simple methods.
 Tony DeBarros also taught a fantastic class at NICAR on [getting started with Python](https://github.com/anthonydb/python-get-started).
 
 Here's a great [cheatsheet](http://sleet.aos.wisc.edu/~gpetty/wp/wp-content/uploads/2011/10/Python_qr.pdf) for basic python types and functions. And you should probably bookmark this fun and handy graphic of [common Python errors](http://i.imgur.com/WRuJV6r.png).
