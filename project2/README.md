@@ -48,7 +48,7 @@ There are headers in this table with no actual data. We can get rid of those usi
 rows = rows[2:]
 ```
 
-What that line of code does is take everything from the fourth row - in Python we count beginning with zero - until the end of the array and reassigning it back to the variable ```rows```. This is done using the ```rows[3:]``` syntax. The "3" to the left of the colon in the brackets actually specifies the fourth element in the array. The colon indicates that we are doing a slice. We have not put a number to the right of the colon, which tells Python to continue on until the end of the array. Specifying a number there would tell it to stop once it reaches that index number. For example ```rows[3:4]``` would return two rows.
+What that line of code does is take everything from the fourth row - in Python we count beginning with zero - until the end of the array and reassigning it back to the variable ```rows```. This is done using the ```rows[3:]``` syntax. The "3" to the left of the colon in the brackets actually specifies the fourth element in the array. The colon indicates that we are doing a slice. We have not put a number to the right of the colon, which tells Python to continue on until the end of the array. Specifying a number there would tell it to stop once it reaches that index number. For example ```rows[3:5]``` would return two rows.
 
 At this point we are going to stop and take a minute to prepare the file we will write our data to.
 
@@ -60,7 +60,7 @@ output = csv.writer(csvfile, delimiter=',',quotechar='"',quoting=csv.QUOTE_MINIM
 
 ```
 
-The first line of code above creates and opens a file named "unemployment.csv" for us. The ```"wb"``` tells Python that we want it to open the file in write mode using binary coding. Other options are read in binary ```"rb"``` and append to a file in binary ```"ab"```.
+The first line of code above creates and opens a file named "movies.csv" for us. The ```"wb"``` tells Python that we want it to open the file in write mode using binary coding. Other options are read in binary ```"rb"``` and append to a file in binary ```"ab"```.
 
 The second line of code points the csv module at the open file - telling the module that we want to create a tool that will write to this file, that this file will be a csv file with a comma delimiter and using the double quotes for a text qualifier. The last paramenter tells the csv module that we want it to only use the text qualifier where necessary.
 
