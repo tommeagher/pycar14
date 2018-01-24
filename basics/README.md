@@ -7,7 +7,15 @@ What is a [number](https://docs.python.org/3/tutorial/introduction.html#numbers)
 
 Nevermind that, what's a [Python](https://docs.python.org/3.6/)?
 
-This project aims to get you answers to those questions and provide a bit of a starting point for you to being to use Python in your daily work.
+Before we get started with learning programming concepts, let's take a step back and get a high-level overview of what programming even is.
+
+Programming is not mystical, magical or special. Programming is more of a craft than an art. It’s more like learning how to build cabinetry than it is learning how to watercolor. There’s nothing glamorous in it, and you should be suspicious of anyone who tries to tell you otherwise.
+
+You already know the components of programming. You have been exercising the reasoning programming relies on for your entire life, probably without even realizing it. Programming is just a way to take the logic you already use on a daily basis and express it in a way a computer can understand and act upon.
+
+Card games and games like tic-tac-toe are classic programming tests because they require you to encapsulate the way you reason about those games in a way a computer can understand. So we'll use a card game, solitaire, to talk about some basic programming concepts over in the `basics_notebook`. Head over there, and then come back here for some reference.
+
+## About Python
 
 Python is a programming language. It was created around 1991 by an individual named [Guido van Rossum](https://en.wikipedia.org/wiki/Guido_van_Rossum).
 
