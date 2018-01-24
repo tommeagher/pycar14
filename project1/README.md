@@ -1,59 +1,15 @@
-### 9:30 - 10:30 a.m.
+##Project #1
 
-**Project #1**
+* ```read_csv_notebook.ipynb``` and ```completed/read_csv_notebook_complete.ipynb```
 
-* Start with a CSV.
-    * [FDIC Failed Bank list](http://www.fdic.gov/bank/individual/failed/banklist.html) is always good?
-* What do we want to do with it?
-    * Let's write some basic scripts to see what we're working with.
-    * Then we'll introduce some key Python types like strings, integers, lists, slicing and loops.
-    * After the white board, we'll start with a file of pseudocode, and we'll walk through together writing in Python code, running the file at the command line.
-    * We'll hold your hand through it, step by step. (Only at the end of the day will we give you the full working version, so there's no cheating!)
+    * Now that we have some building blocks, let's write a program already
 
-**The files**
+        * Download a csv file
 
-```step_1.py``` and ```my_step_1.py```
+        * Open it
 
-* Open the csv file & log the csv object that is returned.
+        * Loop through each row and print the data
 
-```step_2.py``` and ```my_step_2.py```
+* ```filter_csv_notebook.ipynb``` and ```completed/filter_csv_notebook_complete.ipynb```
 
-* Let's log the number of rows in the file.
-
-```step_3.py``` and ```my_step_3.py```
-
-* Let's use a FOR loop to log each row, noting the data type & the contents.
-
-```step_4.py``` and ```my_step_4.py```
-
-* Let's get the header row, learn about list indexes and strings and getting lengths.
-
-```step_5.py``` and ```my_step_5.py```
-
-* Let's use the header row to isolate a string and learn more about things we can do with strings
-    * get its type
-    * get its length
-    * capitalize it
-    * lowercase it
-    * uppercase it
-
-```step_6.py``` and ```my_step_6.py```
-
-* Let's keep using the header row to learn more things that we can do with strings
-    * get a specfic item from a list by it's index
-    * evaluate values
-    * remove a character between two words
-    * change a character to an underscore
-    * strip whitespace
-    * split two words on a character
-    * get its type
-    * use the length of the list and lowercase the two strings we created to create a sentence
-
-```step_7.py``` and ```my_step_7.py```
-
-* Let's use the header row to isolate the zip code and convert it to an integer so we can do some math
-    * multiplication
-    * division
-    * addition
-    * subtraction
-    * order of operations
+    * We know how to download a csv file and read its contents. Let's see if we can search the output for a specific value, then write the results to a new csv.

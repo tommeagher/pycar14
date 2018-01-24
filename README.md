@@ -1,62 +1,50 @@
 ```
- 888888ba            a88888b.  .d888888   888888ba     d88  dP   dP
- 88    `8b          d8'   `88 d8'    88   88    `8b     88  88   88
-a88aaaa8P' dP    dP 88        88aaaaa88a a88aaaa8P'     88  88aaa88
- 88        88    88 88        88     88   88   `8b.     88       88
- 88        88.  .88 Y8.   .88 88     88   88     88     88       88
- dP        `8888P88  Y88888P' 88     88   dP     dP    d88P      dP
-oooooooooooo~~~~.88~oooooooooooooooooooooooooooooooooooooooooooooooo
-            d8888P
+ _______            ______       _       _______      __  _______  
+|_   __ \         .' ___  |     / \     |_   __ \    /  ||  ___  | 
+  | |__) |_   __ / .'   \_|    / _ \      | |__) |   `| ||_/  / /  
+  |  ___/[ \ [  ]| |          / ___ \     |  __ /     | |    / /   
+ _| |_    \ '/ / \ `.___.'\ _/ /   \ \_  _| |  \ \_  _| |_  / /    
+|_____| [\_:  /   `.____ .'|____| |____||____| |___||_____|/_/     
+         \__.'                                                     
 ```
 
-#For the current version of the PyCAR class, visit [the maintained repo here](https://github.com/ireapps/pycar).
- 
- 
-##Python mini boot camp at #NICAR14 in Baltimore
+##Python mini boot camp at [#NICAR17](https://ire.org/events-and-training/event/2702/) in Jacksonville, Fla.
 
-Let's use [Wakari.io](http://www.wakari.io/) bundles for this class. At the end, we'll give you everything working in Github.
+In this two-day workshop, we'll use the Jupyter notebook to explore the Python programming language. At the end of the class, we'll give you all of the code from the exercises, along with several cheatsheets and tutorials, to take home with you, all from this code repository on Github.
 
-As a backup plan in case the internet is bad, we'll have the bundles on the machines, and we can use the [Anaconda distro of Python](http://docs.continuum.io/anaconda/pkgs.html)'s interactive interpreter in Windows PowerShell.
-
-###Schedule for the day
-####[Introduction](http://bit.ly/intropycar14)
+###Day 1
+####[Introduction](https://ireapps.github.io/pycar/pycar_intro.html)
 
 * Who are you, what do you do, what do you want to learn?
-* What will we learn
-* what can I do with it?
+* What will we learn?
+* What can I do with it?
 * The goal of the day is to start to learn how to think about solving problems.
 
-[The Wakari bundle](https://www.wakari.io/sharing/bundle/tommeagher/pycar14)
+####[The Basics](https://github.com/ireapps/pycar/tree/master/basics)
+We'll introduce some key Python types like strings, integers, lists, slicing and loops.
 
-####Project #1
-Start with a CSV. Let's write some basic scripts to see what we're working with. Then we'll introduce some key Python types like strings, integers, lists, slicing and loops.
-After a white board exercise, we'll start with a file of pseudocode, and we'll walk through writing the program in Python code, running the file at the command line.
-We'll hold your hand through it, step by step.
+####[Project #1](https://github.com/ireapps/pycar/tree/master/project1)
+As with many data analyses, it all starts with a CSV. After a white board exercise, we'll start with a file of pseudocode, and we'll walk through writing the program in Python code, running each line in the Jupyter interpreter. We'll hold your hand through each step of the process.
 
-####Project #2
-We have a CSV of baseball player salaries. Let's figure out who makes the most money and examine some other biographical information about them, using dictionaries.
+###Day 2
+####A [discussion on debugging](https://docs.google.com/presentation/d/1cfDW3X8ipYPGipoQjsTVyga39AdEBZE2Yrp8VmsbaJk/edit?usp=sharing) and [cheatsheet](https://github.com/ireapps/pycar/tree/master/debug/DebugginginPython.pdf)
 
-LUNCH
+####[Project #2](https://github.com/ireapps/pycar/tree/master/project2)
+This section covers gathering data from the web in two common formats. 
+In the first part, we'll scrape structured data from an html page using a GET request and writing the data to a CSV. In the second part, we'll request data from an API to get information programatically to create a spreadsheet. Our data comes in a new format: JSON. We'll do some more with the white board to show how it's basically a combination of data structures we already know about: Lists and dictionaries (arrays and objects).
 
-####How to debug your code, aka "Google and StackOverflow are your new best friends"
+####[Project #3](https://github.com/ireapps/pycar/tree/master/project3)
+Now we get to the heart of data analysis with an introduction to the powerful ```pandas``` library. Building on the basic objects we've already learned, and on a little knowledge of SQL, we'll clean two related tables of data, join and filter them.
 
-####Project #3
-This section covers webscraping with Python using a get request, writing the data to a CSV.
+At the end of the day, we'll __[send you home with](takehome/README.md)__:
 
-####Project #4
-Let's use an API to get information programatically to create a spreadsheet. Our data comes in a new format: JSON. Show on the whiteboard how it's basically a combination of data structures we already know about: Lists and dicts (arrays and objects).
-
-
-At the end of the day, we'll __[send you home with](takehome/README.md)__ with:
-
-* A [lightning dash](https://www.wakari.io/sharing/bundle/tommeagher/PyCAR_basics) through basic variables, types and functions.
-* the working, commented code for each project from our git repo
-* a walkthrough for setting up your machine at home with Python, version control and virtualenvs.
+* A [lightning dash](https://github.com/ireapps/pycar/tree/master/takehome/PyCAR_basics_takehome_notebook_complete.ipynb) through basic variables, types and functions
+* The [working, commented code](https://github.com/ireapps/pycar/tree/master/completed) for each project from our git repo
+* A walkthrough for setting up your machine at home with Python, version control and virtualenvs
 * Good libraries to explore with strong tutorials
-* lifetime support guarantee [from us](CONTRIBUTORS.md) & [PythonJournos](https://groups.google.com/forum/#!forum/PythonJournos)
-
+* A lifetime support guarantee [from us](CONTRIBUTORS.md) & [PythonJournos](https://groups.google.com/forum/#!forum/PythonJournos)
 
 ###Help!
 If you're working through this code at home and have trouble, please let us know.
-The best option is to [file an issue report](https://github.com/tommeagher/pycar14/issues?state=open) of the bug so we can help you.
-You can also reach out to any of us [on Twitter](https://github.com/tommeagher/pycar14/blob/master/CONTRIBUTORS) or ping [PythonJournos](https://groups.google.com/forum/#!forum/PythonJournos).
+The best option is to [file an issue report](https://github.com/ireapps/pycar/issues?q=is%3Aopen+is%3Aissue) of the bug so we can help you.
+You can also reach out to any of us [on Twitter](https://github.com/ireapps/pycar/blob/master/CONTRIBUTORS.md) or ping [PythonJournos](https://groups.google.com/forum/#!forum/PythonJournos).
