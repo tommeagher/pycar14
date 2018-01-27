@@ -7,6 +7,7 @@
 |_____| [\_:  /   `.____ .'|____| |____||____| |___||_____|/_/     
          \__.'                                                     
 ```
+
 ##Python mini boot camp at [#NICAR17](https://ire.org/events-and-training/event/2702/) in Jacksonville, Fla.
 
 In this two-day workshop, we'll use the Jupyter notebook to explore the Python programming language. At the end of the class, we'll give you all of the code from the exercises, along with several cheatsheets and tutorials, to take home with you, all from this code repository on Github.
