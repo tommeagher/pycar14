@@ -1,4 +1,4 @@
-#CONTRIBUTORS
+# CONTRIBUTORS
 * Heather Billings, [@hbillings](https://www.twitter.com/hbillings)
 * Scott Bradley, [@scott2b](https://www.twitter.com/scott2b)
 * Adriana Homolova [@naberacka](https://twitter.com/naberacka)
