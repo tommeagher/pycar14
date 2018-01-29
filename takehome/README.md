@@ -1,12 +1,12 @@
-#Resources
+# Resources
 
-##Get your machine ready
+## Get your machine ready
 * How to install Python 3 <a href="http://www.marinamele.com/2014/07/install-python3-on-mac-os-x-and-use-virtualenv-and-virtualenvwrapper.html">on Mac</a> and [Windows](http://www.anthonydebarros.com/2015/08/16/setting-up-python-in-windows-10/) machines. (If you want to dabble in Python 2.7 on a Mac, just [find your terminal](http://learncodethehardway.org/cli/book/cli-crash-course.html#mac-osx) and type 'python').
 * [__virtualenv__](https://pypi.python.org/pypi/virtualenv) and [__virtualenvwrapper__](http://virtualenvwrapper.readthedocs.org/en/latest/), for keeping your projects sandboxed in an easy to manage way. Here's one good [tutorial](http://blog.fruiapps.com/2012/06/An-introductory-tutorial-to-python-virtualenv-and-virtualenvwrapper) and [another](http://docs.python-guide.org/en/latest/dev/virtualenvs/).
 * Install [iPython](http://ipython.org/ipython-doc/stable/install/install.html) by typing ```pip3 install ipython``` for the souped-up interactive interpreter.
 * [version control](http://www.tommeagher.com/blog/2013/02/learning-to-commit-to-version-control.html) with __[git](http://rogerdudler.github.io/git-guide/)__ and __[Github](https://help.github.com/articles/be-social)__
 
-##Keep Practicing
+## Keep Practicing
 Try our "[PyCAR basics](https://github.com/ireapps/pycar/blob/master/takehome/PyCAR_basics_takehome_notebook_complete.ipynb)" iPython notebook to continue exploring data types and simple methods.
 Tony DeBarros also taught a fantastic class at NICAR on [getting started with Python](https://github.com/anthonydb/python-get-started).
 
@@ -14,7 +14,7 @@ Here's a great [cheatsheet](http://sleet.aos.wisc.edu/~gpetty/wp/wp-content/uplo
 It's worth your time to take a look at Tony DeBarros' [Python snippets](https://github.com/anthonydb/python-snippets), scripts for common tasks he's found useful.
 Have Unicode problems? Check out this [great video from Pycon 2014](https://www.youtube.com/watch?v=Mx70n1dL534).
 
-##Good libraries to explore
+## Good libraries to explore
 * __[csv](http://www.pythonforbeginners.com/systems-programming/using-the-csv-module-in-python/)__, for working with the [best tabular data format](http://pymotw.com/2/csv/).
 * The __[re](https://developers.google.com/edu/python/regular-expressions)__ library for matching text with [regular expressions](http://docs.python.org/2/howto/regex.html).
 * __[requests](http://docs.python-requests.org/en/latest/)__, a library for more easily making requests to web urls. One good [tutorial](http://docs.python-requests.org/en/latest/user/quickstart/) and [another](http://www.pythonforbeginners.com/requests/using-requests-in-python).
@@ -29,7 +29,7 @@ Have Unicode problems? Check out this [great video from Pycon 2014](https://www.
 * And a cool collection of quick overviews on standard library modules.
 http://pymotw.com/2/contents.html
 
-##Support
+## Support
 Want advice on debugging? This blog post on two young girls learning to code is a very cool introduction to [how to debug a program](http://vocamus.net/dave/?p=1632). There's also a good post [on thinking about debugging programs](http://p5js.org/tutorials/debugging/) in general from the community behind p5.js. And we have this [cheatsheet for how to read your Python error messages](https://github.com/ireapps/pycar/tree/master/debug/DebugginginPython.pdf).
 
 As we said in the class, with this mini boot camp, you get a lifetime support guarantee [from us](../CONTRIBUTORS.md) & [PythonJournos](https://groups.google.com/forum/#!forum/PythonJournos)
