@@ -28,7 +28,7 @@ We'll introduce some key concepts of programming and Python types like strings, 
 As with many data analyses, it all starts with a CSV. After a white board exercise, we'll start with a file of pseudocode, and we'll walk through writing the program in Python code, running each line in the Jupyter interpreter. We'll hold your hand through each step of the process.
 
 ### Day 2
-#### A [discussion on debugging](https://docs.google.com/presentation/d/1cfDW3X8ipYPGipoQjsTVyga39AdEBZE2Yrp8VmsbaJk/edit?usp=sharing) and [cheatsheet](https://github.com/ireapps/pycar/tree/master/debug/DebugginginPython.pdf)
+#### A [discussion on debugging](https://docs.google.com/presentation/d/e/2PACX-1vTCwzQnH0Ps8xmqnxGBYayCyas8-53qJyo-yjIy5qy4P2xUOA-kiAOQCNTiCzRBVX7TxeBabx1pvpBQ/pub?start=false&loop=false&delayms=3000) and [cheatsheet](https://github.com/ireapps/pycar/tree/master/debug/DebugginginPython.pdf)
 
 #### [Project #2](https://github.com/ireapps/pycar/tree/master/project2)
 This section covers gathering data from the web in two common formats. 
