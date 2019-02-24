@@ -1,4 +1,4 @@
-# Webscraping with Python
+# Scraping the web with Python
 
 This section covers scraping pages on the Web with Python using a [get](http://www.w3schools.com/tags/ref_httpmethods.asp) request. 
 
@@ -33,7 +33,7 @@ soup = BeautifulSoup(html, "html.parser")
 We can start accessing text on the webpage by specifying the tags it is wrapped in. In this case we want to get at the tables in the page. So we can use BeautifulSoup's find function to isolate the tables. Since there are multiple tables and we want only one, we will add a parameter where it will only find the table with the class of 'entChartTable.'
 
 ```Python
-table = soup.find('table')
+table = soup.find('table', {'class':'entChartTable'})
 ```
 
 That's great, but what we really want is the data within each cell - the ```<td>``` tags - of the table. Those cells are stored in rows - ```<tr>``` tags - so lets start by isolating rows using the find_all method. This method will load the results of our search into a [list](http://docs.python.org/2/tutorial/introduction.html#lists) or array that we will later loop through to further process the data. 
@@ -54,13 +54,21 @@ At this point we are going to stop and take a minute to prepare the file we will
 
 ```Python
 
-csvfile = open("movies.csv","wb")
-
-output = csv.writer(csvfile, delimiter=',',quotechar='"',quoting=csv.QUOTE_MINIMAL)
+with open("movies.csv", "w", newline="") as csvfile:
+	output = csv.writer(csvfile, delimiter=",", quotechar='"', quoting=csv.QUOTE_MINIMAL)
 
 ```
+There's a lot of new stuff here, so let's look at it one line at a time.
 
-The first line of code above creates and opens a file named "movies.csv" for us. The ```"wb"``` tells Python that we want it to open the file in write mode using binary coding. Other options are read in binary ```"rb"``` and append to a file in binary ```"ab"```.
+The `with` statement is a convenient way Python offers to handle opening and closeing files and cleaning up memory. This saves us from having to close the file later and deal with any other garbage collection.
+
+_NOTE: any code that writes to this file must be indented when using `with`. For this reason, the code in the Jupyter notebook won't use notation because it splits the code into several chunks. We're including thi here becaue it's good practice for the future._
+
+Here we create and open a file named "movies.csv". The ```"w"``` tells Python that we want it to open the file in write mode. Other options are read ```"r"``` and append to a file ```"ab"```.
+
+The `newline` keyword ensures that no extra newlines are added to the end of each row. Otherwise we can end up with an extra space after each row.
+
+And then it assigns this new file to the variable `csvfile`.
 
 The second line of code points the csv module at the open file - telling the module that we want to create a tool that will write to this file, that this file will be a csv file with a comma delimiter and using the double quotes for a text qualifier. The last paramenter tells the csv module that we want it to only use the text qualifier where necessary.
 
@@ -105,31 +113,79 @@ By now you should recognize the notation - we refer to a specific cell by its nu
 
  To do this we create a list of our own within the parentheses - ```[title, world_box_office, international_box_office, domestic_box_office, world_cume, international_cume, domestic_cume, international_distributor, number_territories, domestic_distributor] ```. Lists are enclosed in square brackets and each item is separated by a column. Since the items we want to put into the csv document are stored in variables, we simply list the variable names without any quotation marks. If we wanted to write out actual values, they would be enclosed in quotation marks like ```["Heather","Tom","Chris"]```.
 
- At this point we have accessed the website, parsed the html, scraped out the data and written it out to a file. The final step is to close the output file to prevent any further changes and free up memory dedicated to keeping it open.
+ At this point we have accessed the website, parsed the html, scraped out the data and written it out to a file. If we used the `with` statement and put all the scraping code indented beneath it, there's nothing else that needs to be done.
+ 
+ If we don't use `with`, like in the notebooke, the final step is to close the output file to prevent any further changes and free up memory dedicated to keeping it open.
 
  ```Python
  csvfile.close()
  ```
 
- This is an important step, you can lose your work by leaving this file open or by opening it again in write mode accidentally. Also notice that this line is not indented at all, it is only carried out after the for loop finishes iterating through all the rows of the html table you are scraping.
+ This is an important step, you can lose your work by leaving this file open or by opening it again in write mode accidentally. That's why we prefer using `with`, so you don't have to worry about it. 
+ 
+ Also notice that this line is not indented at all, it is only carried out after the for loop finishes iterating through all the rows of the html table you are scraping.
 
 
-#Dealing with JSON from the web
-##Scrape many websites and merge them together
-_or_
-python for converting all your data: json, xml, excel into one big csv!
+## Dealing with JSON from the web
+#### How to work with one of the web's most popular data format
 
-Let's use an API to get information programmatically.
+JSON (JavaScript Object Notation) is an increasingly popular way to offer data online because it's easily understandable by web browsers. It's also on of the most common formats served by APIs, which are becomng more common as data sources.
 
-[Govtrack.us](https://www.govtrack.us/developers/api) has an API. Let's
-create a spreadsheet of the 100 latest bills.
+So let's use an API to get information programmatically and save some JSON to CSV.
 
-Our data comes in a new format: JSON. Show on the whiteboard how it's
-basically a combination of data structures we already know about: Lists
-and dicts (arrays and objects).
+[Govtrack.us](https://www.govtrack.us/developers/api) has an API. Let's create a spreadsheet of the 100 latest bills.
 
-[View the data here](https://s3.amazonaws.com/nicar17/pycar17/bill_track.json)
+##### First, a primer on JSON
+
+JSON data is essentially a dictionary. Unlike a CSV, which is a *relational* data format, JSON is *hierarchal*. It doesn't always have a straighforard column-to-row relationship, but data can often be nested several layers deep.
+
+Here's an example:
+
+{ data : 
+	[ {client : 
+		{first_name : 'Steven',
+		 last_name : 'Miller',
+		 age : 36 },
+	   business : 
+	  	 { name : 'Miller Goods',
+	      address : '123 Market Dr.' }
+	   },  
+	   {client : 
+         {....}
+     ] } 
+
+See how it's really just a collection of dictionaries and lists, and dictionary keys can be nested several layers deep inside another key?
+
+[View the real API data here](https://s3.amazonaws.com/nicar17/pycar17/bill_track.json)
+
+So how do we turn this hierarchal data format into rows and columns? To do this, we'll need to get the values in the dict and assign them to a column, one row at a time.
+
+Suppose we want to get the client and business details in the sample JSON above as a row in a CSV. Let's supposed we assigned the entire JSON to a variable `details`.
+
+First, we see that the JSON has a top-level key called `data`
+
+
+ ```Python
+rows = details['data']
+ ```
+
+Now `rows` is a list of dicts with the data we need. Since we're only interested in the first dummy data, we call it by the first list index.
+
+ ```Python
+client = rows[0]
+ ```
+ 
+ And now we have a dict with two keys, `client` and `business`, each of which have their own dicts. So how do we get the data inside?
+ 
+  ```Python
+ client_first_name = client['client']['first_name']
+ client_last_name = client['client']['last_name']
+ client_age = client['client']['age']
+  ```
+and so on.
+
+Ready for more? Go to the two notebooks below.
 
 `get_json_notebook.ipynb` - Use `requests` to get the json data the web
 
-`json_to_csv_notebook.ipynb` - Loop through the parts we care about and create a csv file from the data
+`json_to_csv_notebook.ipynb` - Loop through the parts we care about and create a CSV file from the data
