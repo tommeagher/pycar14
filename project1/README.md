@@ -1,4 +1,4 @@
-##Project #1
+## Project #1
 
 * ```read_csv_notebook.ipynb``` and ```completed/read_csv_notebook_complete.ipynb```
     * Now that we have some building blocks, let's write a program already
