@@ -1,0 +1,506 @@
+playerID,birthYear,birthMonth,birthDay,birthCountry,birthState,birthCity,deathYear,deathMonth,deathDay,deathCountry,deathState,deathCity,nameFirst,nameLast,nameGiven,weight,height,bats,throws,debut,finalGame,retroID,bbrefID,yearID,teamID,lgID,salary
+abreubo01,1974.0,3.0,11.0,Venezuela,Aragua,Maracay,,,,,,,Bobby,Abreu,Bob Kelly,220.0,72.0,L,R,1996-09-01,2014-09-28,abreb001,abreubo01,2012.0,LAA,AL,9000000.0
+abreujo02,1987.0,1.0,29.0,Cuba,Cienfuegos,Cienfuegos,,,,,,,Jose,Abreu,Jose Dariel,255.0,75.0,R,R,2014-03-31,2015-10-03,abrej003,abreujo02,2015.0,CHA,AL,8666000.0
+adamsmi03,1978.0,7.0,29.0,USA,TX,Corpus Christi,,,,,,,Mike,Adams,Jon Michael,210.0,77.0,R,R,2004-05-18,2014-09-18,adamm001,adamsmi03,2014.0,PHI,NL,7000000.0
+affelje01,1979.0,6.0,6.0,USA,AZ,Phoenix,,,,,,,Jeremy,Affeldt,Jeremy David,225.0,76.0,L,L,2002-04-06,2015-10-04,affej001,affelje01,2015.0,SFN,NL,6000000.0
+alfoned01,1973.0,11.0,8.0,Venezuela,Miranda,Santa Teresa del Tuy,,,,,,,Edgardo,Alfonzo,Edgardo Antonio,210.0,71.0,R,R,1995-04-26,2006-06-11,alfoe001,alfoned01,2006.0,LAA,AL,8000000.0
+aloumo01,1966.0,7.0,3.0,USA,GA,Atlanta,,,,,,,Moises,Alou,Moises Rojas,185.0,75.0,R,R,1990-07-26,2008-06-10,aloum001,aloumo01,2008.0,NYN,NL,7500000.0
+alvarpe01,1987.0,2.0,6.0,D.R.,Distrito Nacional,Santo Domingo,,,,,,,Pedro,Alvarez,Pedro Manuel,250.0,75.0,L,R,2010-06-16,2015-10-04,alvap001,alvarpe01,2015.0,PIT,NL,5750000.0
+anderbr04,1988.0,2.0,1.0,USA,TX,Midland,,,,,,,Brett,Anderson,Brett Franklin,240.0,75.0,L,L,2009-04-10,2015-10-01,andeb004,anderbr04,2015.0,LAN,NL,10000000.0
+andruel01,1988.0,8.0,26.0,Venezuela,Aragua,Maracay,,,,,,,Elvis,Andrus,Elvis Augusto,200.0,72.0,R,R,2009-04-06,2015-10-04,andre001,andruel01,2015.0,TEX,AL,15000000.0
+arroybr01,1977.0,2.0,24.0,USA,FL,Key West,,,,,,,Bronson,Arroyo,Bronson Anthony,185.0,75.0,R,R,2000-06-12,2014-06-15,arrob001,arroybr01,2014.0,ARI,NL,9500000.0
+ashbyan01,1967.0,7.0,11.0,USA,MO,Kansas City,,,,,,,Andy,Ashby,Andrew Jason,180.0,73.0,R,R,1991-06-10,2004-09-14,ashba002,ashbyan01,2003.0,LAN,NL,8500000.0
+avilaal01,1987.0,1.0,29.0,USA,FL,Hialeah,,,,,,,Alex,Avila,Alexander Thomas,210.0,71.0,L,R,2009-08-06,2015-10-03,avila001,avilaal01,2015.0,DET,AL,5400000.0
+aybarer01,1984.0,1.0,14.0,D.R.,Peravia,Bani,,,,,,,Erick,Aybar,Erick Johan,180.0,70.0,B,R,2006-05-16,2015-10-04,aybae001,aybarer01,2015.0,LAA,AL,8500000.0
+bagweje01,1968.0,5.0,27.0,USA,MA,Boston,,,,,,,Jeff,Bagwell,Jeffrey Robert,195.0,72.0,R,R,1991-04-08,2005-10-02,bagwj001,bagweje01,2006.0,HOU,NL,19369019.0
+baileho02,1986.0,5.0,3.0,USA,TX,La Grange,,,,,,,Homer,Bailey,David Dewitt,225.0,76.0,R,R,2007-06-08,2015-04-23,bailh001,baileho02,2015.0,CIN,NL,10000000.0
+bakersc02,1981.0,9.0,19.0,USA,LA,Shreveport,,,,,,,Scott,Baker,Timothy Scott,215.0,76.0,R,R,2005-05-07,2015-05-02,bakes002,bakersc02,2013.0,CHN,NL,5500000.0
+bautijo02,1980.0,10.0,19.0,D.R.,Distrito Nacional,Santo Domingo,,,,,,,Jose,Bautista,Jose Antonio,205.0,72.0,R,R,2004-04-04,2015-10-04,bautj002,bautijo02,2015.0,TOR,AL,14000000.0
+beckejo02,1980.0,5.0,15.0,USA,TX,Spring,,,,,,,Josh,Beckett,Joshua Patrick,230.0,77.0,R,R,2001-09-04,2014-08-03,beckj002,beckejo02,2014.0,LAN,NL,15750000.0
+beckro01,1968.0,8.0,3.0,USA,CA,Burbank,2007.0,6.0,23.0,USA,AZ,Phoenix,Rod,Beck,Rodney Roy,215.0,73.0,R,R,1991-05-06,2004-08-14,beckr001,beckro01,2001.0,BOS,AL,4500000.0
+bedarer01,1979.0,3.0,5.0,CAN,ON,Navan,,,,,,,Erik,Bedard,Erik Joseph,195.0,73.0,L,L,2002-04-17,2014-07-12,bedae001,bedarer01,2012.0,PIT,NL,4500000.0
+belchti01,1961.0,10.0,19.0,USA,OH,Mount Gilead,,,,,,,Tim,Belcher,Timothy Wayne,210.0,75.0,R,R,1987-09-06,2000-09-30,belct001,belchti01,2000.0,ANA,AL,4600000.0
+bellda01,1972.0,9.0,14.0,USA,OH,Cincinnati,,,,,,,David,Bell,David Michael,170.0,70.0,R,R,1995-05-03,2006-10-01,belld002,bellda01,2006.0,PHI,NL,4700000.0
+bellde01,1968.0,12.0,11.0,USA,FL,Tampa,,,,,,,Derek,Bell,Derek Nathaniel,200.0,74.0,R,R,1991-06-28,2001-07-03,belld001,bellde01,2001.0,PIT,NL,5000000.0
+belleal01,1966.0,8.0,25.0,USA,LA,Shreveport,,,,,,,Albert,Belle,Albert Jojuan,190.0,73.0,R,R,1989-07-15,2000-10-01,bellj002,belleal01,2003.0,BAL,AL,13000000.0
+bellhe01,1977.0,9.0,29.0,USA,CA,Oceanside,,,,,,,Heath,Bell,Heath Justin,235.0,75.0,R,R,2004-08-24,2014-05-03,bellh001,bellhe01,2014.0,TBA,AL,9000000.0
+beltrad01,1979.0,4.0,7.0,D.R.,Distrito Nacional,Santo Domingo,,,,,,,Adrian,Beltre,Adrian,220.0,71.0,R,R,1998-06-24,2015-10-04,belta001,beltrad01,2015.0,TEX,AL,16000000.0
+beltrca01,1977.0,4.0,24.0,P.R.,,Manati,,,,,,,Carlos,Beltran,Carlos Ivan,215.0,73.0,B,R,1998-09-14,2015-10-04,beltc001,beltrca01,2015.0,NYA,AL,15000000.0
+benesan01,1967.0,8.0,20.0,USA,IN,Evansville,,,,,,,Andy,Benes,Andrew Charles,235.0,78.0,R,R,1989-08-11,2002-09-29,benea001,benesan01,2002.0,SLN,NL,6367542.0
+benitar01,1972.0,11.0,3.0,D.R.,San Pedro de Macoris,Ramon Santana,,,,,,,Armando,Benitez,Armando German,180.0,76.0,R,R,1994-07-28,2008-06-06,benia001,benitar01,2007.0,SFN,NL,9866219.0
+benoijo01,1977.0,7.0,26.0,D.R.,Santiago,Santiago,,,,,,,Joaquin,Benoit,Joaquin Antonio,250.0,76.0,R,R,2001-08-08,2015-10-01,benoj001,benoijo01,2015.0,SDN,NL,8000000.0
+berkmla01,1976.0,2.0,10.0,USA,TX,Waco,,,,,,,Lance,Berkman,William Lance,220.0,73.0,B,L,1999-07-16,2013-09-17,berkl001,berkmla01,2013.0,TEX,AL,10000000.0
+bicheda01,1963.0,11.0,18.0,USA,FL,West Palm Beach,,,,,,,Dante,Bichette,Alphonse Dante,215.0,75.0,R,R,1988-09-05,2001-10-06,bichd001,bicheda01,2001.0,BOS,AL,7000000.0
+biggicr01,1965.0,12.0,14.0,USA,NY,Smithtown,,,,,,,Craig,Biggio,Craig Alan,185.0,71.0,R,R,1988-06-26,2007-09-30,biggc001,biggicr01,2007.0,HOU,NL,5150000.0
+blackni01,1982.0,2.0,24.0,USA,OK,Ada,,,,,,,Nick,Blackburn,Robert Nicholas,240.0,76.0,R,R,2007-09-03,2012-08-17,blacn001,blackni01,2012.0,MIN,AL,4750000.0
+blairwi01,1965.0,12.0,18.0,USA,KY,Paintsville,,,,,,,Willie,Blair,William Allen,185.0,73.0,R,R,1990-04-11,2001-07-26,blaiw001,blairwi01,2000.0,DET,AL,4500000.0
+blakeca01,1973.0,8.0,23.0,USA,IA,Des Moines,,,,,,,Casey,Blake,William Casey,205.0,74.0,R,R,1999-08-14,2011-08-31,blakc001,blakeca01,2011.0,LAN,NL,5500000.0
+blaloha01,1980.0,11.0,21.0,USA,CA,San Diego,,,,,,,Hank,Blalock,Hank Joe,192.0,73.0,L,R,2002-04-01,2010-06-27,blalh001,blaloha01,2009.0,TEX,AL,6200000.0
+blantjo01,1980.0,12.0,11.0,USA,KY,Bowling Green,,,,,,,Joe,Blanton,Joseph Matthew,215.0,75.0,R,R,2004-09-21,2015-10-03,blanj001,blantjo01,2013.0,LAA,AL,6500000.0
+bondeje01,1982.0,10.0,28.0,USA,WA,Kennewick,,,,,,,Jeremy,Bonderman,Jeremy Allen,210.0,72.0,R,R,2003-04-02,2013-09-21,bondj001,bondeje01,2010.0,DET,AL,12500000.0
+bondsba01,1964.0,7.0,24.0,USA,CA,Riverside,,,,,,,Barry,Bonds,Barry Lamar,185.0,73.0,L,L,1986-05-30,2007-09-26,bondb001,bondsba01,2007.0,SFN,NL,15533970.0
+boonebr01,1969.0,4.0,6.0,USA,CA,El Cajon,,,,,,,Bret,Boone,Bret Robert,180.0,70.0,R,R,1992-08-19,2005-07-30,boonb002,boonebr01,2005.0,SEA,AL,9000000.0
+bournmi01,1982.0,12.0,27.0,USA,TX,Houston,,,,,,,Michael,Bourn,Michael Ray,180.0,70.0,L,R,2006-07-30,2015-10-04,bourm001,bournmi01,2015.0,CLE,AL,13500000.0
+bradlmi01,1978.0,4.0,15.0,USA,CA,Harbor City,,,,,,,Milton,Bradley,Milton Obelle,215.0,72.0,B,R,2000-07-19,2011-05-08,bradm001,bradlmi01,2011.0,SEA,AL,13000000.0
+brantmi02,1987.0,5.0,15.0,USA,WA,Bellevue,,,,,,,Michael,Brantley,Michael Charles,200.0,74.0,L,L,2009-09-01,2015-09-28,branm003,brantmi02,2015.0,CLE,AL,5875000.0
+braunry02,1983.0,11.0,17.0,USA,CA,Mission Hills,,,,,,,Ryan,Braun,Ryan Joseph,205.0,74.0,R,R,2007-05-25,2015-09-26,braur002,braunry02,2015.0,MIL,NL,13000000.0
+brosisc01,1966.0,8.0,15.0,USA,OR,Hillsboro,,,,,,,Scott,Brosius,Scott David,200.0,73.0,R,R,1991-08-07,2001-10-06,bross001,brosisc01,2001.0,NYA,AL,5250000.0
+brownke01,1965.0,3.0,14.0,USA,GA,Milledgeville,,,,,,,Kevin,Brown,James Kevin,195.0,76.0,R,R,1986-09-30,2005-07-23,browk001,brownke01,2005.0,NYA,AL,15714286.0
+broxtjo01,1984.0,6.0,16.0,USA,GA,Augusta,,,,,,,Jonathan,Broxton,Jonathan Roy,305.0,76.0,R,R,2005-07-29,2015-10-02,broxj001,broxtjo01,2015.0,MIL,NL,9000000.0
+bruceja01,1987.0,4.0,3.0,USA,TX,Beaumont,,,,,,,Jay,Bruce,Jay Allen,225.0,75.0,L,L,2008-05-27,2015-10-04,brucj001,bruceja01,2015.0,CIN,NL,12000000.0
+buchhcl01,1984.0,8.0,14.0,USA,TX,Nederland,,,,,,,Clay,Buchholz,Clay Daniel,190.0,75.0,L,R,2007-08-17,2015-07-10,buchc001,buchhcl01,2015.0,BOS,AL,12000000.0
+buehrma01,1979.0,3.0,23.0,USA,MO,St. Charles,,,,,,,Mark,Buehrle,Mark Alan,240.0,74.0,L,L,2000-07-16,2015-10-04,buehm001,buehrma01,2015.0,TOR,AL,20000000.0
+bumgama01,1989.0,8.0,1.0,USA,NC,Hickory,,,,,,,Madison,Bumgarner,Madison Kyle,235.0,77.0,R,L,2009-09-08,2015-10-03,bumgm001,bumgama01,2015.0,SFN,NL,6750000.0
+burkejo03,1964.0,11.0,28.0,USA,PA,New Brighton,,,,,,,John,Burkett,John David,175.0,74.0,R,R,1987-09-15,2003-09-26,burkj001,burkejo03,2003.0,BOS,AL,5500000.0
+burneaj01,1977.0,1.0,3.0,USA,AR,North Little Rock,,,,,,,A. J.,Burnett,Allan James,230.0,76.0,R,R,1999-08-17,2015-10-03,burna001,burnea.01,2015.0,PIT,NL,8500000.0
+burnije01,1969.0,4.0,15.0,USA,CA,Westminster,,,,,,,Jeromy,Burnitz,Jeromy Neal,190.0,72.0,L,R,1993-06-21,2006-09-27,burnj001,burnije01,2006.0,PIT,NL,6000000.0
+butlebi03,1986.0,4.0,18.0,USA,FL,Orange Park,,,,,,,Billy,Butler,Billy Ray,240.0,73.0,R,R,2007-05-01,2015-10-04,butlb003,butlebi03,2015.0,OAK,AL,6666000.0
+byrdma01,1977.0,8.0,30.0,USA,FL,Boynton Beach,,,,,,,Marlon,Byrd,Marlon Jerrard,245.0,72.0,R,R,2002-09-08,2015-10-04,byrdm001,byrdma01,2015.0,CIN,NL,8000000.0
+byrdpa01,1970.0,12.0,3.0,USA,KY,Louisville,,,,,,,Paul,Byrd,Paul Gregory,185.0,73.0,R,R,1995-07-28,2009-10-03,byrdp001,byrdpa01,2008.0,CLE,AL,7500000.0
+cabreas01,1985.0,11.0,13.0,Venezuela,Anzoategui,Puerto La Cruz,,,,,,,Asdrubal,Cabrera,Asdrubal Jose,205.0,72.0,B,R,2007-08-08,2015-10-04,cabra002,cabreas01,2015.0,TBA,AL,7500000.0
+cabreme01,1984.0,8.0,11.0,D.R.,Distrito Nacional,Santo Domingo,,,,,,,Melky,Cabrera,Melky,210.0,70.0,B,L,2005-07-07,2015-10-03,cabrm002,cabreme01,2015.0,CHA,AL,13000000.0
+cabremi01,1983.0,4.0,18.0,Venezuela,Aragua,Maracay,,,,,,,Miguel,Cabrera,Jose Miguel,240.0,76.0,R,R,2003-06-20,2015-10-03,cabrm001,cabremi01,2015.0,DET,AL,22000000.0
+cahiltr01,1988.0,3.0,1.0,USA,CA,Oceanside,,,,,,,Trevor,Cahill,Trevor John,240.0,76.0,R,R,2009-04-07,2015-10-02,cahit001,cahiltr01,2015.0,ATL,NL,12000000.0
+cainma01,1984.0,10.0,1.0,USA,AL,Dothan,,,,,,,Matt,Cain,Matthew Thomas,230.0,75.0,R,R,2005-08-29,2015-10-04,cainm001,cainma01,2015.0,SFN,NL,21000000.0
+camermi01,1973.0,1.0,8.0,USA,GA,La Grange,,,,,,,Mike,Cameron,Michael Terrance,210.0,74.0,R,R,1995-08-27,2011-09-12,camem001,camermi01,2011.0,BOS,AL,7750000.0
+canoro01,1982.0,10.0,22.0,D.R.,San Pedro de Macoris,San Pedro de Macoris,,,,,,,Robinson,Cano,Robinson Jose,210.0,72.0,L,R,2005-05-03,2015-10-04,canor001,canoro01,2015.0,SEA,AL,24000000.0
+cappsma01,1983.0,9.0,3.0,USA,GA,Douglasville,,,,,,,Matt,Capps,Matthew Dicus,250.0,74.0,R,R,2005-09-16,2012-09-24,cappm001,cappsma01,2012.0,MIN,AL,4500000.0
+capuach01,1978.0,8.0,19.0,USA,MA,Springfield,,,,,,,Chris,Capuano,Christopher Frank,220.0,75.0,L,L,2003-05-04,2015-10-04,capuc001,capuach01,2015.0,NYA,AL,5000000.0
+carpech01,1975.0,4.0,27.0,USA,NH,Exeter,,,,,,,Chris,Carpenter,Christopher John,230.0,78.0,R,R,1997-05-12,2012-10-02,carpc002,carpech01,2012.0,SLN,NL,8500000.0
+castilu01,1975.0,9.0,12.0,D.R.,San Pedro de Macoris,San Pedro de Macoris,,,,,,,Luis,Castillo,Luis Antonio,145.0,71.0,B,R,1996-08-08,2010-10-03,castl001,castilu01,2010.0,NYN,NL,6250000.0
+castrst01,1990.0,3.0,24.0,D.R.,Monte Cristi,Monte Cristi,,,,,,,Starlin,Castro,Starlin DeJesus,190.0,72.0,R,R,2010-05-07,2015-10-04,casts001,castrst01,2015.0,CHN,NL,6857143.0
+cedenro01,1974.0,8.0,16.0,Venezuela,Carabobo,Valencia,,,,,,,Roger,Cedeno,Roger Leandro,165.0,73.0,B,R,1995-06-20,2005-06-05,ceder001,cedenro01,2005.0,SLN,NL,5500000.0
+cespeyo01,1985.0,10.0,18.0,Cuba,Granma,Campechuela,,,,,,,Yoenis,Cespedes,Yoenis,210.0,70.0,R,R,2012-03-28,2015-10-04,cespy001,cespeyo01,2015.0,DET,AL,10500000.0
+chacijh01,1988.0,1.0,7.0,Venezuela,Zulia,Maracaibo,,,,,,,Jhoulys,Chacin,Jhoulys Jose,215.0,75.0,R,R,2009-07-25,2015-09-27,chacj001,chacijh01,2014.0,COL,NL,4850000.0
+chapmar01,1988.0,2.0,28.0,Cuba,Holguin,Holguin,,,,,,,Aroldis,Chapman,Albertin Aroldis,215.0,76.0,L,L,2010-08-31,2015-10-03,chapa001,chapmar01,2015.0,CIN,NL,8050000.0
+chenbr01,1977.0,6.0,19.0,Panama,Panama,Panama,,,,,,,Bruce,Chen,Bruce Kastulo,215.0,74.0,L,L,1998-09-07,2015-05-15,chenb001,chenbr01,2013.0,KCA,AL,4500000.0
+chenwe02,1985.0,7.0,21.0,Taiwan,,Kaohsiung City,,,,,,,Wei-Yin,Chen,Wei-Yin,195.0,72.0,L,L,2012-04-10,2015-10-03,chenw001,chenwe02,2015.0,BAL,AL,4750000.0
+choosh01,1982.0,7.0,13.0,South Korea,,Busan,,,,,,,Shin-Soo,Choo,Shin-Soo,210.0,71.0,L,L,2005-04-21,2015-10-04,choos001,choosh01,2015.0,TEX,AL,14000000.0
+cishest01,1986.0,6.0,18.0,USA,MA,Falmouth,,,,,,,Steve,Cishek,Steven R.,215.0,78.0,R,R,2010-09-26,2015-10-04,cishs001,cishest01,2015.0,MIA,NL,6650000.0
+clarkma01,1968.0,5.0,12.0,USA,IL,Bath,,,,,,,Mark,Clark,Mark Willard,225.0,77.0,R,R,1991-09-06,2000-07-01,clarm002,clarkma01,2000.0,TEX,AL,5000000.0
+clarkwi02,1964.0,3.0,13.0,USA,LA,New Orleans,,,,,,,Will,Clark,William Nuschler,190.0,74.0,L,L,1986-04-08,2000-10-01,clarw001,clarkwi02,2000.0,BAL,AL,6000000.0
+clemero02,1962.0,8.0,4.0,USA,OH,Dayton,,,,,,,Roger,Clemens,William Roger,205.0,76.0,R,R,1984-05-15,2007-09-16,clemr001,clemero02,2005.0,HOU,NL,18000000.0
+clippty01,1985.0,2.0,14.0,USA,KY,Lexington,,,,,,,Tyler,Clippard,Tyler Lee,200.0,75.0,R,R,2007-05-20,2015-10-04,clipt001,clippty01,2015.0,OAK,AL,8300001.0
+colonba01,1973.0,5.0,24.0,D.R.,Puerto Plata,Altamira,,,,,,,Bartolo,Colon,Bartolo,285.0,71.0,R,R,1997-04-04,2015-10-04,colob001,colonba01,2015.0,NYN,NL,11000000.0
+cookaa01,1979.0,2.0,8.0,USA,KY,Fort Campbell,,,,,,,Aaron,Cook,Aaron Lane,215.0,75.0,R,R,2002-08-10,2012-09-28,cooka002,cookaa01,2011.0,COL,NL,9875000.0
+cordech01,1982.0,3.0,18.0,USA,CA,Upland,,,,,,,Chad,Cordero,Chad Patrick,220.0,72.0,R,R,2003-08-30,2010-07-09,cordc001,cordech01,2008.0,WAS,NL,6200000.0
+cordefr01,1975.0,5.0,11.0,D.R.,Distrito Nacional,Santo Domingo,,,,,,,Francisco,Cordero,Francisco Javier,245.0,75.0,R,R,1999-08-02,2012-08-01,cordf002,cordefr01,2012.0,TOR,AL,4500000.0
+correke01,1980.0,8.0,24.0,USA,CA,San Diego,,,,,,,Kevin,Correia,Kevin John,200.0,75.0,R,R,2003-07-10,2015-07-04,corrk001,correke01,2014.0,LAN,NL,5500000.0
+craigal01,1984.0,7.0,18.0,USA,CA,Mission Viejo,,,,,,,Allen,Craig,Allen Thomas,215.0,74.0,R,R,2010-04-08,2015-10-04,craia001,craigal01,2015.0,BOS,AL,5500000.0
+crainje01,1981.0,7.0,5.0,CAN,ON,Toronto,,,,,,,Jesse,Crain,Jesse Alan,215.0,73.0,R,R,2004-08-05,2013-06-29,craij001,crainje01,2013.0,CHA,AL,4500000.0
+crawfca02,1981.0,8.0,5.0,USA,TX,Houston,,,,,,,Carl,Crawford,Carl Demonte,230.0,74.0,L,L,2002-07-20,2015-10-04,crawc002,crawfca02,2015.0,LAN,NL,21357000.0
+crispco01,1979.0,11.0,1.0,USA,CA,Los Angeles,,,,,,,Coco,Crisp,Covelli Loyce,185.0,70.0,B,R,2002-08-15,2015-10-04,crisc001,crispco01,2015.0,OAK,AL,11000000.0
+cruzne02,1980.0,7.0,1.0,D.R.,Monte Cristi,Las Matas de Santa Cruz,,,,,,,Nelson,Cruz,Nelson Ramon,230.0,74.0,R,R,2005-09-17,2015-10-03,cruzn002,cruzne02,2015.0,SEA,AL,14250000.0
+cuddymi01,1979.0,3.0,27.0,USA,VA,Norfolk,,,,,,,Michael,Cuddyer,Michael Brent,220.0,74.0,R,R,2001-09-23,2015-10-03,cuddm001,cuddymi01,2015.0,NYN,NL,8500000.0
+cuetojo01,1986.0,2.0,15.0,D.R.,San Pedro de Macoris,San Pedro de Macoris,,,,,,,Johnny,Cueto,Johnny,220.0,71.0,R,R,2008-04-03,2015-10-04,cuetj001,cuetojo01,2015.0,CIN,NL,10000000.0
+daalom01,1972.0,3.0,1.0,Venezuela,Zulia,Maracaibo,,,,,,,Omar,Daal,Omar Jesus,160.0,75.0,L,L,1993-04-23,2003-09-25,daalo001,daalom01,2004.0,BAL,AL,4500000.0
+damonjo01,1973.0,11.0,5.0,USA,KS,Fort Riley,,,,,,,Johnny,Damon,Johnny David,205.0,74.0,L,L,1995-08-12,2012-08-01,damoj001,damonjo01,2011.0,TBA,AL,5250000.0
+danksjo01,1985.0,4.0,15.0,USA,TX,Austin,,,,,,,John,Danks,John William,210.0,73.0,L,L,2007-04-08,2015-10-01,dankj001,danksjo01,2015.0,CHA,AL,15750000.0
+darviyu01,1986.0,8.0,16.0,Japan,Osaka,Habikino,,,,,,,Yu,Darvish,Sefat Farid Yu,220.0,77.0,R,R,2012-04-09,2014-08-09,darvy001,darviyu01,2014.0,TEX,AL,10000000.0
+daultda01,1962.0,1.0,3.0,USA,KS,Arkansas City,,,,,,,Darren,Daulton,Darren Arthur,195.0,74.0,L,R,1983-09-25,1997-09-28,dauld001,daultda01,1997.0,PHI,NL,4825000.0
+davisch02,1986.0,3.0,17.0,USA,TX,Longview,,,,,,,Chris,Davis,Christopher Lyn,230.0,75.0,L,R,2008-06-26,2015-10-04,davic003,davisch02,2015.0,BAL,AL,12000000.0
+davisra01,1980.0,10.0,19.0,USA,CT,Norwich,,,,,,,Rajai,Davis,Rajai Lavae,195.0,69.0,R,R,2006-08-14,2015-10-03,davir003,davisra01,2015.0,DET,AL,5000000.0
+daviswa01,1985.0,9.0,7.0,USA,FL,Lake Wales,,,,,,,Wade,Davis,Wade Allen,220.0,77.0,R,R,2009-09-06,2015-10-03,daviw001,daviswa01,2015.0,KCA,AL,7000000.0
+deazaal01,1984.0,4.0,11.0,D.R.,La Romana,Guaymate,,,,,,,Alejandro,De Aza,Alejandro Alberto,195.0,72.0,L,L,2007-04-02,2015-10-04,deaza001,deazaal01,2015.0,BAL,AL,5000000.0
+dejesda01,1979.0,12.0,20.0,USA,NY,Brooklyn,,,,,,,David,DeJesus,David Christopher,190.0,71.0,L,L,2003-09-02,2015-09-23,dejed001,dejesda01,2015.0,TBA,AL,5000000.0
+delarjo01,1981.0,4.0,5.0,Mexico,Nuevo Leon,Monterrey,,,,,,,Jorge,De La Rosa,Jorge Alberto,215.0,73.0,L,L,2004-08-14,2015-09-16,delaj001,rosajo01,2013.0,COL,NL,11000000.0
+delgaca01,1972.0,6.0,25.0,P.R.,,Aguadilla,,,,,,,Carlos,Delgado,Carlos Juan,215.0,75.0,L,R,1993-10-01,2009-05-10,delgc001,delgaca01,2009.0,NYN,NL,12000000.0
+dempsry01,1977.0,5.0,3.0,CAN,BC,Sechelt,,,,,,,Ryan,Dempster,Ryan Scott,215.0,74.0,R,R,1998-05-23,2013-09-29,dempr002,dempsry01,2013.0,BOS,AL,13250000.0
+desmoia01,1985.0,9.0,20.0,USA,FL,Sarasota,,,,,,,Ian,Desmond,Ian M.,215.0,75.0,R,R,2009-09-10,2015-10-04,desmi001,desmoia01,2015.0,WAS,NL,11000000.0
+dickera01,1974.0,10.0,29.0,USA,TN,Nashville,,,,,,,R. A.,Dickey,Robert Allen,215.0,75.0,R,R,2001-04-22,2015-09-30,dickr001,dicker.01,2015.0,TOR,AL,12000000.0
+dreifda01,1972.0,5.0,3.0,USA,KS,Wichita,,,,,,,Darren,Dreifort,Darren James,205.0,74.0,R,R,1994-04-07,2004-08-16,dreid001,dreifda01,2005.0,LAN,NL,13400000.0
+drewjd01,1975.0,11.0,20.0,USA,FL,Tallahassee,,,,,,,J. D.,Drew,David Jonathan,200.0,73.0,L,R,1998-09-08,2011-09-28,drewj001,drewj.01,2011.0,BOS,AL,14000000.0
+drewst01,1983.0,3.0,16.0,USA,GA,Hahira,,,,,,,Stephen,Drew,Stephen Oris,190.0,72.0,L,R,2006-07-15,2015-09-22,drews001,drewst01,2015.0,NYA,AL,5000000.0
+dukeza01,1983.0,4.0,19.0,USA,TX,Clifton,,,,,,,Zach,Duke,Zachary Thomas,210.0,74.0,L,L,2005-07-02,2015-10-03,dukez001,dukeza01,2015.0,CHA,AL,4500000.0
+dunnad01,1979.0,11.0,9.0,USA,TX,Houston,,,,,,,Adam,Dunn,Adam Troy,285.0,78.0,L,R,2001-07-20,2014-09-28,dunna001,dunnad01,2014.0,CHA,AL,15000000.0
+durazer01,1974.0,1.0,23.0,Mexico,Sonora,Hermosillo,,,,,,,Erubiel,Durazo,Erubiel,240.0,75.0,L,L,1999-07-26,2005-05-24,durae001,durazer01,2005.0,OAK,AL,4700000.0
+durhara01,1971.0,11.0,30.0,USA,NC,Charlotte,,,,,,,Ray,Durham,Ray,170.0,68.0,B,R,1995-04-26,2008-09-28,durhr001,durhara01,2008.0,SFN,NL,7500000.0
+dyeje01,1974.0,1.0,28.0,USA,CA,Oakland,,,,,,,Jermaine,Dye,Jermaine Terrell,210.0,76.0,R,R,1996-05-17,2009-10-04,dye-j001,dyeje01,2009.0,CHA,AL,11500000.0
+dykstle01,1963.0,2.0,10.0,USA,CA,Santa Ana,,,,,,,Lenny,Dykstra,Leonard Kyle,160.0,70.0,L,L,1985-05-03,1996-05-18,dyksl001,dykstle01,1998.0,PHI,NL,6000000.0
+eatonad01,1977.0,11.0,23.0,USA,WA,Seattle,,,,,,,Adam,Eaton,Adam Thomas,190.0,74.0,R,R,2000-05-30,2009-08-24,eatoa001,eatonad01,2008.0,PHI,NL,7958333.0
+ellisma01,1977.0,6.0,6.0,USA,SD,Rapid City,,,,,,,Mark,Ellis,Mark William,190.0,70.0,R,R,2002-04-09,2014-09-27,ellim001,ellisma01,2014.0,SLN,NL,5250000.0
+ellsbja01,1983.0,9.0,11.0,USA,OR,Madras,,,,,,,Jacoby,Ellsbury,Jacoby McCabe,195.0,73.0,L,L,2007-06-30,2015-10-04,ellsj001,ellsbja01,2015.0,NYA,AL,21142857.0
+encared01,1983.0,1.0,7.0,D.R.,La Romana,La Romana,,,,,,,Edwin,Encarnacion,Edwin Elpidio,230.0,73.0,R,R,2005-06-24,2015-10-04,encae001,encared01,2015.0,TOR,AL,10000000.0
+encarju01,1976.0,3.0,8.0,D.R.,San Juan,Las Matas de Farfan,,,,,,,Juan,Encarnacion,Juan de Dios,160.0,74.0,R,R,1997-09-02,2007-08-30,encaj001,encarju01,2008.0,SLN,NL,6500000.0
+escobyu01,1982.0,11.0,2.0,Cuba,La Habana,La Habana,,,,,,,Yunel,Escobar,Yunel,215.0,74.0,R,R,2007-06-02,2015-10-03,escoy001,escobyu01,2015.0,WAS,NL,5000000.0
+ethiean01,1982.0,4.0,10.0,USA,AZ,Phoenix,,,,,,,Andre,Ethier,Andre Everett,210.0,74.0,L,L,2006-05-02,2015-10-04,ethia001,ethiean01,2015.0,LAN,NL,18000000.0
+feldmsc01,1983.0,2.0,7.0,USA,HI,Kailua,,,,,,,Scott,Feldman,Scott Wynne,220.0,79.0,L,R,2005-08-31,2015-09-01,felds001,feldmsc01,2015.0,HOU,AL,10000000.0
+felizpe01,1975.0,4.0,27.0,D.R.,Azua,Azua,,,,,,,Pedro,Feliz,Pedro Julio,210.0,73.0,R,R,2000-09-05,2010-10-03,felip001,felizpe01,2010.0,HOU,NL,4500000.0
+fernaal01,1969.0,8.0,13.0,USA,FL,Miami Beach,,,,,,,Alex,Fernandez,Alexander,200.0,74.0,R,R,1990-08-02,2000-05-18,ferna001,fernaal01,2001.0,FLO,NL,7000000.0
+fieldpr01,1984.0,5.0,9.0,USA,CA,Ontario,,,,,,,Prince,Fielder,Prince Semien,275.0,71.0,L,R,2005-06-13,2015-10-04,fielp001,fieldpr01,2015.0,TEX,AL,24000000.0
+figgich01,1978.0,1.0,22.0,USA,GA,Leary,,,,,,,Chone,Figgins,Desmond DeChone,180.0,68.0,B,R,2002-08-25,2014-06-13,figgc001,figgich01,2012.0,SEA,AL,9500000.0
+finlech01,1962.0,11.0,26.0,USA,LA,Monroe,,,,,,,Chuck,Finley,Charles Edward,220.0,78.0,L,L,1986-05-29,2002-09-28,finlc001,finlech01,2002.0,CLE,AL,7911948.0
+fistedo01,1984.0,2.0,4.0,USA,CA,Merced,,,,,,,Doug,Fister,Douglas Wildes,210.0,80.0,L,R,2009-08-08,2015-09-27,fistd001,fistedo01,2015.0,WAS,NL,11400000.0
+fowlede01,1986.0,3.0,22.0,USA,GA,Atlanta,,,,,,,Dexter,Fowler,William Dexter,195.0,77.0,B,R,2008-09-02,2015-10-03,fowld001,fowlede01,2015.0,CHN,NL,9500000.0
+francfr01,1979.0,9.0,11.0,D.R.,Distrito Nacional,Santo Domingo,,,,,,,Frank,Francisco,Franklin,250.0,74.0,R,R,2004-05-14,2014-05-20,franf001,francfr01,2013.0,NYN,NL,6500000.0
+frazito01,1986.0,2.0,12.0,USA,NJ,Point Pleasant,,,,,,,Todd,Frazier,Todd B.,220.0,75.0,R,R,2011-05-23,2015-10-04,frazt001,frazito01,2015.0,CIN,NL,4500000.0
+freemfr01,1989.0,9.0,12.0,USA,CA,Fountain Valley,,,,,,,Freddie,Freeman,Frederick Charles,225.0,77.0,L,R,2010-09-01,2015-10-04,freef001,freemfr01,2015.0,ATL,NL,8500000.0
+freesda01,1983.0,4.0,28.0,USA,TX,Corpus Christi,,,,,,,David,Freese,David Richard,225.0,74.0,R,R,2009-04-06,2015-10-04,freed001,freesda01,2015.0,LAA,AL,6425000.0
+frymatr01,1969.0,3.0,25.0,USA,KY,Lexington,,,,,,,Travis,Fryman,David Travis,180.0,73.0,R,R,1990-07-07,2002-09-29,frymt001,frymatr01,2002.0,CLE,AL,5825000.0
+fuentbr01,1975.0,8.0,9.0,USA,CA,Merced,,,,,,,Brian,Fuentes,Brian Christopher,230.0,76.0,L,L,2001-06-02,2012-08-08,fuenb001,fuentbr01,2012.0,OAK,AL,5000000.0
+furcara01,1977.0,10.0,24.0,D.R.,Dajabon,Loma de Cabrera,,,,,,,Rafael,Furcal,Rafael,195.0,68.0,B,R,2000-04-04,2014-06-21,furcr001,furcara02,2012.0,SLN,NL,6500000.0
+gagneer01,1976.0,1.0,7.0,CAN,QC,Montreal,,,,,,,Eric,Gagne,Eric Serge,195.0,74.0,R,R,1999-09-07,2008-09-25,gagne001,gagneer01,2008.0,MIL,NL,10000000.0
+gallayo01,1986.0,2.0,27.0,Mexico,Michoacan,Penjamillo,,,,,,,Yovani,Gallardo,Yovani,205.0,74.0,R,R,2007-06-18,2015-09-30,gally001,gallayo01,2015.0,TEX,AL,14000000.0
+garcija01,1980.0,7.0,25.0,D.R.,San Cristobal,San Cristobal,,,,,,,Santiago,Casilla,Santiago,210.0,72.0,R,R,2004-08-09,2015-10-03,garcj002,garcija01,2015.0,SFN,NL,5000000.0
+garcija02,1986.0,7.0,8.0,Mexico,Tamaulipas,Reynosa,,,,,,,Jaime,Garcia,Jaime Omar,215.0,74.0,L,L,2008-07-11,2015-10-02,garcj004,garcija02,2015.0,SLN,NL,9250000.0
+gardnbr01,1983.0,8.0,24.0,USA,SC,Holly Hill,,,,,,,Brett,Gardner,Brett M.,185.0,70.0,L,L,2008-06-30,2015-10-04,gardb001,gardnbr01,2015.0,NYA,AL,12500000.0
+garzama01,1983.0,11.0,26.0,USA,CA,Selma,,,,,,,Matt,Garza,Matthew Scott,215.0,76.0,R,R,2006-08-11,2015-09-05,garzm001,garzama01,2015.0,MIL,NL,12500000.0
+geedi01,1986.0,4.0,28.0,USA,TX,Cleburne,,,,,,,Dillon,Gee,Dillon Kyle,205.0,73.0,R,R,2010-09-07,2015-06-14,gee-d001,geedi01,2015.0,NYN,NL,5300000.0
+gilesbr02,1971.0,1.0,20.0,USA,CA,El Cajon,,,,,,,Brian,Giles,Brian Stephen,195.0,71.0,L,L,1995-09-16,2009-06-18,gileb002,gilesbr02,2009.0,SDN,NL,9000000.0
+gilkebe01,1966.0,9.0,24.0,USA,MO,St. Louis,,,,,,,Bernard,Gilkey,Otis Bernard,170.0,72.0,R,R,1990-09-04,2001-10-07,gilkb001,gilkebe01,2000.0,ARI,NL,5250000.0
+gomezca01,1985.0,12.0,4.0,D.R.,Santiago,Santiago,,,,,,,Carlos,Gomez,Carlos Argelis,220.0,75.0,R,R,2007-05-13,2015-09-30,gomec002,gomezca01,2015.0,MIL,NL,8000000.0
+gonzaad01,1982.0,5.0,8.0,USA,CA,San Diego,,,,,,,Adrian,Gonzalez,Adrian Sabin,220.0,74.0,L,L,2004-04-18,2015-10-04,gonza003,gonzaad01,2015.0,LAN,NL,21857000.0
+gonzaca01,1985.0,10.0,17.0,Venezuela,Zulia,Maracaibo,,,,,,,Carlos,Gonzalez,Carlos Eduardo,220.0,73.0,L,L,2008-05-30,2015-10-04,gonzc001,gonzaca01,2015.0,COL,NL,16000000.0
+gonzagi01,1985.0,9.0,19.0,USA,FL,Hialeah,,,,,,,Gio,Gonzalez,Giovany Aramis,210.0,72.0,R,L,2008-08-06,2015-10-03,gonzg003,gonzagi01,2015.0,WAS,NL,11000000.0
+gordoal01,1984.0,2.0,10.0,USA,NE,Lincoln,,,,,,,Alex,Gordon,Alex Jonathan,220.0,73.0,L,R,2007-04-02,2015-10-04,gorda001,gordoal01,2015.0,KCA,AL,12500000.0
+grabojo02,1978.0,11.0,4.0,USA,CA,Arcadia,,,,,,,John,Grabow,John William,205.0,73.0,L,L,2003-09-14,2011-09-20,grabj002,grabojo02,2011.0,CHN,NL,4800000.0
+grandcu01,1981.0,3.0,16.0,USA,IL,Blue Island,,,,,,,Curtis,Granderson,Curtis,200.0,73.0,L,R,2004-09-13,2015-10-04,granc001,grandcu01,2015.0,NYN,NL,16000000.0
+greenkh01,1979.0,10.0,21.0,USA,PA,Butler,,,,,,,Khalil,Greene,Khalil Thabit,210.0,71.0,R,R,2003-09-03,2009-10-04,greek002,greenkh01,2009.0,SLN,NL,6500000.0
+greensh01,1972.0,11.0,10.0,USA,IL,Des Plaines,,,,,,,Shawn,Green,Shawn David,190.0,76.0,L,L,1993-09-28,2007-09-29,grees001,greensh01,2007.0,NYN,NL,9500000.0
+greerru01,1969.0,1.0,21.0,USA,AL,Fort Rucker,,,,,,,Rusty,Greer,Thurman Clyde,190.0,72.0,L,L,1994-05-16,2002-07-11,greer001,greerru01,2004.0,TEX,AL,7400000.0
+gregelu01,1984.0,5.0,14.0,USA,IL,Park Ridge,,,,,,,Luke,Gregerson,Lucas John,200.0,75.0,L,R,2009-04-06,2015-10-03,gregl001,gregelu01,2015.0,HOU,AL,6000000.0
+greinza01,1983.0,10.0,21.0,USA,FL,Orlando,,,,,,,Zack,Greinke,Donald Zachary,195.0,72.0,R,R,2004-05-22,2015-10-03,greiz001,greinza01,2015.0,LAN,NL,25000000.0
+guerral01,1986.0,11.0,20.0,Cuba,Las Tunas,Las Tunas,,,,,,,Alex,Guerrero,Alexander,215.0,72.0,R,R,2014-03-22,2015-10-04,guera001,guerral01,2015.0,LAN,NL,6500000.0
+guerrma02,1978.0,8.0,2.0,USA,OH,Cleveland,,,,,,,Matt,Guerrier,Matthew Olson,195.0,75.0,R,R,2004-06-17,2014-07-22,guerm001,guerrma02,2013.0,LAN,NL,4711499.0
+guerrvl01,1975.0,2.0,9.0,D.R.,Peravia,Nizao,,,,,,,Vladimir,Guerrero,Vladimir,235.0,75.0,R,R,1996-09-19,2011-09-28,guerv001,guerrvl01,2011.0,BAL,AL,7611455.0
+guillca01,1975.0,9.0,30.0,Venezuela,Aragua,Maracay,,,,,,,Carlos,Guillen,Carlos Alfonso,215.0,73.0,B,R,1998-09-06,2011-09-18,guilc001,guillca01,2011.0,DET,AL,12922231.0
+guilljo01,1976.0,5.0,17.0,D.R.,San Cristobal,San Cristobal,,,,,,,Jose,Guillen,Jose Manuel,165.0,71.0,R,R,1997-04-01,2010-10-03,guilj001,guilljo01,2010.0,KCA,AL,12000000.0
+guthrje01,1979.0,4.0,8.0,USA,OR,Roseburg,,,,,,,Jeremy,Guthrie,Jeremy,205.0,73.0,R,R,2004-08-28,2015-09-26,guthj001,guthrje01,2015.0,KCA,AL,9000000.0
+gutiefr01,1983.0,2.0,21.0,Venezuela,Distrito Federal,Caracas,,,,,,,Franklin,Gutierrez,Franklin Rafael,200.0,74.0,R,R,2005-08-31,2015-10-04,gutif001,gutiefr01,2013.0,SEA,AL,7312500.0
+guzmacr01,1978.0,3.0,21.0,D.R.,Distrito Nacional,Santo Domingo,,,,,,,Cristian,Guzman,Cristian,180.0,72.0,B,R,1999-04-06,2010-09-08,guzmc001,guzmacr01,2010.0,WAS,NL,8000000.0
+guzmaju01,1966.0,10.0,28.0,D.R.,Distrito Nacional,Santo Domingo,,,,,,,Juan,Guzman,Juan Andres,190.0,71.0,R,R,1991-06-07,2000-04-07,guzmj003,guzmaju01,2001.0,TBA,AL,6000000.0
+hallaro01,1977.0,5.0,14.0,USA,CO,Denver,,,,,,,Roy,Halladay,Harry Leroy,225.0,78.0,R,R,1998-09-20,2013-09-23,hallr001,hallaro01,2013.0,PHI,NL,20000000.0
+hamelco01,1983.0,12.0,27.0,USA,CA,San Diego,,,,,,,Cole,Hamels,Colbert Michael,200.0,75.0,L,L,2006-05-12,2015-10-04,hamec001,hamelco01,2015.0,PHI,NL,23500000.0
+hamiljo03,1981.0,5.0,21.0,USA,NC,Raleigh,,,,,,,Josh,Hamilton,Joshua Holt,240.0,76.0,L,L,2007-04-02,2015-10-04,hamij003,hamiljo03,2015.0,TEX,AL,22708749.0
+hammeja01,1982.0,9.0,2.0,USA,SC,Greenville,,,,,,,Jason,Hammel,Jason Aaron,225.0,78.0,R,R,2006-04-11,2015-10-01,hammj002,hammeja01,2015.0,CHN,NL,9000000.0
+hanrajo01,1981.0,10.0,6.0,USA,IA,Des Moines,,,,,,,Joel,Hanrahan,Joel Ryan,255.0,76.0,R,R,2007-07-28,2013-05-06,hanrj001,hanrajo01,2013.0,BOS,AL,7040000.0
+happja01,1982.0,10.0,19.0,USA,IL,Peru,,,,,,,J. A.,Happ,James Anthony,205.0,77.0,L,L,2007-06-30,2015-10-04,happj001,happja01,2015.0,SEA,AL,6700000.0
+haranaa01,1978.0,5.0,9.0,USA,CA,San Diego,,,,,,,Aaron,Harang,Aaron Michael,260.0,79.0,R,R,2002-05-25,2015-10-03,haraa001,haranaa01,2015.0,PHI,NL,5000000.0
+hardyjj01,1982.0,8.0,19.0,USA,AZ,Tucson,,,,,,,J. J.,Hardy,James Jerry,200.0,73.0,R,R,2005-04-04,2015-10-04,hardj003,hardyjj01,2015.0,BAL,AL,11500000.0
+harenda01,1980.0,9.0,17.0,USA,CA,Monterey Park,,,,,,,Dan,Haren,Daniel John,215.0,77.0,R,R,2003-06-30,2015-10-04,hared001,harenda01,2015.0,MIA,NL,10000000.0
+harrima01,1985.0,9.0,16.0,USA,NC,Durham,,,,,,,Matt,Harrison,Matthew Reid,240.0,76.0,L,L,2008-07-08,2015-07-27,harrm001,harrima01,2013.0,TEX,AL,5200000.0
+headlch01,1984.0,5.0,9.0,USA,CO,Fountain,,,,,,,Chase,Headley,Chase Jordan,210.0,74.0,B,R,2007-06-15,2015-10-04,headc001,headlch01,2015.0,NYA,AL,13000000.0
+heltoto01,1973.0,8.0,20.0,USA,TN,Knoxville,,,,,,,Todd,Helton,Todd Lynn,220.0,74.0,L,L,1997-08-02,2013-09-29,heltt001,heltoto01,2013.0,COL,NL,6175000.0
+hernafe02,1986.0,4.0,8.0,Venezuela,Carabobo,Valencia,,,,,,,Felix,Hernandez,Felix Abraham,225.0,75.0,R,R,2005-08-04,2015-09-26,hernf002,hernafe02,2015.0,SEA,AL,24857000.0
+hernaor01,1965.0,10.0,11.0,Cuba,,Villa Clara,,,,,,,Orlando,Hernandez,Orlando P.,210.0,74.0,R,R,1998-06-03,2007-09-30,herno001,hernaor01,2008.0,NYN,NL,7000000.0
+hernara02,1976.0,5.0,20.0,Venezuela,Distrito Federal,Caracas,,,,,,,Ramon,Hernandez,Ramon Jose,220.0,72.0,R,R,1999-06-29,2013-06-12,hernr002,hernara02,2013.0,LAN,NL,6000000.0
+hernaro01,1964.0,11.0,11.0,P.R.,,Santurce,,,,,,,Roberto,Hernandez,Roberto Manuel,220.0,76.0,R,R,1991-09-02,2007-09-25,hernr001,hernaro01,2012.0,CLE,AL,7000000.0
+heywaja01,1989.0,8.0,9.0,USA,NJ,Ridgewood,,,,,,,Jason,Heyward,Jason Alias,245.0,77.0,L,L,2010-04-05,2015-10-04,heywj001,heywaja01,2015.0,SLN,NL,7800000.0
+hidalri01,1975.0,6.0,28.0,Venezuela,Distrito Federal,Caracas,,,,,,,Richard,Hidalgo,Richard Jose,220.0,75.0,R,R,1997-09-01,2005-08-04,hidar001,hidalri01,2005.0,TEX,AL,5000000.0
+higgibo02,1970.0,8.0,18.0,USA,PA,Philadelphia,,,,,,,Bobby,Higginson,Robert Leigh,180.0,71.0,L,R,1995-04-26,2005-05-05,higgb001,higgibo02,2005.0,DET,AL,8850000.0
+hillaa01,1982.0,3.0,21.0,USA,CA,Visalia,,,,,,,Aaron,Hill,Aaron Walter,200.0,71.0,R,R,2005-05-20,2015-10-04,hilla001,hillaa01,2015.0,ARI,NL,12000000.0
+hillesh02,1975.0,7.0,27.0,USA,AZ,Mesa,,,,,,,Shea,Hillenbrand,Shea Matthew,200.0,73.0,R,R,2001-04-02,2007-09-20,hills002,hillesh02,2007.0,LAA,AL,6000000.0
+hitchst01,1971.0,4.0,29.0,USA,NC,Fayetteville,,,,,,,Sterling,Hitchcock,Sterling Alex,200.0,73.0,L,L,1992-09-11,2004-08-22,hitcs001,hitchst01,2003.0,NYA,AL,6000000.0
+hoffmtr01,1967.0,10.0,13.0,USA,CA,Bellflower,,,,,,,Trevor,Hoffman,Trevor William,200.0,73.0,R,R,1993-04-06,2010-09-29,hofft001,hoffmtr01,2010.0,MIL,NL,7500000.0
+hollade01,1986.0,10.0,9.0,USA,OH,Newark,,,,,,,Derek,Holland,Derek Lane,205.0,74.0,B,L,2009-04-22,2015-10-01,holld003,hollade01,2015.0,TEX,AL,7400000.0
+hollagr01,1985.0,11.0,20.0,USA,NC,Marion,,,,,,,Greg,Holland,Gregory Scott,205.0,70.0,R,R,2010-08-02,2015-09-18,hollg001,hollagr01,2015.0,KCA,AL,8250000.0
+hollima01,1980.0,1.0,15.0,USA,OK,Stillwater,,,,,,,Matt,Holliday,Matthew Thomas,250.0,76.0,R,R,2004-04-16,2015-10-04,hollm001,hollima01,2015.0,SLN,NL,17000000.0
+hosmeer01,1989.0,10.0,24.0,USA,FL,South Miami,,,,,,,Eric,Hosmer,Eric John,225.0,76.0,L,L,2011-05-06,2015-10-04,hosme001,hosmeer01,2015.0,KCA,AL,5650000.0
+howarry01,1979.0,11.0,19.0,USA,MO,St. Louis,,,,,,,Ryan,Howard,Ryan James,250.0,76.0,L,L,2004-09-01,2015-09-14,howar001,howarry01,2015.0,PHI,NL,25000000.0
+hudsoor01,1977.0,12.0,12.0,USA,SC,Darlington,,,,,,,Orlando,Hudson,Orlando Thill,190.0,72.0,B,R,2002-07-24,2012-10-03,hudso001,hudsoor01,2012.0,SDN,NL,5500000.0
+hudsoti01,1975.0,7.0,14.0,USA,GA,Columbus,,,,,,,Tim,Hudson,Timothy Adam,175.0,73.0,R,R,1999-06-08,2015-10-01,hudst001,hudsoti01,2015.0,SFN,NL,12000000.0
+huffau01,1976.0,12.0,20.0,USA,OH,Marion,,,,,,,Aubrey,Huff,Aubrey Lewis,225.0,76.0,L,R,2000-08-02,2012-10-03,huffa001,huffau01,2012.0,SFN,NL,10000000.0
+hugheph01,1986.0,6.0,24.0,USA,CA,Mission Viejo,,,,,,,Phil,Hughes,Philip Joseph,250.0,77.0,R,R,2007-04-26,2015-09-30,hughp001,hugheph01,2015.0,MIN,AL,9200000.0
+hundlto01,1969.0,5.0,27.0,USA,VA,Martinsville,,,,,,,Todd,Hundley,Todd Randolph,170.0,71.0,B,R,1990-05-18,2003-09-27,hundt001,hundlto01,2004.0,LAN,NL,7000000.0
+hunteto01,1975.0,7.0,18.0,USA,AR,Pine Bluff,,,,,,,Torii,Hunter,Torii Kedar,220.0,74.0,R,R,1997-08-22,2015-10-03,huntt001,hunteto01,2015.0,MIN,AL,10500000.0
+hunteto02,1986.0,7.0,3.0,USA,IN,Indianapolis,,,,,,,Tommy,Hunter,Raymond Thomas,250.0,75.0,R,R,2008-08-01,2015-09-26,huntt002,hunteto02,2015.0,BAL,AL,4650000.0
+iannech01,1983.0,4.0,8.0,USA,RI,Providence,,,,,,,Chris,Iannetta,Christopher Domenic,230.0,72.0,R,R,2006-08-27,2015-09-28,iannc001,iannech01,2015.0,LAA,AL,5525000.0
+infanom01,1981.0,12.0,26.0,Venezuela,Anzoategui,Puerto La Cruz,,,,,,,Omar,Infante,Omar Rafael,195.0,71.0,R,R,2002-09-07,2015-09-18,infao001,infanom01,2015.0,KCA,AL,7500000.0
+iwakuhi01,1981.0,4.0,12.0,Japan,Tokyo,Higashi Yamato,,,,,,,Hisashi,Iwakuma,Hisashi,210.0,75.0,R,R,2012-04-20,2015-10-02,iwakh001,iwakuhi01,2015.0,SEA,AL,7000000.0
+iwamuak01,1979.0,2.0,9.0,Japan,Ehime,Uwajima,,,,,,,Akinori,Iwamura,Akinori,200.0,69.0,L,R,2007-04-02,2010-09-26,iwama001,iwamuak01,2010.0,PIT,NL,4850000.0
+jacksau01,1987.0,2.0,1.0,USA,TX,Denton,,,,,,,Austin,Jackson,Austin Jarriel,205.0,73.0,R,R,2010-04-05,2015-10-04,jacka001,jacksau01,2015.0,SEA,AL,7700000.0
+jacksda02,1962.0,1.0,5.0,USA,TX,San Antonio,,,,,,,Danny,Jackson,Danny Lynn,205.0,72.0,R,L,1983-09-11,1997-08-07,jackd001,jacksda02,1997.0,SLN,NL,4600000.0
+jacksed01,1983.0,9.0,9.0,Germany,,Neu-Ulm,,,,,,,Edwin,Jackson,Edwin,210.0,75.0,R,R,2003-09-09,2015-10-04,jacke001,jacksed01,2015.0,CHN,NL,13000000.0
+janseke01,1987.0,9.0,30.0,Curacao,,Willemstad,,,,,,,Kenley,Jansen,Kenley Geronimo,265.0,77.0,B,R,2010-07-24,2015-10-03,jansk001,janseke01,2015.0,LAN,NL,7425000.0
+jenkige01,1974.0,7.0,21.0,USA,WA,Olympia,,,,,,,Geoff,Jenkins,Geoffrey Scott,205.0,73.0,L,R,1998-04-24,2008-09-28,jenkg001,jenkige01,2008.0,PHI,NL,5000000.0
+jenksbo01,1981.0,3.0,14.0,USA,CA,Mission Hills,,,,,,,Bobby,Jenks,Robert Scott,275.0,76.0,R,R,2005-07-06,2011-07-07,jenkb001,jenksbo01,2012.0,BOS,AL,6000000.0
+jeterde01,1974.0,6.0,26.0,USA,NJ,Pequannock,,,,,,,Derek,Jeter,Derek Sanderson,195.0,75.0,R,R,1995-05-29,2014-09-28,jeted001,jeterde01,2014.0,NYA,AL,12000000.0
+jimenub01,1984.0,1.0,22.0,D.R.,Maria Trinidad Sanchez,Nagua,,,,,,,Ubaldo,Jimenez,Ubaldo,210.0,77.0,R,R,2006-09-26,2015-10-03,jimeu001,jimenub01,2015.0,BAL,AL,12250000.0
+johjike01,1976.0,6.0,8.0,Japan,Nagasaki,Sasebo,,,,,,,Kenji,Johjima,Kenji,205.0,72.0,R,R,2006-04-03,2009-10-03,johjk001,johjike01,2009.0,SEA,AL,7666666.0
+johnsch04,1971.0,7.0,20.0,USA,FL,Fort Pierce,,,,,,,Charles,Johnson,Charles Edward,215.0,74.0,R,R,1994-05-06,2005-06-11,johnc002,johnsch04,2004.0,COL,NL,9000000.0
+johnsch05,1984.0,10.0,1.0,USA,FL,Naples,,,,,,,Chris,Johnson,Christopher Dalton,225.0,75.0,R,R,2009-09-09,2015-10-02,johnc003,johnsch05,2015.0,ATL,NL,6000000.0
+johnsjo09,1984.0,1.0,31.0,USA,MN,Minneapolis,,,,,,,Josh,Johnson,Joshua Michael,250.0,79.0,L,R,2005-09-10,2013-08-06,johnj009,johnsjo09,2013.0,TOR,AL,13750000.0
+johnsra05,1963.0,9.0,10.0,USA,CA,Walnut Creek,,,,,,,Randy,Johnson,Randall David,225.0,82.0,R,L,1988-09-15,2009-10-04,johnr005,johnsra05,2009.0,SFN,NL,8000000.0
+jonesad01,1985.0,8.0,1.0,USA,CA,San Diego,,,,,,,Adam,Jones,Adam La Marque,215.0,74.0,R,R,2006-07-14,2015-09-27,jonea003,jonesad01,2015.0,BAL,AL,13333333.0
+jonesch06,1972.0,4.0,24.0,USA,FL,Deland,,,,,,,Chipper,Jones,Larry Wayne,210.0,76.0,B,R,1993-09-11,2012-10-03,jonec004,jonesch06,2012.0,ATL,NL,14000000.0
+jonesga02,1981.0,6.0,21.0,USA,IL,Harvey,,,,,,,Garrett,Jones,Garrett Thomas,235.0,77.0,L,L,2007-05-15,2015-07-29,joneg002,jonesga02,2015.0,NYA,AL,5000000.0
+jonesja04,1975.0,4.0,25.0,USA,CA,San Diego,,,,,,,Jacque,Jones,Jacque Dewayne,175.0,70.0,L,L,1999-06-09,2008-06-10,jonej003,jonesja05,2008.0,DET,AL,6333333.0
+jonesto02,1968.0,4.0,24.0,USA,GA,Marietta,,,,,,,Todd,Jones,Todd Barton Givin,200.0,75.0,L,R,1993-07-07,2008-08-15,jonet003,jonesto02,2008.0,DET,AL,7000000.0
+joycema01,1984.0,8.0,3.0,USA,FL,Tampa,,,,,,,Matthew,Joyce,Matthew Ryan,200.0,74.0,L,R,2008-05-05,2015-09-21,joycm001,joycema01,2015.0,LAA,AL,4750000.0
+jurrjja01,1986.0,1.0,29.0,Curacao,,Santa Maria,,,,,,,Jair,Jurrjens,Jair Francoise,200.0,73.0,R,R,2007-08-15,2014-07-09,jurrj001,jurrjja01,2012.0,ATL,NL,5500000.0
+justida01,1966.0,4.0,14.0,USA,OH,Cincinnati,,,,,,,David,Justice,David Christopher,195.0,75.0,L,L,1989-05-24,2002-09-29,justd001,justida01,2002.0,OAK,AL,7000000.0
+karsast01,1972.0,3.0,24.0,USA,NY,Flushing,,,,,,,Steve,Karsay,Stefan Andrew,210.0,75.0,R,R,1993-08-17,2006-06-17,karss001,karsast01,2005.0,NYA,AL,6000000.0
+kawakke01,1975.0,6.0,22.0,Japan,Tokushima,Tokushima,,,,,,,Kenshin,Kawakami,Kenshin,200.0,71.0,R,R,2009-04-11,2010-09-09,kawak001,kawakke01,2010.0,ATL,NL,7333666.0
+kazmisc01,1984.0,1.0,24.0,USA,TX,Houston,,,,,,,Scott,Kazmir,Scott Edward,185.0,72.0,L,L,2004-08-23,2015-09-30,kazms001,kazmisc01,2015.0,OAK,AL,13000000.0
+kempma01,1984.0,9.0,23.0,USA,OK,Midwest City,,,,,,,Matt,Kemp,Matthew Ryan,210.0,76.0,R,R,2006-05-28,2015-09-29,kempm001,kempma01,2015.0,SDN,NL,21250000.0
+kendrho01,1983.0,7.0,12.0,USA,FL,Jacksonville,,,,,,,Howie,Kendrick,Howard Joseph,220.0,71.0,R,R,2006-04-26,2015-10-03,kendh001,kendrho01,2015.0,LAN,NL,9500000.0
+kendrky01,1984.0,8.0,26.0,USA,TX,Houston,,,,,,,Kyle,Kendrick,Kyle Rodney,210.0,75.0,R,R,2007-06-13,2015-10-02,kendk001,kendrky01,2015.0,COL,NL,5500000.0
+kenneia01,1984.0,12.0,19.0,USA,CA,Huntington Beach,,,,,,,Ian,Kennedy,Ian Patrick,200.0,72.0,R,R,2007-09-01,2015-10-01,kenni001,kenneia01,2015.0,SDN,NL,9850000.0
+kentje01,1968.0,3.0,7.0,USA,CA,Bellflower,,,,,,,Jeff,Kent,Jeffrey Franklin,185.0,73.0,R,R,1992-04-12,2008-09-27,kentj001,kentje01,2008.0,LAN,NL,9000000.0
+kershcl01,1988.0,3.0,19.0,USA,TX,Dallas,,,,,,,Clayton,Kershaw,Clayton Edward,225.0,76.0,L,L,2008-05-25,2015-10-04,kersc001,kershcl01,2015.0,LAN,NL,32571000.0
+keyji01,1961.0,4.0,22.0,USA,AL,Huntsville,,,,,,,Jimmy,Key,James Edward,185.0,73.0,R,L,1984-04-06,1998-09-20,key-j001,keyji01,1998.0,BAL,AL,5390825.0
+kileda01,1968.0,12.0,2.0,USA,CA,Garden Grove,2002.0,6.0,22.0,USA,IL,Chicago,Darryl,Kile,Darryl Andrew,185.0,77.0,R,R,1991-04-08,2002-06-18,kiled001,kileda01,2002.0,SLN,NL,7166667.0
+kimbrcr01,1988.0,5.0,28.0,USA,AL,Huntsville,,,,,,,Craig,Kimbrel,Craig Michael,220.0,71.0,R,R,2010-05-07,2015-10-01,kimbc001,kimbrcr01,2015.0,SDN,NL,9000000.0
+kinslia01,1982.0,6.0,22.0,USA,AZ,Tucson,,,,,,,Ian,Kinsler,Ian Michael,200.0,72.0,R,R,2006-04-03,2015-10-03,kinsi001,kinslia01,2015.0,DET,AL,16000000.0
+kochbi01,1974.0,12.0,14.0,USA,NY,Rockville Centre,,,,,,,Billy,Koch,William Christopher,218.0,75.0,R,R,1999-05-05,2004-08-26,kochb001,kochbi01,2004.0,CHA,AL,6375000.0
+koskico01,1973.0,6.0,28.0,CAN,MB,Anola,,,,,,,Corey,Koskie,Cordel Leonard,215.0,75.0,L,R,1998-09-09,2006-07-05,koskc001,koskico01,2007.0,MIL,NL,5750000.0
+kouzmke01,1981.0,7.0,25.0,USA,CA,Newport Beach,,,,,,,Kevin,Kouzmanoff,Kevin,210.0,73.0,R,R,2006-09-02,2014-04-22,kouzk001,kouzmke01,2011.0,OAK,AL,4750000.0
+kurodhi01,1975.0,2.0,10.0,Japan,Osaka,Osaka,,,,,,,Hiroki,Kuroda,Hiroki,205.0,73.0,R,R,2008-04-04,2014-09-25,kuroh001,kurodhi01,2014.0,NYA,AL,16000000.0
+lansimi01,1968.0,4.0,3.0,USA,WY,Rawlins,,,,,,,Mike,Lansing,Michael Thomas,175.0,72.0,R,R,1993-04-07,2001-09-08,lansm001,lansimi01,2001.0,BOS,AL,6250000.0
+larocad01,1979.0,11.0,6.0,USA,CA,Orange County,,,,,,,Adam,LaRoche,David Adam,205.0,75.0,L,L,2004-04-07,2015-10-02,laroa001,larocad01,2015.0,CHA,AL,12000000.0
+latosma01,1987.0,12.0,9.0,USA,VA,Alexandria,,,,,,,Mat,Latos,Mathew Adam,245.0,78.0,R,R,2009-07-19,2015-10-03,latom001,latosma01,2015.0,MIA,NL,9400000.0
+leagubr01,1983.0,3.0,16.0,USA,CA,Sacramento,,,,,,,Brandon,League,Brandon Paul,200.0,74.0,R,R,2004-09-21,2014-09-27,leagb001,leagubr01,2014.0,LAN,NL,7500000.0
+leakemi01,1987.0,11.0,12.0,USA,CA,San Diego,,,,,,,Mike,Leake,Michael Raymond,190.0,70.0,R,R,2010-04-11,2015-10-03,leakm001,leakemi01,2015.0,CIN,NL,9775000.0
+leeca01,1976.0,6.0,20.0,Panama,Cocle,Aguadulce,,,,,,,Carlos,Lee,Carlos,270.0,74.0,R,R,1999-05-07,2012-10-03,lee-c001,leeca01,2012.0,HOU,NL,19000000.0
+leecl02,1978.0,8.0,30.0,USA,AR,Benton,,,,,,,Cliff,Lee,Clifton Phifer,205.0,75.0,L,L,2002-09-15,2014-07-31,lee-c003,leecl02,2014.0,PHI,NL,25000000.0
+leede02,1975.0,9.0,6.0,USA,CA,Sacramento,,,,,,,Derrek,Lee,Derrek Leon,240.0,77.0,R,R,1997-04-28,2011-09-28,lee-d002,leede02,2011.0,BAL,AL,7250000.0
+leiteal01,1965.0,10.0,23.0,USA,NJ,Toms River,,,,,,,Al,Leiter,Alois Terry,200.0,74.0,L,L,1987-09-15,2005-10-02,leita001,leiteal01,2005.0,FLO,NL,7000000.0
+lestejo01,1984.0,1.0,7.0,USA,WA,Tacoma,,,,,,,Jon,Lester,Jonathan Tyler,240.0,76.0,L,L,2006-06-10,2015-09-30,lestj001,lestejo01,2015.0,CHN,NL,20000000.0
+lillyte01,1976.0,1.0,4.0,USA,CA,Lomita,,,,,,,Ted,Lilly,Theodore Roosevelt,195.0,72.0,L,L,1999-05-14,2013-06-04,lillt001,lillyte01,2013.0,LAN,NL,13166667.0
+linceti01,1984.0,6.0,15.0,USA,WA,Bellevue,,,,,,,Tim,Lincecum,Timothy LeRoy,170.0,71.0,L,R,2007-05-06,2015-06-27,linct001,linceti01,2015.0,SFN,NL,18000000.0
+lindad01,1983.0,7.0,17.0,USA,IN,Anderson,,,,,,,Adam,Lind,Adam Alan,195.0,74.0,L,L,2006-09-02,2015-10-04,linda001,lindad01,2015.0,MIL,NL,7500000.0
+liriafr01,1983.0,10.0,26.0,D.R.,San Cristobal,San Cristobal,,,,,,,Francisco,Liriano,Francisco Casillas,225.0,74.0,L,L,2005-09-05,2015-10-02,lirif001,liriafr01,2015.0,PIT,NL,11666666.0
+loaizes01,1971.0,12.0,31.0,Mexico,Baja California,Tijuana,,,,,,,Esteban,Loaiza,Esteban Antonio,230.0,74.0,R,R,1995-04-29,2008-06-11,loaie001,loaizes01,2008.0,LAN,NL,7500000.0
+loducpa01,1972.0,4.0,12.0,USA,NY,Brooklyn,,,,,,,Paul,Lo Duca,Paul Anthony,193.0,70.0,R,R,1998-06-21,2008-09-27,lodup001,loducpa01,2008.0,WAS,NL,5000000.0
+loftoke01,1967.0,5.0,31.0,USA,IN,East Chicago,,,,,,,Kenny,Lofton,Kenneth,180.0,72.0,L,L,1991-09-14,2007-09-29,loftk001,loftoke01,2007.0,TEX,AL,6000000.0
+loganbo02,1984.0,8.0,13.0,USA,TX,San Antonio,,,,,,,Boone,Logan,Boone,215.0,77.0,R,L,2006-04-04,2015-10-01,logab001,loganbo02,2015.0,COL,NL,5500000.0
+lohseky01,1978.0,10.0,4.0,USA,CA,Chico,,,,,,,Kyle,Lohse,Kyle Matthew,215.0,74.0,R,R,2001-06-22,2015-10-01,lohsk001,lohseky01,2015.0,MIL,NL,11000000.0
+loneyja01,1984.0,5.0,7.0,USA,TX,Houston,,,,,,,James,Loney,James Anthony,235.0,75.0,L,L,2006-04-04,2015-10-04,lonej001,loneyja01,2015.0,TBA,AL,8666666.0
+longoev01,1985.0,10.0,7.0,USA,CA,Downey,,,,,,,Evan,Longoria,Evan Michael,210.0,74.0,R,R,2008-04-12,2015-10-04,longe001,longoev01,2015.0,TBA,AL,11000000.0
+longte01,1976.0,2.0,29.0,USA,AL,Montgomery,,,,,,,Terrence,Long,Terrence Deon,190.0,73.0,L,L,1999-04-14,2006-06-05,longt002,longte01,2005.0,KCA,AL,4875000.0
+loopebr01,1974.0,10.0,28.0,USA,OK,Weatherford,,,,,,,Braden,Looper,Braden LaVern,210.0,76.0,R,R,1998-03-31,2009-10-02,loopb001,loopebr01,2009.0,MIL,NL,4750000.0
+lopezja01,1970.0,11.0,5.0,P.R.,,Ponce,,,,,,,Javy,Lopez,Javier,185.0,75.0,R,R,1992-09-18,2006-09-02,lopej001,lopezja01,2006.0,BAL,AL,9000000.0
+lowede01,1973.0,6.0,1.0,USA,MI,Dearborn,,,,,,,Derek,Lowe,Derek Christopher,230.0,78.0,R,R,1997-04-26,2013-05-19,lowed001,lowede01,2012.0,CLE,AL,15000000.0
+lowelmi01,1974.0,2.0,24.0,P.R.,,San Juan,,,,,,,Mike,Lowell,Michael Averett,195.0,76.0,R,R,1998-09-13,2010-10-02,lowem001,lowelmi01,2010.0,BOS,AL,12500000.0
+lowrije01,1984.0,4.0,17.0,USA,OR,Salem,,,,,,,Jed,Lowrie,Jed Carlson,180.0,72.0,B,R,2008-04-15,2015-10-04,lowrj001,lowrije01,2015.0,HOU,AL,8000000.0
+lowryno01,1980.0,10.0,10.0,USA,CA,Ventura,,,,,,,Noah,Lowry,Noah Ryan,190.0,74.0,R,L,2003-09-05,2007-08-29,lowrn001,lowryno01,2009.0,SFN,NL,4750000.0
+ludwiry01,1978.0,7.0,13.0,USA,FL,Satellite Beach,,,,,,,Ryan,Ludwick,Ryan Andrew,215.0,74.0,R,L,2002-06-05,2014-09-27,ludwr001,ludwiry01,2014.0,CIN,NL,8500000.0
+lugoju01,1975.0,11.0,16.0,D.R.,Barahona,Barahona,,,,,,,Julio,Lugo,Julio Cesar,175.0,73.0,R,R,2000-04-15,2011-08-23,lugoj001,lugoju01,2010.0,BAL,AL,9250000.0
+lynnla01,1987.0,5.0,12.0,USA,IN,Indianapolis,,,,,,,Lance,Lynn,Michael Lance,240.0,77.0,R,R,2011-06-02,2015-10-04,lynnl001,lynnla01,2015.0,SLN,NL,7000000.0
+maddugr01,1966.0,4.0,14.0,USA,TX,San Angelo,,,,,,,Greg,Maddux,Gregory Alan,170.0,72.0,R,R,1986-09-03,2008-09-27,maddg002,maddugr01,2008.0,SDN,NL,10000000.0
+markani01,1983.0,11.0,17.0,USA,NY,Glen Cove,,,,,,,Nick,Markakis,Nicholas William,190.0,73.0,L,L,2006-04-03,2015-10-04,markn001,markani01,2015.0,ATL,NL,11000000.0
+marshse01,1982.0,8.0,30.0,USA,VA,Richmond,,,,,,,Sean,Marshall,Sean Christopher,225.0,79.0,L,L,2006-04-09,2014-06-10,marss002,marshse01,2014.0,CIN,NL,5500000.0
+martile01,1988.0,3.0,6.0,Cuba,Villa Clara,Villa Clara,,,,,,,Leonys,Martin,Leonys,200.0,74.0,L,R,2011-09-02,2015-09-28,martl004,martile01,2015.0,TEX,AL,4750000.0
+martipe02,1971.0,10.0,25.0,D.R.,Distrito Nacional,Manoguayabo,,,,,,,Pedro,Martinez,Pedro Jaime,170.0,71.0,R,R,1992-09-24,2009-09-30,martp001,martipe02,2008.0,NYN,NL,11813351.0
+martira02,1968.0,3.0,22.0,D.R.,Distrito Nacional,Santo Domingo,,,,,,,Ramon,Martinez,Ramon Jaime,165.0,76.0,R,R,1988-08-13,2001-05-01,martr002,martira02,2000.0,BOS,AL,6320000.0
+martiru01,1983.0,2.0,15.0,CAN,ON,East York,,,,,,,Russell,Martin,Russell Nathan Coltrane,205.0,70.0,R,R,2006-05-05,2015-10-04,martr004,martiru01,2015.0,TOR,AL,7000000.0
+martivi01,1978.0,12.0,23.0,Venezuela,Bolivar,Ciudad Bolivar,,,,,,,Victor,Martinez,Victor Jesus,210.0,74.0,B,R,2002-09-10,2015-09-28,martv001,martivi01,2015.0,DET,AL,14000000.0
+masteju01,1985.0,3.0,22.0,Jamaica,,Kingston,,,,,,,Justin,Masterson,Justin Daniel,260.0,78.0,R,R,2008-04-24,2015-08-09,mastj001,masteju01,2015.0,BOS,AL,9500000.0
+matsuka01,1975.0,10.0,23.0,Japan,Osaka,Higashi-Osaka,,,,,,,Kazuo,Matsui,Kazuo,187.0,70.0,B,R,2004-04-06,2010-05-18,matsk001,matsuka01,2010.0,HOU,NL,5500000.0
+matthga02,1974.0,8.0,25.0,USA,CA,San Francisco,,,,,,,Gary,Matthews,Gary Nathaniel,200.0,75.0,B,R,1999-06-04,2010-06-02,mattg002,matthga02,2010.0,NYN,NL,11400000.0
+mauerjo01,1983.0,4.0,19.0,USA,MN,St. Paul,,,,,,,Joe,Mauer,Joseph Patrick,225.0,77.0,L,R,2004-04-05,2015-10-03,mauej001,mauerjo01,2015.0,MIN,AL,23000000.0
+maybica01,1987.0,4.0,4.0,USA,NC,Asheville,,,,,,,Cameron,Maybin,Cameron Keith,215.0,75.0,R,R,2007-08-17,2015-10-04,maybc001,maybica01,2015.0,ATL,NL,7000000.0
+mccanbr01,1984.0,2.0,20.0,USA,GA,Athens,,,,,,,Brian,McCann,Brian Michael,220.0,75.0,L,R,2005-06-10,2015-10-04,mccab002,mccanbr01,2015.0,NYA,AL,17000000.0
+mccarbr01,1983.0,7.0,7.0,USA,CA,Glendale,,,,,,,Brandon,McCarthy,Brandon Patrick,220.0,79.0,R,R,2005-05-22,2015-04-25,mccab001,mccarbr01,2015.0,LAN,NL,12500000.0
+mccutan01,1986.0,10.0,10.0,USA,FL,Fort Meade,,,,,,,Andrew,McCutchen,Andrew Stefan,200.0,70.0,R,R,2009-06-04,2015-10-04,mccua001,mccutan01,2015.0,PIT,NL,10000000.0
+mcdonbe01,1967.0,11.0,24.0,USA,LA,Baton Rouge,,,,,,,Ben,McDonald,Larry Benard,212.0,79.0,R,R,1989-09-06,1997-07-16,mcdob001,mcdonbe01,1997.0,ML4,AL,5000000.0
+mcgehca01,1982.0,10.0,12.0,USA,CA,Santa Cruz,,,,,,,Casey,McGehee,Casey Michael,220.0,73.0,R,R,2008-09-02,2015-10-04,mcgec001,mcgehca01,2015.0,SFN,NL,4800000.0
+mcgwima01,1963.0,10.0,1.0,USA,CA,Pomona,,,,,,,Mark,McGwire,Mark David,215.0,77.0,R,R,1986-08-22,2001-10-07,mcgwm001,mcgwima01,2001.0,SLN,NL,11000000.0
+mclouna01,1981.0,10.0,28.0,USA,MI,Muskegon,,,,,,,Nate,McLouth,Nathan Richard,190.0,70.0,L,R,2005-06-29,2014-08-01,mclon001,mclouna01,2014.0,WAS,NL,5000000.0
+mechegi01,1978.0,9.0,8.0,USA,LA,Lafayette,,,,,,,Gil,Meche,Gilbert Allen,180.0,75.0,R,R,1999-07-06,2010-10-03,mechg001,mechegi01,2010.0,KCA,AL,12400000.0
+melanma01,1985.0,3.0,28.0,USA,CO,Wheat Ridge,,,,,,,Mark,Melancon,Mark D.,210.0,74.0,R,R,2009-04-26,2015-10-04,melam001,melanma01,2015.0,PIT,NL,5400000.0
+millean01,1985.0,5.0,21.0,USA,FL,Gainesville,,,,,,,Andrew,Miller,Andrew Mark,210.0,79.0,L,L,2006-08-30,2015-10-04,milla002,millean01,2015.0,NYA,AL,9000000.0
+miltoer01,1975.0,8.0,4.0,USA,PA,State College,,,,,,,Eric,Milton,Eric Robert,200.0,75.0,L,L,1998-04-05,2009-06-27,milte001,miltoer01,2007.0,CIN,NL,10333333.0
+mlickda01,1968.0,6.0,8.0,USA,OH,Cleveland,,,,,,,Dave,Mlicki,David John,185.0,76.0,R,R,1992-09-12,2002-09-23,mlicd001,mlickda01,2002.0,HOU,NL,6200000.0
+molinbe01,1974.0,7.0,20.0,P.R.,,Rio Piedras,,,,,,,Bengie,Molina,Benjamin Jose,190.0,71.0,R,R,1998-09-21,2010-10-03,molib001,molinbe01,2010.0,SFN,NL,4500000.0
+molinya01,1982.0,7.0,13.0,P.R.,,Bayamon,,,,,,,Yadier,Molina,Yadier Benjamin,220.0,71.0,R,R,2004-06-03,2015-09-20,moliy001,molinya01,2015.0,SLN,NL,15000000.0
+montemi01,1983.0,7.0,9.0,Venezuela,Distrito Federal,Caracas,,,,,,,Miguel,Montero,Miguel Angel,210.0,71.0,L,R,2006-09-06,2015-10-04,montm001,montemi01,2015.0,CHN,NL,12000000.0
+moralke01,1983.0,6.0,20.0,Cuba,,Fomento,,,,,,,Kendrys,Morales,Kendrys,220.0,73.0,B,R,2006-05-23,2015-10-04,morak001,moralke01,2015.0,KCA,AL,6500000.0
+morneju01,1981.0,5.0,15.0,CAN,BC,New Westminster,,,,,,,Justin,Morneau,Justin Ernest George,220.0,76.0,L,R,2003-06-10,2015-10-04,mornj001,morneju01,2015.0,COL,NL,6750000.0
+morrima01,1974.0,8.0,9.0,USA,NY,Middletown,,,,,,,Matt,Morris,Matthew Christian,210.0,77.0,R,R,1997-04-04,2008-04-26,morrm001,morrima01,2008.0,PIT,NL,10037283.0
+morsemi01,1982.0,3.0,22.0,USA,FL,Fort Lauderdale,,,,,,,Mike,Morse,Michael John,245.0,77.0,R,R,2005-05-31,2015-10-04,morsm001,morsemi01,2014.0,SFN,NL,6000000.0
+mortoch02,1983.0,11.0,12.0,USA,NJ,Flemington,,,,,,,Charlie,Morton,Charles Alfred,235.0,77.0,R,R,2008-06-14,2015-09-30,mortc002,mortoch02,2015.0,PIT,NL,8000000.0
+mossbr01,1983.0,9.0,16.0,USA,GA,Monroe,,,,,,,Brandon,Moss,Brandon Douglas,210.0,72.0,L,R,2007-08-06,2015-10-04,mossb001,mossbr01,2015.0,CLE,AL,6500000.0
+motteja01,1982.0,6.0,22.0,USA,MI,Port Huron,,,,,,,Jason,Motte,Jason Louis,205.0,72.0,R,R,2008-09-03,2015-08-23,mottj001,motteja01,2015.0,CHN,NL,4500000.0
+muellbi02,1971.0,3.0,17.0,USA,MO,Maryland Heights,,,,,,,Bill,Mueller,William Richard,175.0,71.0,B,R,1996-04-18,2006-05-11,muelb001,muellbi02,2006.0,LAN,NL,4569443.0
+mujiced01,1984.0,5.0,10.0,Venezuela,Carabobo,Valencia,,,,,,,Edward,Mujica,Edward Jose,220.0,75.0,R,R,2006-06-21,2015-10-03,mujie001,mujiced01,2015.0,BOS,AL,4750000.0
+muldema01,1977.0,8.0,5.0,USA,IL,South Holland,,,,,,,Mark,Mulder,Mark Alan,200.0,78.0,L,L,2000-04-18,2008-07-09,muldm001,muldema01,2008.0,SLN,NL,7000000.0
+murphda07,1981.0,10.0,18.0,USA,TX,Houston,,,,,,,David,Murphy,David Matthew,210.0,75.0,L,L,2006-09-02,2015-10-03,murpd005,murphda07,2015.0,CLE,AL,6000000.0
+murphda08,1985.0,4.0,1.0,USA,FL,Jacksonville,,,,,,,Daniel,Murphy,Daniel Thomas,215.0,73.0,L,R,2008-08-02,2015-10-04,murpd006,murphda08,2015.0,NYN,NL,8000000.0
+mussimi01,1968.0,12.0,8.0,USA,PA,Williamsport,,,,,,,Mike,Mussina,Michael Cole,185.0,74.0,L,R,1991-08-04,2008-09-28,mussm001,mussimi01,2008.0,NYA,AL,11071029.0
+myersbr01,1980.0,8.0,17.0,USA,FL,Jacksonville,,,,,,,Brett,Myers,Brett Allen,240.0,76.0,R,R,2002-07-24,2013-04-19,myerb001,myersbr01,2013.0,CLE,AL,7000000.0
+myersra01,1962.0,9.0,19.0,USA,WA,Vancouver,,,,,,,Randy,Myers,Randall Kirk,190.0,73.0,L,L,1985-10-06,1998-09-25,myerr001,myersra01,2000.0,SDN,NL,6916667.0
+nagych01,1967.0,5.0,5.0,USA,CT,Bridgeport,,,,,,,Charles,Nagy,Charles Harrison,200.0,75.0,L,R,1990-06-29,2003-06-01,nagyc001,nagych01,2002.0,CLE,AL,6000000.0
+napolmi01,1981.0,10.0,31.0,USA,FL,Hollywood,,,,,,,Mike,Napoli,Michael Anthony,225.0,73.0,R,R,2006-05-04,2015-10-03,napom001,napolmi01,2015.0,BOS,AL,16000000.0
+nathajo01,1974.0,11.0,22.0,USA,TX,Houston,,,,,,,Joe,Nathan,Joseph Michael,230.0,76.0,R,R,1999-04-21,2015-04-06,nathj001,nathajo01,2015.0,DET,AL,10000000.0
+navardi01,1984.0,2.0,9.0,Venezuela,Distrito Federal,Caracas,,,,,,,Dioner,Navarro,Dioner Favian,205.0,69.0,B,R,2004-09-07,2015-10-03,navad001,navardi01,2015.0,TOR,AL,5000000.0
+navarja01,1967.0,3.0,27.0,P.R.,,Bayamon,,,,,,,Jaime,Navarro,Jaime,210.0,76.0,R,R,1989-06-20,2000-07-26,navaj001,navarja01,2000.0,MIL,NL,5000000.0
+neaglde01,1968.0,9.0,13.0,USA,MD,Gambrills,,,,,,,Denny,Neagle,Dennis Edward,200.0,76.0,L,L,1991-07-27,2003-07-20,neagd001,neaglde01,2004.0,COL,NL,9000000.0
+nenro01,1969.0,11.0,28.0,USA,CA,San Pedro,,,,,,,Robb,Nen,Robert Allen,200.0,76.0,R,R,1993-04-10,2002-09-28,nen-r001,nenro01,2004.0,SFN,NL,9150000.0
+neshepa01,1980.0,9.0,4.0,USA,WI,Madison,,,,,,,Pat,Neshek,Patrick John,210.0,75.0,B,R,2006-07-07,2015-10-04,neshp001,neshepa01,2015.0,HOU,AL,5500000.0
+nevinph01,1971.0,1.0,19.0,USA,CA,Fullerton,,,,,,,Phil,Nevin,Phillip Joseph,180.0,74.0,R,R,1995-06-11,2006-09-29,nevip001,nevinph01,2006.0,TEX,AL,10472409.0
+niesejo01,1986.0,10.0,27.0,USA,OH,Lima,,,,,,,Jonathon,Niese,Jonathon Joseph,220.0,75.0,L,L,2008-09-02,2015-10-04,niesj001,niesejo01,2015.0,NYN,NL,7000000.0
+nilssda01,1969.0,12.0,14.0,Australia,Queensland,Brisbane,,,,,,,Dave,Nilsson,David Wayne,185.0,75.0,L,R,1992-05-18,1999-10-03,nilsd001,nilssda01,1999.0,MIL,NL,5694133.0
+nolasri01,1982.0,12.0,13.0,USA,CA,Corona,,,,,,,Ricky,Nolasco,Carlos Enrique,235.0,74.0,R,R,2006-04-05,2015-10-04,nolar001,nolasri01,2015.0,MIN,AL,12000000.0
+norribu01,1985.0,3.0,2.0,USA,CA,Greenbrae,,,,,,,Bud,Norris,David Stefan,195.0,72.0,R,R,2009-07-29,2015-10-04,norrb001,norribu01,2015.0,BAL,AL,8800000.0
+oflaher01,1985.0,2.0,5.0,USA,WA,Walla Walla,,,,,,,Eric,O'Flaherty,Eric George,220.0,74.0,L,L,2006-08-16,2015-09-25,oflae001,oflaher01,2015.0,OAK,AL,5500000.0
+olerujo01,1968.0,8.0,5.0,USA,WA,Seattle,,,,,,,John,Olerud,John Garrett,205.0,77.0,L,L,1989-09-03,2005-10-02,olerj001,olerujo01,2004.0,SEA,AL,7700000.0
+oneilpa01,1963.0,2.0,25.0,USA,OH,Columbus,,,,,,,Paul,O'Neill,Paul Andrew,200.0,76.0,L,L,1985-09-03,2001-10-07,oneip001,o'neipa01,2001.0,NYA,AL,7250000.0
+ordonma01,1974.0,1.0,28.0,Venezuela,Distrito Federal,Caracas,,,,,,,Magglio,Ordonez,Magglio,215.0,72.0,R,R,1997-08-29,2011-09-27,ordom001,ordonma01,2011.0,DET,AL,10000000.0
+ordonre01,1971.0,1.0,11.0,Cuba,La Habana,La Habana,,,,,,,Rey,Ordonez,Reynaldo,160.0,69.0,R,R,1996-04-01,2004-07-17,ordor001,ordonre01,2003.0,TBA,AL,6500000.0
+ortizda01,1975.0,11.0,18.0,D.R.,Distrito Nacional,Santo Domingo,,,,,,,David,Ortiz,David Americo,230.0,75.0,L,L,1997-09-02,2015-10-04,ortid001,ortizda01,2015.0,BOS,AL,16000000.0
+oswalro01,1977.0,8.0,29.0,USA,MS,Kosciusko,,,,,,,Roy,Oswalt,Roy Edward,190.0,72.0,R,R,2001-05-06,2013-09-29,oswar001,oswalro01,2011.0,PHI,NL,16000000.0
+paganan01,1981.0,7.0,2.0,P.R.,,Rio Piedras,,,,,,,Angel,Pagan,Angel Manuel,200.0,74.0,B,R,2006-04-03,2015-10-04,pagaa001,paganan01,2015.0,SFN,NL,10250000.0
+palmede01,1968.0,12.0,27.0,USA,FL,Tallahassee,,,,,,,Dean,Palmer,Dean William,175.0,73.0,R,R,1989-09-01,2003-05-09,palmd002,palmede01,2003.0,DET,AL,8500000.0
+papeljo01,1980.0,11.0,23.0,USA,LA,Baton Rouge,,,,,,,Jonathan,Papelbon,Jonathan Robert,225.0,76.0,R,R,2005-07-31,2015-09-27,papej001,papeljo01,2015.0,PHI,NL,13000000.0
+parrage01,1987.0,5.0,6.0,Venezuela,Zulia,Santa Barbara,,,,,,,Gerardo,Parra,Gerardo Enrique,210.0,71.0,L,L,2009-05-13,2015-10-04,parrg001,parrage01,2015.0,MIL,NL,6237500.0
+pavanca01,1976.0,1.0,8.0,USA,CT,New Britain,,,,,,,Carl,Pavano,Carl Anthony,265.0,77.0,R,R,1998-05-23,2012-06-01,pavac001,pavanca01,2012.0,MIN,AL,9000000.0
+paytoja01,1972.0,11.0,22.0,USA,OH,Zanesville,,,,,,,Jay,Payton,Jason Lee,185.0,70.0,R,R,1998-09-01,2010-10-03,paytj001,paytoja01,2008.0,BAL,AL,5000000.0
+peavyja01,1981.0,5.0,31.0,USA,AL,Mobile,,,,,,,Jake,Peavy,Jacob Edward,195.0,73.0,R,R,2002-06-22,2015-10-03,peavj001,peavyja01,2015.0,SFN,NL,9000000.0
+pedrodu01,1983.0,8.0,17.0,USA,CA,Woodland,,,,,,,Dustin,Pedroia,Dustin Luis,175.0,69.0,R,R,2006-08-22,2015-10-04,pedrd001,pedrodu01,2015.0,BOS,AL,12500000.0
+pelfrmi01,1984.0,1.0,14.0,USA,OH,Wright Patterson AFB,,,,,,,Mike,Pelfrey,Michael Alan,240.0,79.0,R,R,2006-07-08,2015-09-30,pelfm001,pelfrmi01,2015.0,MIN,AL,5500000.0
+pencehu01,1983.0,4.0,13.0,USA,TX,Fort Worth,,,,,,,Hunter,Pence,Hunter Andrew,220.0,76.0,R,R,2007-04-28,2015-08-17,pench001,pencehu01,2015.0,SFN,NL,18500000.0
+peraljh01,1982.0,5.0,28.0,D.R.,Santiago,Santiago,,,,,,,Jhonny,Peralta,Jhonny Antonio,215.0,74.0,R,R,2003-06-12,2015-10-04,peraj001,peraljh01,2015.0,SLN,NL,15000000.0
+perezca01,1971.0,4.0,14.0,D.R.,San Cristobal,Nigua,,,,,,,Carlos,Perez,Carlos Gross,195.0,75.0,L,L,1995-04-27,2000-09-05,perec001,perezca01,2001.0,LAN,NL,7833333.0
+perezme01,1966.0,2.0,15.0,D.R.,San Cristobal,San Cristobal,,,,,,,Melido,Perez,Melido Turpen Gross,180.0,76.0,R,R,1987-09-04,1995-09-13,perem001,perezme01,1996.0,NYA,AL,4650000.0
+perkigl01,1983.0,3.0,2.0,USA,MN,St. Paul,,,,,,,Glen,Perkins,Glen Weston,215.0,72.0,L,L,2006-09-21,2015-10-02,perkg001,perkigl01,2015.0,MIN,AL,4650000.0
+pettian01,1972.0,6.0,15.0,USA,LA,Baton Rouge,,,,,,,Andy,Pettitte,Andrew Eugene,235.0,77.0,L,L,1995-04-29,2013-09-28,petta001,pettian01,2013.0,NYA,AL,12000000.0
+phillbr01,1981.0,6.0,28.0,USA,NC,Raleigh,,,,,,,Brandon,Phillips,Brandon Emil,210.0,72.0,R,R,2002-09-13,2015-10-04,philb001,phillbr01,2015.0,CIN,NL,12000000.0
+piazzmi01,1968.0,9.0,4.0,USA,PA,Norristown,,,,,,,Mike,Piazza,Michael Joseph,200.0,75.0,R,R,1992-09-01,2007-09-30,piazm001,piazzmi01,2007.0,OAK,AL,8500000.0
+pineijo01,1978.0,9.0,25.0,P.R.,,Rio Piedras,,,,,,,Joel,Pineiro,Joel Alberto,200.0,72.0,R,R,2000-08-08,2011-09-25,pinej001,pineijo01,2011.0,LAA,AL,8000000.0
+plouftr01,1986.0,6.0,15.0,USA,CA,West Hills,,,,,,,Trevor,Plouffe,Trevor Patrick,215.0,74.0,R,R,2010-05-21,2015-10-03,plout001,plouftr01,2015.0,MIN,AL,4800000.0
+porceri01,1988.0,12.0,27.0,USA,NJ,Morristown,,,,,,,Rick,Porcello,Frederick Alfred,200.0,77.0,R,R,2009-04-09,2015-10-04,porcr001,porceri01,2015.0,BOS,AL,12500000.0
+posadjo01,1971.0,8.0,17.0,P.R.,,Santurce,,,,,,,Jorge,Posada,Jorge Rafael,215.0,74.0,B,R,1995-09-04,2011-09-28,posaj001,posadjo01,2011.0,NYA,AL,13100000.0
+poseybu01,1987.0,3.0,27.0,USA,GA,Leesburg,,,,,,,Buster,Posey,Gerald Dempsey,215.0,73.0,R,R,2009-09-11,2015-10-04,poseb001,poseybu01,2015.0,SFN,NL,16500000.0
+pradoma01,1983.0,10.0,27.0,Venezuela,Aragua,Maracay,,,,,,,Martin,Prado,Martin Manuel,190.0,73.0,R,R,2006-04-23,2015-10-03,pradm001,pradoma01,2015.0,MIA,NL,11000000.0
+priceda01,1985.0,8.0,26.0,USA,TN,Murfreesboro,,,,,,,David,Price,David Taylor,210.0,78.0,L,L,2008-09-14,2015-09-26,pricd001,priceda01,2015.0,DET,AL,19750000.0
+puckeki01,1960.0,3.0,14.0,USA,IL,Chicago,2006.0,3.0,6.0,USA,AZ,Phoenix,Kirby,Puckett,Kirby,178.0,68.0,R,R,1984-05-08,1995-09-28,puckk001,puckeki01,1997.0,MIN,AL,7200000.0
+puigya01,1990.0,12.0,7.0,Cuba,Cienfuegos,Cienfuegos,,,,,,,Yasiel,Puig,Yasiel,255.0,74.0,R,R,2013-06-03,2015-10-04,puigy001,puigya01,2015.0,LAN,NL,6214000.0
+pujolal01,1980.0,1.0,16.0,D.R.,Distrito Nacional,Santo Domingo,,,,,,,Albert,Pujols,Jose Alberto,230.0,75.0,R,R,2001-04-02,2015-10-04,pujoa001,pujolal01,2015.0,LAA,AL,24000000.0
+putzjj01,1977.0,2.0,22.0,USA,MI,Trenton,,,,,,,J. J.,Putz,Joseph Jason,250.0,77.0,R,R,2003-08-11,2014-06-19,putzj001,putzjj01,2014.0,ARI,NL,7000000.0
+quentca01,1982.0,8.0,28.0,USA,CA,Bellflower,,,,,,,Carlos,Quentin,Carlos Jose,235.0,73.0,R,R,2006-07-20,2014-07-26,quenc001,quentca01,2014.0,SDN,NL,9500000.0
+radkebr01,1972.0,10.0,27.0,USA,WI,Eau Claire,,,,,,,Brad,Radke,Brad William,180.0,74.0,R,R,1995-04-29,2006-09-28,radkb001,radkebr01,2006.0,MIN,AL,9000000.0
+ramiral03,1981.0,9.0,22.0,Cuba,Pinar del Rio,Pinar del Rio,,,,,,,Alexei,Ramirez,Alexei Fernando,180.0,74.0,R,R,2008-03-31,2015-10-04,ramia003,ramiral03,2015.0,CHA,AL,10000000.0
+ramirar01,1978.0,6.0,25.0,D.R.,Distrito Nacional,Santo Domingo,,,,,,,Aramis,Ramirez,Aramis,205.0,73.0,R,R,1998-05-26,2015-10-03,ramia001,ramirar01,2015.0,MIL,NL,14000000.0
+ramirha01,1983.0,12.0,23.0,D.R.,Samana,Samana,,,,,,,Hanley,Ramirez,Hanley,225.0,74.0,R,R,2005-09-20,2015-08-26,ramih003,ramirha01,2015.0,BOS,AL,19750000.0
+rasmuco01,1986.0,8.0,11.0,USA,GA,Columbus,,,,,,,Colby,Rasmus,Colby Ryan,195.0,74.0,L,L,2009-04-07,2015-10-04,rasmc001,rasmuco01,2015.0,HOU,AL,8000000.0
+reedad01,1988.0,12.0,27.0,USA,CA,Montclair,,,,,,,Addison,Reed,Addison Devon,230.0,76.0,L,R,2011-09-04,2015-10-04,reeda001,reedad01,2015.0,ARI,AL,4875000.0
+reedri01,1964.0,8.0,16.0,USA,WV,Huntington,,,,,,,Rick,Reed,Richard Allen,195.0,72.0,R,R,1988-08-08,2003-09-26,reedr002,reedri01,2003.0,MIN,AL,8000000.0
+reyesjo01,1983.0,6.0,11.0,D.R.,Santiago,Santiago,,,,,,,Jose,Reyes,Jose Bernabe,195.0,72.0,B,R,2003-06-10,2015-10-04,reyej001,reyesjo01,2015.0,TOR,AL,22000000.0
+richacl01,1983.0,9.0,12.0,USA,IN,Lafayette,,,,,,,Clayton,Richard,Clayton Colby,245.0,77.0,L,L,2008-07-23,2015-10-01,richc002,richacl01,2013.0,SDN,NL,5240000.0
+riosal01,1981.0,2.0,18.0,USA,AL,Coffee,,,,,,,Alex,Rios,Alexis Israel,210.0,77.0,R,R,2004-05-27,2015-10-04,riosa002,riosal01,2015.0,KCA,AL,11000000.0
+ripkeca01,1960.0,8.0,24.0,USA,MD,Havre de Grace,,,,,,,Cal,Ripken,Calvin Edwin,200.0,76.0,R,R,1981-08-10,2001-10-06,ripkc001,ripkeca01,2001.0,BAL,AL,6300000.0
+riskeda01,1976.0,10.0,23.0,USA,WA,Renton,,,,,,,David,Riske,David Richard,175.0,74.0,R,R,1999-08-14,2010-08-15,riskd001,riskeda01,2010.0,MIL,NL,4500000.0
+riverma01,1969.0,11.0,29.0,Panama,Panama,Panama,,,,,,,Mariano,Rivera,Mariano,195.0,74.0,R,R,1995-05-23,2013-09-26,rivem002,riverma01,2013.0,NYA,AL,10000000.0
+rizzoan01,1989.0,8.0,8.0,USA,FL,Fort Lauderdale,,,,,,,Anthony,Rizzo,Anthony Vincent,240.0,75.0,L,L,2011-06-09,2015-10-04,rizza001,rizzoan01,2015.0,CHN,NL,5000000.0
+roberda07,1972.0,5.0,31.0,Japan,Okinawa,Naha,,,,,,,Dave,Roberts,David Ray,172.0,70.0,L,L,1999-08-07,2008-09-28,robed001,roberda07,2008.0,SFN,NL,6500000.0
+roberda08,1985.0,4.0,9.0,USA,AL,Birmingham,,,,,,,David,Robertson,David Alan,195.0,71.0,R,R,2008-06-29,2015-10-02,robed002,roberda08,2015.0,CHA,AL,10000000.0
+roberna01,1977.0,9.0,3.0,USA,KS,Wichita,,,,,,,Nate,Robertson,Nathan Daniel,225.0,74.0,R,L,2002-09-07,2010-09-08,roben001,roberna01,2010.0,FLO,NL,10000000.0
+rodnefe01,1977.0,3.0,18.0,D.R.,Distrito Nacional,Santo Domingo,,,,,,,Fernando,Rodney,Fernando,220.0,71.0,R,R,2002-05-04,2015-10-03,rodnf001,rodnefe01,2015.0,SEA,AL,7000000.0
+rodrial01,1975.0,7.0,27.0,USA,NY,New York,,,,,,,Alex,Rodriguez,Alexander Enmanuel,225.0,75.0,R,R,1994-07-08,2015-10-04,rodra001,rodrial01,2015.0,NYA,AL,22000000.0
+rogerke01,1964.0,11.0,10.0,USA,GA,Savannah,,,,,,,Kenny,Rogers,Kenneth Scott,200.0,73.0,L,L,1989-04-06,2008-09-14,rogek001,rogerke01,2008.0,DET,AL,8000000.0
+rojasme01,1966.0,12.0,10.0,D.R.,San Cristobal,Bajos de Haina,,,,,,,Mel,Rojas,Melquiades,175.0,71.0,R,R,1990-08-01,1999-07-01,rojam001,rojasme01,1999.0,LAN,NL,4583334.0
+rolensc01,1975.0,4.0,4.0,USA,IN,Evansville,,,,,,,Scott,Rolen,Scott Bruce,245.0,76.0,R,R,1996-08-01,2012-10-03,roles001,rolensc01,2012.0,CIN,NL,8166666.0
+rolliji01,1978.0,11.0,27.0,USA,CA,Oakland,,,,,,,Jimmy,Rollins,James Calvin,175.0,67.0,B,R,2000-09-17,2015-10-03,rollj001,rolliji01,2015.0,LAN,NL,11000000.0
+romerri01,1984.0,11.0,6.0,USA,CA,East Los Angeles,,,,,,,Ricky,Romero,Ricardo,210.0,73.0,R,L,2009-04-09,2013-09-25,romer002,romerri01,2013.0,TOR,AL,7500000.0
+romose01,1983.0,3.0,4.0,USA,CA,Brawley,,,,,,,Sergio,Romo,Sergio Francisco,185.0,71.0,R,R,2008-06-26,2015-10-04,romos001,romose01,2015.0,SFN,NL,6000000.0
+rossco01,1980.0,12.0,23.0,USA,NM,Portales,,,,,,,Cody,Ross,Cody Joseph,195.0,71.0,R,L,2003-07-04,2015-05-01,rossc001,rossco01,2014.0,ARI,NL,9500000.0
+rossty01,1987.0,4.0,22.0,USA,CA,Berkeley,,,,,,,Tyson,Ross,Tyson William,230.0,77.0,R,R,2010-04-07,2015-10-04,rosst001,rossty01,2015.0,SDN,NL,5250000.0
+rowanaa01,1977.0,8.0,29.0,USA,OR,Portland,,,,,,,Aaron,Rowand,Aaron Ryan,210.0,72.0,R,R,2001-06-16,2011-08-30,rowaa001,rowanaa01,2011.0,SFN,NL,13600000.0
+rueteki01,1970.0,12.0,1.0,USA,IL,Hoyleton,,,,,,,Kirk,Rueter,Kirk Wesley,190.0,75.0,L,L,1993-07-07,2005-07-29,ruetk001,rueteki01,2005.0,SFN,NL,7133333.0
+ruizca01,1979.0,1.0,22.0,Panama,Chiriqui,David,,,,,,,Carlos,Ruiz,Carlos Joaquin,205.0,70.0,R,R,2006-05-06,2015-10-03,ruizc001,ruizca01,2015.0,PHI,NL,8500000.0
+ryanbj01,1975.0,12.0,28.0,USA,LA,Bossier City,,,,,,,B. J.,Ryan,Robert Victor,230.0,78.0,L,L,1999-07-28,2009-07-05,ryanb001,ryanb.01,2009.0,TOR,AL,12000000.0
+sabatcc01,1980.0,7.0,21.0,USA,CA,Vallejo,,,,,,,CC,Sabathia,Carsten Charles,285.0,79.0,L,L,2001-04-08,2015-10-01,sabac001,sabatc.01,2015.0,NYA,AL,23000000.0
+saberbr01,1964.0,4.0,11.0,USA,IL,Chicago Heights,,,,,,,Bret,Saberhagen,Bret William,160.0,73.0,R,R,1984-04-04,2001-08-07,sabeb001,saberbr01,2001.0,BOS,AL,5000000.0
+salech01,1989.0,3.0,30.0,USA,FL,Lakeland,,,,,,,Chris,Sale,Christopher,180.0,78.0,L,L,2010-08-06,2015-10-02,salec001,salech01,2015.0,CHA,AL,6000000.0
+saltaja01,1985.0,5.0,2.0,USA,FL,West Palm Beach,,,,,,,Jarrod,Saltalamacchia,Jarrod Scott,235.0,76.0,B,R,2007-05-02,2015-10-04,saltj001,saltaja01,2014.0,MIA,NL,6000000.0
+samarje01,1985.0,1.0,23.0,USA,IN,Merrillville,,,,,,,Jeff,Samardzija,Jeffrey Alan,225.0,77.0,R,R,2008-07-25,2015-09-29,samaj001,samarje01,2015.0,CHA,AL,9800000.0
+sanchan01,1984.0,2.0,27.0,Venezuela,Aragua,Maracay,,,,,,,Anibal,Sanchez,Anibal Alejandro,205.0,72.0,R,R,2006-06-25,2015-08-18,sanca004,sanchan01,2015.0,DET,AL,16800000.0
+sanchfr01,1977.0,12.0,21.0,USA,CA,Hollywood,,,,,,,Freddy,Sanchez,Frederick Philip,200.0,72.0,R,R,2002-09-10,2011-06-10,sancf001,sanchfr01,2012.0,SFN,NL,6000000.0
+sandere02,1967.0,12.0,1.0,USA,SC,Florence,,,,,,,Reggie,Sanders,Reginald Laverne,180.0,72.0,R,R,1991-08-22,2007-07-29,sandr002,sandere02,2007.0,KCA,AL,5000000.0
+sandopa01,1986.0,8.0,11.0,Venezuela,Carabobo,Puerto Cabello,,,,,,,Pablo,Sandoval,Pablo Emilio,255.0,71.0,L,R,2008-08-14,2015-09-20,sandp001,sandopa01,2015.0,BOS,AL,17600000.0
+santaca01,1986.0,4.0,8.0,D.R.,Distrito Nacional,Santo Domingo,,,,,,,Carlos,Santana,Carlos,210.0,71.0,B,R,2010-06-11,2015-10-04,santc002,santaca01,2015.0,CLE,AL,6000000.0
+santaer01,1982.0,12.0,12.0,D.R.,La Romana,La Romana,,,,,,,Ervin,Santana,Ervin Ramon,175.0,74.0,R,R,2005-05-17,2015-10-02,sante001,santaer01,2015.0,MIN,AL,13500000.0
+santajo01,1979.0,3.0,13.0,Venezuela,Merida,Tovar,,,,,,,Johan,Santana,Johan Alexander,210.0,72.0,L,L,2000-04-03,2012-08-17,santj003,santajo02,2012.0,NYN,NL,23145011.0
+sasakka01,1968.0,2.0,22.0,Japan,Miyagi,Sendai,,,,,,,Kazuhiro,Sasaki,Kazuhiro,209.0,76.0,R,R,2000-04-05,2003-09-28,sasak001,sasakka01,2003.0,SEA,AL,8000000.0
+saundjo01,1981.0,6.0,16.0,USA,VA,Fairfax,,,,,,,Joe,Saunders,Joseph Francis,215.0,75.0,L,L,2005-08-16,2014-09-26,saunj001,saundjo01,2013.0,SEA,AL,6000000.0
+scherma01,1984.0,7.0,27.0,USA,MO,St. Louis,,,,,,,Max,Scherzer,Maxwell M.,215.0,75.0,R,R,2008-04-29,2015-10-03,schem001,scherma01,2015.0,WAS,NL,17142000.0
+schiena01,1984.0,2.0,15.0,USA,NV,Reno,,,,,,,Nate,Schierholtz,Nathan John,215.0,74.0,L,R,2007-06-11,2014-09-28,schin001,schiena01,2014.0,CHN,NL,5000000.0
+schilcu01,1966.0,11.0,14.0,USA,AK,Anchorage,,,,,,,Curt,Schilling,Curtis Montague,205.0,77.0,R,R,1988-09-07,2007-09-25,schic002,schilcu01,2008.0,BOS,AL,8000000.0
+schmija01,1973.0,1.0,29.0,USA,ID,Lewiston,,,,,,,Jason,Schmidt,Jason David,185.0,77.0,R,R,1995-04-28,2009-08-05,schmj001,schmija01,2009.0,LAN,NL,15217401.0
+scutama01,1975.0,10.0,30.0,Venezuela,Yaracuy,San Felipe,,,,,,,Marco,Scutaro,Marcos,185.0,70.0,R,R,2002-07-21,2014-07-24,scutm001,scutama01,2014.0,SFN,NL,6666667.0
+seageky01,1987.0,11.0,3.0,USA,NC,Charlotte,,,,,,,Kyle,Seager,Kyle Duerr,210.0,72.0,L,R,2011-07-07,2015-10-04,seagk001,seageky01,2015.0,SEA,AL,4500000.0
+seguida01,1966.0,7.0,19.0,USA,KS,Kansas City,,,,,,,David,Segui,David Vincent,170.0,73.0,B,L,1990-05-08,2004-09-08,segud001,seguida01,2004.0,BAL,AL,7000000.0
+sexsori01,1974.0,12.0,29.0,USA,OR,Portland,,,,,,,Richie,Sexson,Richmond Lockwood,205.0,78.0,R,R,1997-09-14,2008-08-13,sexsr001,sexsori01,2008.0,SEA,AL,15500000.0
+shawje01,1966.0,7.0,7.0,USA,OH,Washington Court House,,,,,,,Jeff,Shaw,Jeffrey Lee,185.0,74.0,R,R,1990-04-30,2001-10-06,shawj001,shawje01,2001.0,LAN,NL,6383333.0
+sheetbe01,1978.0,7.0,18.0,USA,LA,Baton Rouge,,,,,,,Ben,Sheets,Ben M.,195.0,73.0,R,R,2001-04-05,2012-10-03,sheeb001,sheetbe01,2010.0,OAK,AL,10000000.0
+sheffga01,1968.0,11.0,18.0,USA,FL,Tampa,,,,,,,Gary,Sheffield,Gary Antonian,190.0,71.0,R,R,1988-09-03,2009-09-30,shefg001,sheffga01,2009.0,NYN,NL,14000000.0
+shielja02,1981.0,12.0,20.0,USA,CA,Newhall,,,,,,,James,Shields,James Anthony,215.0,75.0,R,R,2006-05-31,2015-09-27,shiej002,shielja02,2015.0,SDN,NL,10000000.0
+shielsc01,1975.0,7.0,22.0,USA,FL,Fort Lauderdale,,,,,,,Scot,Shields,Robert Scot,175.0,73.0,R,R,2001-05-26,2010-09-07,shies002,shielsc01,2010.0,LAA,AL,5350000.0
+silvaca01,1979.0,4.0,23.0,Venezuela,Bolivar,,,,,,,,Carlos,Silva,Carlos,280.0,76.0,R,R,2002-04-01,2010-09-07,silvc001,silvaca01,2010.0,CHN,NL,12750000.0
+simonal01,1981.0,5.0,8.0,D.R.,Santiago,Santiago,,,,,,,Alfredo,Simon,Alfredo,265.0,78.0,R,R,2008-09-06,2015-10-02,simoa001,simonal01,2015.0,DET,AL,5550000.0
+smithjo05,1984.0,3.0,22.0,USA,OH,Cincinnati,,,,,,,Joe,Smith,Joseph Michael,205.0,74.0,R,R,2007-04-01,2015-10-03,smitj002,smithjo05,2015.0,LAA,AL,5250000.0
+smithse01,1982.0,9.0,30.0,USA,MS,Jackson,,,,,,,Seth,Smith,Garry Seth,210.0,75.0,L,L,2007-09-16,2015-10-04,smits002,smithse01,2015.0,SEA,AL,6000000.0
+smoltjo01,1967.0,5.0,15.0,USA,MI,Detroit,,,,,,,John,Smoltz,John Andrew,210.0,75.0,R,R,1988-07-23,2009-09-30,smolj001,smoltjo01,2009.0,BOS,AL,5500000.0
+soriaal01,1976.0,1.0,7.0,D.R.,San Pedro de Macoris,San Pedro de Macoris,,,,,,,Alfonso,Soriano,Alfonso Guilleard,195.0,73.0,R,R,1999-09-14,2014-07-05,soria001,soriaal01,2014.0,NYA,AL,18000000.0
+soriajo01,1984.0,5.0,18.0,Mexico,Coahuila,Monclova,,,,,,,Joakim,Soria,Joakim Agustin,200.0,75.0,R,R,2007-04-04,2015-10-04,sorij001,soriajo01,2015.0,DET,AL,7000000.0
+soriara01,1979.0,12.0,19.0,D.R.,San Pedro de Macoris,San Jose,,,,,,,Rafael,Soriano,Rafael,230.0,76.0,R,R,2002-05-10,2015-07-30,sorir001,soriara01,2014.0,WAS,NL,11000000.0
+spande01,1984.0,2.0,27.0,USA,FL,Tampa,,,,,,,Denard,Span,Keiunta Denard,210.0,72.0,L,L,2008-04-06,2015-08-26,spand001,spande01,2015.0,WAS,NL,9000000.0
+speieju01,1973.0,11.0,6.0,USA,CA,Daly City,,,,,,,Justin,Speier,Justin James,200.0,76.0,R,R,1998-05-27,2009-08-07,speij001,speieju01,2009.0,LAA,AL,4750000.0
+stantmi03,1989.0,11.0,8.0,USA,CA,Panorama City,,,,,,,Giancarlo,Stanton,Giancarlo Cruz-Michael,240.0,78.0,R,R,2010-06-08,2015-06-26,stanm004,stantmi03,2015.0,MIA,NL,6500000.0
+storedr01,1987.0,8.0,11.0,USA,IN,Indianapolis,,,,,,,Drew,Storen,Drew Patrick,195.0,73.0,B,R,2010-05-17,2015-09-09,stord001,storedr01,2015.0,WAS,NL,5700000.0
+stottto01,1965.0,5.0,20.0,USA,WA,Sunnyside,,,,,,,Todd,Stottlemyre,Todd Vernon,195.0,75.0,L,R,1988-04-06,2002-06-26,stott001,stottto01,2002.0,ARI,NL,8000000.0
+strasst01,1988.0,7.0,20.0,USA,CA,San Diego,,,,,,,Stephen,Strasburg,Stephen James,230.0,76.0,R,R,2010-06-08,2015-10-01,stras001,strasst01,2015.0,WAS,NL,7400000.0
+streehu01,1983.0,8.0,2.0,USA,TX,Austin,,,,,,,Huston,Street,Huston Lowell,195.0,72.0,R,R,2005-04-06,2015-09-26,streh001,streehu01,2015.0,LAA,AL,7000000.0
+stubbdr01,1984.0,10.0,4.0,USA,TX,Atlanta,,,,,,,Drew,Stubbs,Robert Andrew,205.0,76.0,R,R,2009-08-19,2015-10-04,stubd001,stubbdr01,2015.0,COL,NL,5825000.0
+suppaje01,1975.0,1.0,2.0,USA,OK,Oklahoma City,,,,,,,Jeff,Suppan,Jeffrey Scot,225.0,74.0,R,R,1995-07-17,2012-05-28,suppj001,suppaje01,2010.0,MIL,NL,12750000.0
+suzukku01,1983.0,10.0,4.0,USA,HI,Wailuku,,,,,,,Kurt,Suzuki,Kurt Kiyoshi,205.0,71.0,R,R,2007-06-12,2015-10-03,suzuk001,suzukku01,2015.0,MIN,AL,6000000.0
+swishni01,1980.0,11.0,25.0,USA,OH,Columbus,,,,,,,Nick,Swisher,Nicholas Thomas,195.0,72.0,B,L,2004-09-03,2015-10-02,swisn001,swishni01,2015.0,CLE,AL,15000000.0
+tanakma01,1988.0,11.0,1.0,Japan,Hyogo,Itami,,,,,,,Masahiro,Tanaka,Masahiro,210.0,74.0,R,R,2014-04-04,2015-09-30,tanam001,tanakma01,2015.0,NYA,AL,22000000.0
+tapanke01,1964.0,2.0,18.0,USA,IA,Des Moines,,,,,,,Kevin,Tapani,Kevin Ray,180.0,72.0,R,R,1989-07-04,2001-09-27,tapak001,tapanke01,2001.0,CHN,NL,6500000.0
+teahema01,1981.0,9.0,6.0,USA,CA,Redlands,,,,,,,Mark,Teahen,Mark Thomas,230.0,75.0,L,R,2005-04-04,2011-09-28,teahm001,teahema01,2011.0,CHA,AL,4750000.0
+teixema01,1980.0,4.0,11.0,USA,MD,Annapolis,,,,,,,Mark,Teixeira,Mark Charles,225.0,75.0,B,R,2003-04-01,2015-08-26,teixm001,teixema01,2015.0,NYA,AL,23125000.0
+thomafr04,1968.0,5.0,27.0,USA,GA,Columbus,,,,,,,Frank,Thomas,Frank Edward,240.0,77.0,R,R,1990-08-02,2008-08-29,thomf001,thomafr04,2008.0,TOR,AL,12560000.0
+tomasya01,1990.0,11.0,14.0,Cuba,La Habana,La Habana,,,,,,,Yasmany,Tomas,Yasmany,255.0,74.0,R,R,2015-04-15,2015-10-02,tomay001,tomasya01,2015.0,ARI,NL,5500000.0
+troutmi01,1991.0,8.0,7.0,USA,NJ,Vineland,,,,,,,Mike,Trout,Michael Nelson,235.0,74.0,R,R,2011-07-08,2015-10-04,troum001,troutmi01,2015.0,LAA,AL,6083000.0
+trumbma01,1986.0,1.0,16.0,USA,CA,Anaheim,,,,,,,Mark,Trumbo,Mark Daniel,225.0,76.0,R,R,2010-09-11,2015-10-04,trumm001,trumbma01,2015.0,ARI,NL,6900000.0
+tulowtr01,1984.0,10.0,10.0,USA,CA,Santa Clara,,,,,,,Troy,Tulowitzki,Troy Trever,215.0,75.0,R,R,2006-08-30,2015-10-04,tulot001,tulowtr01,2015.0,COL,NL,20000000.0
+ueharko01,1975.0,4.0,3.0,Japan,Osaka,Neyagawa,,,,,,,Koji,Uehara,Koji,195.0,74.0,R,R,2009-04-08,2015-08-07,uehak001,ueharko01,2015.0,BOS,AL,9000000.0
+uptonbj01,1984.0,8.0,21.0,USA,VA,Norfolk,,,,,,,Melvin,Upton,Melvin Emanuel,185.0,75.0,R,R,2004-08-02,2015-10-04,uptob001,uptonbj01,2015.0,SDN,NL,14450000.0
+uptonju01,1987.0,8.0,25.0,USA,VA,Norfolk,,,,,,,Justin,Upton,Justin Irvin,205.0,74.0,R,R,2007-08-02,2015-09-30,uptoj001,uptonju01,2015.0,SDN,NL,14500000.0
+uribeju01,1979.0,3.0,22.0,D.R.,,Palenque,,,,,,,Juan,Uribe,Juan C.,245.0,72.0,R,R,2001-04-08,2015-09-25,uribj002,uribeju01,2015.0,LAN,NL,6500000.0
+utleych01,1978.0,12.0,17.0,USA,CA,Pasadena,,,,,,,Chase,Utley,Chase Cameron,190.0,73.0,L,R,2003-04-04,2015-10-04,utlec001,utleych01,2015.0,PHI,NL,15000000.0
+vargaja01,1983.0,2.0,2.0,USA,CA,Apple Valley,,,,,,,Jason,Vargas,Jason Matthew,215.0,72.0,L,L,2005-07-14,2015-07-21,vargj001,vargaja01,2015.0,KCA,AL,8500000.0
+vaughgr01,1965.0,7.0,3.0,USA,CA,Sacramento,,,,,,,Greg,Vaughn,Gregory Lamont,195.0,72.0,R,R,1989-08-10,2003-07-10,vaugg001,vaughgr01,2002.0,TBA,AL,8750000.0
+vaughmo01,1967.0,12.0,15.0,USA,CT,Norwalk,,,,,,,Mo,Vaughn,Maurice Samuel,225.0,73.0,L,R,1991-06-27,2003-05-02,vaugm001,vaughmo01,2004.0,NYN,NL,17166667.0
+vazquja01,1976.0,7.0,25.0,P.R.,,Ponce,,,,,,,Javier,Vazquez,Javier Carlos,210.0,74.0,R,R,1998-04-03,2011-09-27,vazqj001,vazquja01,2011.0,FLO,NL,7000000.0
+verlaju01,1983.0,2.0,20.0,USA,VA,Manakin Sabot,,,,,,,Justin,Verlander,Justin Brooks,225.0,77.0,R,R,2005-07-04,2015-10-03,verlj001,verlaju01,2015.0,DET,AL,28000000.0
+victosh01,1980.0,11.0,30.0,USA,HI,Wailuku,,,,,,,Shane,Victorino,Shane Patrick,190.0,69.0,R,R,2003-04-02,2015-10-04,victs001,victosh01,2015.0,BOS,AL,13000000.0
+vidrojo01,1974.0,8.0,27.0,P.R.,,Mayaguez,,,,,,,Jose,Vidro,Jose Angel,175.0,71.0,B,R,1997-06-08,2008-08-04,vidrj001,vidrojo01,2008.0,SEA,AL,8500000.0
+volqued01,1983.0,7.0,3.0,D.R.,Distrito Nacional,Santo Domingo,,,,,,,Edinson,Volquez,Edinson,220.0,72.0,R,R,2005-08-30,2015-10-04,volqe001,volqued01,2015.0,KCA,AL,7500000.0
+vottojo01,1983.0,9.0,10.0,CAN,ON,Toronto,,,,,,,Joey,Votto,Joseph Daniel,220.0,74.0,L,R,2007-09-04,2015-10-04,vottj001,vottojo01,2015.0,CIN,NL,14000000.0
+wagnebi02,1971.0,7.0,25.0,USA,VA,Marion,,,,,,,Billy,Wagner,William Edward,180.0,70.0,L,L,1995-09-13,2010-10-03,wagnb001,wagnebi02,2010.0,ATL,NL,6750000.0
+wainwad01,1981.0,8.0,30.0,USA,GA,Brunswick,,,,,,,Adam,Wainwright,Adam Parrish,235.0,79.0,R,R,2005-09-11,2015-10-04,waina001,wainwad01,2015.0,SLN,NL,19500000.0
+walkeja01,1971.0,7.0,1.0,USA,TN,McMinnville,,,,,,,Jamie,Walker,James Ross,190.0,74.0,L,L,1997-04-02,2009-06-02,walkj001,walkeja01,2009.0,BAL,AL,4500000.0
+walkela01,1966.0,12.0,1.0,CAN,BC,Maple Ridge,,,,,,,Larry,Walker,Larry Kenneth Robert,185.0,74.0,L,R,1989-08-16,2005-10-02,walkl001,walkela01,2005.0,SLN,NL,12666667.0
+walkene01,1985.0,9.0,10.0,USA,PA,Pittsburgh,,,,,,,Neil,Walker,Neil Martin,210.0,75.0,B,R,2009-09-01,2015-10-04,walkn001,walkene01,2015.0,PIT,NL,8000000.0
+warddu01,1964.0,5.0,28.0,USA,NM,Park View,,,,,,,Duane,Ward,Roy Duane,185.0,76.0,R,R,1986-04-12,1995-06-22,wardd001,warddu01,1995.0,TOR,AL,4750000.0
+washbja01,1974.0,8.0,13.0,USA,WI,La Crosse,,,,,,,Jarrod,Washburn,Jarrod Michael,190.0,73.0,L,L,1998-06-02,2009-09-15,washj001,washbja01,2009.0,SEA,AL,9850000.0
+weaveje02,1982.0,10.0,4.0,USA,CA,Northridge,,,,,,,Jered,Weaver,Jered David,210.0,79.0,R,R,2006-05-27,2015-10-02,weavj003,weaveje02,2015.0,LAA,AL,18000000.0
+wellsve01,1978.0,12.0,8.0,USA,LA,Shreveport,,,,,,,Vernon,Wells,Vernon M.,230.0,73.0,R,R,1999-08-30,2013-09-29,wellv001,wellsve01,2013.0,NYA,AL,24642857.0
+werthja01,1979.0,5.0,20.0,USA,IL,Springfield,,,,,,,Jayson,Werth,Jayson Richard Gowan,240.0,77.0,R,R,2002-09-01,2015-10-04,wertj001,werthja01,2015.0,WAS,NL,21000000.0
+westbja01,1977.0,9.0,29.0,USA,GA,Athens,,,,,,,Jake,Westbrook,Jacob Cauthen,210.0,75.0,R,R,2000-06-17,2013-09-29,westj001,westbja01,2013.0,SLN,NL,8750000.0
+wettejo01,1966.0,8.0,21.0,USA,CA,San Mateo,,,,,,,John,Wetteland,John Karl,195.0,74.0,R,R,1989-05-31,2000-09-20,wettj001,wettejo01,2000.0,TEX,AL,6500000.0
+whitede03,1962.0,12.0,29.0,Jamaica,,Kingston,,,,,,,Devon,White,Devon Markes,170.0,73.0,B,R,1985-09-02,2001-10-05,whitd001,whitede03,2001.0,MIL,NL,5000000.0
+wickmbo01,1969.0,2.0,6.0,USA,WI,Green Bay,,,,,,,Bob,Wickman,Robert Joe,207.0,73.0,R,R,1992-08-24,2007-09-30,wickb001,wickmbo01,2007.0,ATL,NL,6500000.0
+wietema01,1986.0,5.0,21.0,USA,SC,Goose Creek,,,,,,,Matt,Wieters,Matthew Richard,230.0,77.0,B,R,2009-05-29,2015-10-04,wietm001,wietema01,2015.0,BAL,AL,8300000.0
+willido03,1982.0,1.0,12.0,USA,CA,Oakland,,,,,,,Dontrelle,Willis,Dontrelle Wayne,230.0,74.0,L,L,2003-05-09,2011-09-27,willd003,willido03,2010.0,DET,AL,12000000.0
+willijo03,1979.0,2.0,17.0,USA,AL,Florence,,,,,,,Josh,Willingham,Joshua David,230.0,74.0,R,R,2004-07-06,2014-09-28,willj004,willijo03,2014.0,MIN,AL,7000000.0
+willima04,1965.0,11.0,28.0,USA,CA,Bishop,,,,,,,Matt,Williams,Matthew Derrick,205.0,74.0,R,R,1987-04-11,2003-05-31,willm003,willima04,2003.0,ARI,NL,10000000.0
+williwo02,1966.0,8.0,19.0,USA,TX,Houston,,,,,,,Woody,Williams,Gregory Scott,180.0,72.0,R,R,1993-05-14,2007-09-22,willw001,williwo02,2007.0,HOU,NL,6000000.0
+wilsobr01,1982.0,3.0,16.0,USA,NH,Londonderry,,,,,,,Brian,Wilson,Brian Patrick,205.0,73.0,R,R,2006-04-23,2014-09-27,wilsb001,wilsobr01,2014.0,LAN,NL,10000000.0
+wilsocj01,1980.0,11.0,18.0,USA,CA,Newport Beach,,,,,,,C. J.,Wilson,Christopher John,210.0,73.0,L,L,2005-06-10,2015-07-28,wilsc004,wilsocj01,2015.0,LAA,AL,18000000.0
+wolfra02,1976.0,8.0,22.0,USA,CA,Canoga Park,,,,,,,Randy,Wolf,Randall Christopher,205.0,72.0,L,L,1999-06-11,2015-10-04,wolfr001,wolfra02,2012.0,MIL,NL,9500000.0
+woodtr01,1987.0,2.0,6.0,USA,AR,Little Rock,,,,,,,Travis,Wood,Travis A.,175.0,71.0,R,L,2010-07-01,2015-10-04,woodt004,woodtr01,2015.0,CHN,NL,5686000.0
+wrighda03,1982.0,12.0,20.0,USA,VA,Norfolk,,,,,,,David,Wright,David Allen,205.0,72.0,R,R,2004-07-21,2015-10-04,wrigd002,wrighda03,2015.0,NYN,NL,20000000.0
+wrighja02,1975.0,12.0,29.0,USA,CA,Anaheim,,,,,,,Jaret,Wright,Jaret Samuel,220.0,74.0,R,R,1997-06-24,2007-04-29,wrigj002,wrighja02,2007.0,BAL,AL,7000000.0
+youklke01,1979.0,3.0,15.0,USA,OH,Cincinnati,,,,,,,Kevin,Youkilis,Kevin Edmund,220.0,73.0,R,R,2004-05-15,2013-06-13,youkk001,youklke01,2013.0,NYA,AL,12000000.0
+youngdm01,1973.0,10.0,11.0,USA,MS,Vicksburg,,,,,,,Dmitri,Young,Dmitri Dell,295.0,74.0,B,R,1996-08-29,2008-07-11,yound001,youngdm01,2009.0,WAS,NL,5000000.0
+youngke01,1969.0,6.0,16.0,USA,MI,Alpena,,,,,,,Kevin,Young,Kevin Stacey,210.0,75.0,R,R,1992-07-12,2003-06-27,younk001,youngke01,2003.0,PIT,NL,6625000.0
+youngmi02,1976.0,10.0,19.0,USA,CA,Covina,,,,,,,Michael,Young,Michael Brian,200.0,73.0,R,R,2000-09-29,2013-09-29,younm003,youngmi02,2013.0,PHI,NL,18374975.0
+zambrca01,1981.0,6.0,1.0,Venezuela,Carabobo,Puerto Cabello,,,,,,,Carlos,Zambrano,Carlos Alberto,275.0,76.0,B,R,2001-08-20,2012-09-21,zambc001,zambrca01,2012.0,MIA,NL,19000000.0
+zieglbr01,1979.0,10.0,10.0,USA,KS,Pratt,,,,,,,Brad,Ziegler,Brad Gregory,220.0,76.0,R,R,2008-05-31,2015-10-04,ziegb001,zieglbr01,2015.0,ARI,NL,5000000.0
+zimmejo02,1986.0,5.0,23.0,USA,WI,Auburndale,,,,,,,Jordan,Zimmermann,Jordan M.,225.0,74.0,R,R,2009-04-20,2015-09-30,zimmj003,zimmejo02,2015.0,WAS,NL,16500000.0
+zimmery01,1984.0,9.0,28.0,USA,NC,Washington,,,,,,,Ryan,Zimmerman,Ryan Wallace,220.0,75.0,R,R,2005-09-01,2015-09-07,zimmr001,zimmery01,2015.0,WAS,NL,14000000.0
+zitoba01,1978.0,5.0,13.0,USA,NV,Las Vegas,,,,,,,Barry,Zito,Barry William,205.0,74.0,L,L,2000-07-22,2015-09-30,zitob001,zitoba01,2013.0,SFN,NL,20000000.0
+zobribe01,1981.0,5.0,26.0,USA,IL,Eureka,,,,,,,Ben,Zobrist,Benjamin Thomas,210.0,75.0,B,R,2006-08-01,2015-10-04,zobrb001,zobribe01,2015.0,OAK,AL,7500000.0
